@@ -8,5 +8,8 @@ export default {
 export const Default = {
   args: {
     className: {},
+    group: "/img/group-97-1.png",
+    divClassName: {},
+    divClassNameOverride: {},
   },
 };

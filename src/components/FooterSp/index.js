@@ -1,0 +1,1 @@
+export { FooterSp } from "./FooterSp";

@@ -14,14 +14,14 @@ export const SectionTitle = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-[1441px] items-center gap-6 pt-7 pb-px px-12 relative top-[407px] bg-[var(--)] ${className}`}
+      className={`flex flex-col w-full max-w-[1441px] items-center gap-4 md:gap-4 xl:gap-6 pt-5 md:pt-5 xl:pt-7 pb-px px-6 md:px-6 xl:px-12 relative bg-white ${className}`}
     >
-      <div className="relative self-stretch [font-family:'Noto_Serif',Helvetica] font-bold text-[var(--)] text-[64px] text-center tracking-[0] leading-[57.6px]">
+      <div className="relative self-stretch [font-family:'Noto_Serif',Helvetica] font-bold text-[#efa3af] text-[48px] md:text-5xl xl:text-[64px] text-center tracking-[0] leading-[43.2px] md:leading-[43.2px] xl:leading-[57.6px]">
         {text}
       </div>
 
       <div
-        className={`relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base text-center tracking-[0] leading-[19.2px] ${divClassName}`}
+        className={`relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#efa3af] text-sm md:text-sm xl:text-base text-center tracking-[0] leading-[16.8px] md:leading-[16.8px] xl:leading-[19.2px] ${divClassName}`}
       >
         {text1}
       </div>

@@ -4,14 +4,14 @@ import { SectionTitle } from "../../../../components/SectionTitle";
 
 export const QA = () => {
   return (
-    <div className="flex flex-col w-[1441px] items-center gap-16 absolute top-[14571px] -left-px">
+    <div className="flex flex-col w-full max-w-[1441px] items-center gap-10 md:gap-10 xl:gap-16 relative md:absolute md:top-[15000px] xl:top-[15000px] md:-left-px px-4 md:px-8 xl:px-0 z-20">
       <SectionTitle
         className="!self-stretch !flex-[0_0_auto] !w-full !top-[unset]"
         divClassName="!font-normal"
         text="Q&amp;A"
         text1="よくある質問"
       />
-      <div className="flex flex-col w-[600px] items-start relative flex-[0_0_auto]">
+      <div className="flex flex-col w-full max-w-[600px] items-start relative flex-[0_0_auto] gap-4">
         <QAPc
           className="!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]"
           divClassName="![white-space:unset]"

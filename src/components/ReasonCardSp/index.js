@@ -1,0 +1,1 @@
+export { ReasonCardSp } from "./ReasonCardSp";

@@ -6,23 +6,25 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 import PropTypes from "prop-types";
 import React from "react";
 
-export const Logo = ({ className, group = "/img/group-97-2.png" }) => {
+export const Logo = ({ className, group = "/img/group-97-2.png", style }) => {
   return (
     <div
-      className={`relative top-[755px] left-[678px] w-[251px] h-[49px] ${className}`}
+      className={`relative w-[251px] h-[49px] flex items-center gap-3 ${className}`}
+      style={style}
     >
       <img
-        className="absolute w-10 h-10 top-[5px] left-0"
+        className="w-10 h-10 object-contain"
         alt="Group"
         src={group}
       />
 
-      <div className="absolute w-[71.31%] h-[48.98%] top-[42.86%] left-[19.12%] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[var(--)] text-[33px] text-center tracking-[1.65px] leading-[normal] whitespace-nowrap">
-        mee clinic
-      </div>
-
-      <div className="absolute w-[71.71%] h-[18.37%] top-[10.20%] left-[19.12%] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-xs tracking-[0] leading-[normal] whitespace-nowrap">
-        忙しい女性専用のオンライン診療
+      <div className="flex flex-col items-start justify-center h-full">
+        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-[10px] tracking-[0] leading-[1] whitespace-nowrap mb-1">
+          忙しい女性専用のオンライン診療
+        </div>
+        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[var(--)] text-[33px] tracking-[1.65px] leading-[0.8] whitespace-nowrap">
+          mee clinic
+        </div>
       </div>
     </div>
   );

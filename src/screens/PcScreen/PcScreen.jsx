@@ -52,7 +52,7 @@ export const PcScreen = () => {
       <ViewWrapper />
       <Frame />
       <Header
-        className="!absolute !left-0 !top-0"
+        className="!absolute !left-0 !top-0 !z-50"
         divClassName="![white-space:unset]"
         divClassName1="![white-space:unset]"
         divClassName2="![white-space:unset]"
@@ -63,39 +63,10 @@ export const PcScreen = () => {
       <CtaWrapper />
       <Group />
       <GroupWrapper />
-      <div className="flex flex-wrap w-[357px] items-center gap-[16px_16px] absolute top-[13575px] left-[391px]">
-        <TagPc
-          className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
-          prop="ニキビ"
-        />
-        <TagPc
-          className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
-          prop="ニキビ痕"
-        />
-        <TagPc
-          className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
-          prop="肝斑"
-        />
-        <TagPc
-          className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
-          prop="開き毛穴"
-        />
-        <TagPc
-          className="!flex !left-[unset] !w-[199px] !top-[unset]"
-          divClassName="!mr-[-6.50px] !ml-[-6.50px]"
-          prop="つまり(黒ずみ)毛穴"
-        />
-        <TagPc
-          className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
-          prop="エイジングケア"
-        />
-      </div>
-
-      <div className="absolute top-[13488px] left-[78px] w-[303px] h-[248px] flex bg-[url(/img/s-10706965-2025-11-19-2.png)] bg-[100%_100%]">
-        <div className="mt-[214px] w-[255px] h-[34px] ml-[21px] bg-[linear-gradient(180deg,rgba(229,188,197,0)_0%,rgba(229,188,197,1)_100%)]" />
-      </div>
 
       <Slider />
     </div>
   );
 };
+
+

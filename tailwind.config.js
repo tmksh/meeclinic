@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        'md': '768px',   // タブレット版
+        'xl': '1440px',  // PC版
+      },
       colors: {
         "d-mk-rg5": "var(--d-mk-rg5)",
         "harmonized-palette-azure-1000": "var(--harmonized-palette-azure-1000)",
@@ -49,9 +53,7 @@ module.exports = {
         "x-100": "var(--x-100)",
         "x-2": "var(--x-2)",
       },
-      boxShadow: {
-        "": "var(--)",
-      },
+      boxShadow: {},
     },
   },
   plugins: [],

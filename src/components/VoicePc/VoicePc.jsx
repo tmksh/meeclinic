@@ -15,24 +15,24 @@ export const VoicePc = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-[344px] h-[216px] items-start gap-10 p-6 relative top-[21861px] left-[-6836px] bg-[var(--)] rounded-2xl shadow-[0px_4px_16px_#ff69b410] ${className}`}
+      className={`flex flex-col w-full max-w-[280px] md:max-w-[220px] xl:max-w-[344px] min-h-[180px] md:min-h-[180px] xl:min-h-[216px] items-start gap-6 md:gap-6 xl:gap-10 p-4 md:p-4 xl:p-6 relative bg-white rounded-2xl shadow-[0px_4px_16px_#ff69b410] ${className}`}
     >
-      <div className="flex items-center gap-3 relative self-stretch w-full flex-[0_0_auto]">
+      <div className="flex items-center gap-2 md:gap-2 xl:gap-3 relative self-stretch w-full flex-[0_0_auto]">
         {icon}
         <div className="inline-flex flex-col items-start gap-1 relative flex-[0_0_auto]">
-          <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-black text-[var(--)] text-sm tracking-[0] leading-[14px] whitespace-nowrap">
+          <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-black text-[#333333] text-xs md:text-xs xl:text-sm tracking-[0] leading-[12px] md:leading-[12px] xl:leading-[14px] whitespace-nowrap">
             {prop}
           </div>
 
           <img
-            className="relative flex-[0_0_auto]"
+            className="relative flex-[0_0_auto] w-[60px] md:w-[60px] xl:w-auto"
             alt="Rating"
             src="/img/rating.svg"
           />
         </div>
       </div>
 
-      <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[var(--)] text-sm text-justify tracking-[0] leading-[19.6px]">
+      <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#333333] text-xs md:text-xs xl:text-sm text-justify tracking-[0] leading-[16.8px] md:leading-[16.8px] xl:leading-[19.6px]">
         {prop1}
       </div>
     </div>

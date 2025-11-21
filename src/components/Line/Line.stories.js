@@ -16,6 +16,7 @@ export const Default = {
   args: {
     link: "white",
     className: {},
+    subtractClassName: {},
     subtract: "/img/subtract-1.svg",
   },
 };

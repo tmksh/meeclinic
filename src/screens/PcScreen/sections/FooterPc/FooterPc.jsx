@@ -3,9 +3,11 @@ import { FooterPcWrapper } from "../../../../components/FooterPcWrapper";
 
 export const FooterPc = () => {
   return (
-    <FooterPcWrapper
-      className="!h-[461px] !absolute !left-0 !top-[16810px]"
-      logoGroup="/img/group-97-3.png"
-    />
+    <div className="relative w-full md:absolute md:top-[17512px] md:left-0 z-50">
+      <FooterPcWrapper
+        className="!relative !w-full md:!h-[461px]"
+        logoGroup="/img/group-97-3.png"
+      />
+    </div>
   );
 };

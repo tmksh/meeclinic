@@ -3,23 +3,13 @@ import { Component1970 } from "../../../../components/Component1970";
 
 export const Slider = () => {
   return (
-    <div className="flex flex-col w-[1975px] items-center gap-6 px-0 py-6 absolute top-[651px] left-[-267px]">
-      <div className="flex items-center gap-10 relative self-stretch w-full flex-[0_0_auto]">
-        <Component1970 className="!left-[unset] !top-[unset]" />
-        <Component1970 className="!left-[unset] !top-[unset]" />
-        <Component1970 className="!left-[unset] !top-[unset]" />
-        <Component1970 className="!left-[unset] !top-[unset]" />
-        <Component1970 className="!left-[unset] !top-[unset]" />
-      </div>
-
-      <div className="inline-flex items-center gap-4 relative flex-[0_0_auto]">
-        <div className="relative w-[18px] h-[18px] bg-[var(--)] rounded-[9px]" />
-
-        <div className="relative w-[18px] h-[18px] bg-[#e6e6e6] rounded-[9px]" />
-
-        <div className="relative w-[18px] h-[18px] bg-[#e6e6e6] rounded-[9px]" />
-
-        <div className="relative w-[18px] h-[18px] bg-[#e6e6e6] rounded-[9px]" />
+    <div className="flex flex-col w-full items-center gap-6 py-6 relative md:absolute md:top-[651px] md:left-0 z-20">
+      <div className="flex flex-nowrap items-center justify-start gap-10 w-full overflow-x-auto px-4 md:px-[calc(50%-700px)] snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+        <Component1970 className="!left-[unset] !top-[unset] !flex-[0_0_auto] snap-center" />
+        <Component1970 className="!left-[unset] !top-[unset] !flex-[0_0_auto] snap-center" />
+        <Component1970 className="!left-[unset] !top-[unset] !flex-[0_0_auto] snap-center" />
+        <Component1970 className="!left-[unset] !top-[unset] !flex-[0_0_auto] snap-center" />
+        <Component1970 className="!left-[unset] !top-[unset] !flex-[0_0_auto] snap-center" />
       </div>
     </div>
   );
