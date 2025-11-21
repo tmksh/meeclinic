@@ -1,0 +1,1 @@
+export { ReasonTextPc } from "./ReasonTextPc";

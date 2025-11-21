@@ -1,0 +1,1 @@
+export { FooterPc } from "./FooterPc";

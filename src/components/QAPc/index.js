@@ -1,0 +1,1 @@
+export { QAPc } from "./QAPc";

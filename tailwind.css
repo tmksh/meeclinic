@@ -1,0 +1,148 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --: rgba(214, 219, 230, 1);
+  --d-mk-rg5: rgba(191, 198, 238, 1);
+  --harmonized-palette-azure-1000: rgba(24, 47, 71, 1);
+  --harmonized-palette-azure-600: rgba(189, 220, 254, 1);
+  --harmonized-palette-azure-700: rgba(117, 185, 255, 1);
+  --harmonized-palette-azure-800: rgba(84, 146, 207, 1);
+  --harmonized-palette-azure-900: rgba(57, 101, 146, 1);
+  --harmonized-palette-fuchsia-1000: rgba(59, 38, 63, 1);
+  --harmonized-palette-fuchsia-600: rgba(237, 207, 243, 1);
+  --harmonized-palette-fuchsia-700: rgba(220, 159, 234, 1);
+  --harmonized-palette-fuchsia-800: rgba(176, 122, 188, 1);
+  --harmonized-palette-fuchsia-900: rgba(124, 84, 133, 1);
+  --harmonized-palette-mustard-1000: rgba(56, 44, 11, 1);
+  --harmonized-palette-mustard-600: rgba(231, 216, 174, 1);
+  --harmonized-palette-mustard-700: rgba(211, 177, 80, 1);
+  --harmonized-palette-mustard-800: rgba(169, 138, 48, 1);
+  --harmonized-palette-mustard-900: rgba(118, 96, 30, 1);
+  --harmonized-palette-red-1000: rgba(70, 36, 36, 1);
+  --harmonized-palette-red-600: rgba(255, 204, 203, 1);
+  --harmonized-palette-red-700: rgba(254, 152, 153, 1);
+  --harmonized-palette-red-800: rgba(205, 116, 117, 1);
+  --harmonized-palette-red-900: rgba(145, 79, 80, 1);
+  --harmonized-palette-turquoise-1000: rgba(1, 51, 44, 1);
+  --harmonized-palette-turquoise-600: rgba(173, 227, 216, 1);
+  --harmonized-palette-turquoise-700: rgba(60, 200, 178, 1);
+  --harmonized-palette-turquoise-800: rgba(10, 158, 139, 1);
+  --harmonized-palette-turquoise-900: rgba(1, 110, 97, 1);
+  --p-tp-SAU: rgba(214, 219, 230, 1);
+  --x-100: rgba(237, 208, 214, 1);
+  --x-2: rgba(236, 239, 247, 1);
+}
+
+:root {
+  --animate-spin: spin 1s linear infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-fade-up {
+  animation: fade-up 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-marquee {
+  animation: marquee var(--duration) infinite linear;
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration) linear infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 8s infinite;
+}
+
+.animate-spin {
+  animation: var(--animate-spin);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes image-glow {
+  0% {
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.74, 0.25, 0.76, 1);
+  }
+
+  10% {
+    opacity: 0.7;
+    animation-timing-function: cubic-bezier(0.12, 0.01, 0.08, 0.99);
+  }
+
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shimmer {
+  0%,
+  90%,
+  to {
+    background-position: calc(-100% - var(--shimmer-width)) 0;
+  }
+
+  30%,
+  60% {
+    background-position: calc(100% + var(--shimmer-width)) 0;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  0% {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}

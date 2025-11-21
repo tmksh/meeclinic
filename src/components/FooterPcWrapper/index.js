@@ -1,0 +1,1 @@
+export { FooterPcWrapper } from "./FooterPcWrapper";

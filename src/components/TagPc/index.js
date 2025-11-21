@@ -1,0 +1,1 @@
+export { TagPc } from "./TagPc";
