@@ -13,58 +13,58 @@ export const PricePlan = () => {
       <div className="flex flex-col w-full max-w-[1080px] items-center gap-12 relative flex-[0_0_auto]">
         <div className="flex flex-col items-start gap-12 md:gap-16 xl:gap-20 relative self-stretch w-full flex-[0_0_auto]">
           {/* ピル */}
-          <div className="flex flex-col items-center justify-center gap-6 md:gap-8 xl:gap-10 pt-12 md:pt-14 xl:pt-16 pb-8 md:pb-9 xl:pb-10 px-2 md:px-4 xl:px-px relative self-stretch w-full flex-[0_0_auto] bg-[#f9f2f4]">
+          <div className="flex flex-col items-center justify-center gap-6 md:gap-8 xl:gap-10 pt-16 md:pt-14 xl:pt-16 pb-8 md:pb-9 xl:pb-10 px-2 md:px-4 xl:px-px relative self-stretch w-full flex-[0_0_auto] bg-[#f9f2f4]">
             <div className="flex flex-col w-full max-w-[875px] items-center gap-6 md:gap-8 xl:gap-10 relative flex-[0_0_auto]">
-              <div className="flex flex-col md:flex-row xl:flex-row items-center md:items-center xl:items-center justify-center gap-6 md:gap-6 xl:gap-10 relative self-stretch w-full flex-[0_0_auto]">
-                <div className="flex flex-col w-full max-w-[200px] md:max-w-[200px] xl:w-[265px] items-center gap-4 md:gap-4 xl:gap-5 relative">
+              <div className="flex flex-row flex-wrap md:flex-row xl:flex-row items-start md:items-center xl:items-center justify-center gap-2 md:gap-6 xl:gap-10 relative self-stretch w-full flex-[0_0_auto]">
+                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 xl:gap-5 relative">
                   <img
-                    className="relative w-[160px] h-[213px] md:w-[160px] md:h-[213px] xl:w-[211px] xl:h-[281px] aspect-[0.75] object-cover"
+                    className="relative w-full h-auto aspect-[0.75] object-cover"
                     alt="S"
                     src="/img/s-10559492-1.png"
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
                       低用量
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-sm md:text-sm xl:text-base text-center tracking-[0] leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       2,980円〜
                     </div>
                   </div>
                 </div>
 
-                <div className="flex flex-col w-full max-w-[200px] md:max-w-[200px] xl:w-[265px] items-center gap-4 md:gap-4 xl:gap-5 relative">
+                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 xl:gap-5 relative">
                   <img
-                    className="relative w-[160px] h-[213px] md:w-[160px] md:h-[213px] xl:w-[211px] xl:h-[281px] aspect-[0.75] object-cover"
+                    className="relative w-full h-auto aspect-[0.75] object-cover"
                     alt="S"
                     src="/img/s-10559494-2.png"
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
                       中用量
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-sm md:text-sm xl:text-base text-center tracking-[0] leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       3,500円〜
                     </div>
                   </div>
                 </div>
 
-                <div className="flex flex-col w-full max-w-[200px] md:max-w-[200px] xl:w-[265px] items-center gap-4 md:gap-4 xl:gap-5 relative">
+                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 xl:gap-5 relative">
                   <img
-                    className="relative w-[160px] h-[213px] md:w-[160px] md:h-[213px] xl:w-[211px] xl:h-[281px] aspect-[0.75] object-cover"
+                    className="relative w-full h-auto aspect-[0.75] object-cover"
                     alt="S"
                     src="/img/s-10559496-2.png"
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
                       アフターピル
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-sm md:text-sm xl:text-base text-center tracking-[0] leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       11,480円〜
                     </div>
                   </div>
@@ -117,58 +117,58 @@ export const PricePlan = () => {
           </div>
 
           {/* 肌治療 */}
-          <div className="flex flex-col items-center justify-center gap-6 md:gap-8 xl:gap-10 pt-12 md:pt-14 xl:pt-16 pb-8 md:pb-9 xl:pb-10 px-2 md:px-4 xl:px-px relative self-stretch w-full flex-[0_0_auto] bg-[#f9f2f4]">
+          <div className="flex flex-col items-center justify-center gap-6 md:gap-8 xl:gap-10 pt-16 md:pt-14 xl:pt-16 pb-8 md:pb-9 xl:pb-10 px-2 md:px-4 xl:px-px relative self-stretch w-full flex-[0_0_auto] bg-[#f9f2f4]">
             <div className="flex flex-col w-full max-w-[875px] items-center gap-6 md:gap-8 xl:gap-10 relative flex-[0_0_auto]">
-              <div className="flex flex-col md:flex-row xl:flex-row items-center md:items-center xl:items-center justify-center gap-6 md:gap-6 xl:gap-10 relative self-stretch w-full flex-[0_0_auto]">
-                <div className="flex flex-col w-full max-w-[200px] md:max-w-[200px] xl:w-[265px] items-center gap-4 md:gap-4 xl:gap-5 relative">
+              <div className="flex flex-row flex-wrap md:flex-row xl:flex-row items-start md:items-center xl:items-center justify-center gap-2 md:gap-6 xl:gap-10 relative self-stretch w-full flex-[0_0_auto]">
+                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 xl:gap-5 relative">
                   <img
-                    className="relative w-[160px] h-[213px] md:w-[160px] md:h-[213px] xl:w-[211px] xl:h-[281px] aspect-[0.75] object-cover"
+                    className="relative w-full h-auto aspect-[0.75] object-cover"
                     alt="S"
                     src="/img/s-10559500-3.png"
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
                       ニキビ治療
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-sm md:text-sm xl:text-base text-center tracking-[0] leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       1,870円〜
                     </div>
                   </div>
                 </div>
 
-                <div className="flex flex-col w-full max-w-[200px] md:max-w-[200px] xl:w-[265px] items-center gap-4 md:gap-4 xl:gap-5 relative">
+                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 xl:gap-5 relative">
                   <img
-                    className="relative w-[160px] h-[213px] md:w-[160px] md:h-[213px] xl:w-[211px] xl:h-[281px] aspect-[0.75] object-cover"
+                    className="relative w-full h-auto aspect-[0.75] object-cover"
                     alt="S"
                     src="/img/s-10559498-2.png"
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
                       シミ治療
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-sm md:text-sm xl:text-base text-center tracking-[0] leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       2,500円〜
                     </div>
                   </div>
                 </div>
 
-                <div className="flex flex-col w-full max-w-[200px] md:max-w-[200px] xl:w-[265px] items-center gap-4 md:gap-4 xl:gap-5 relative">
+                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 xl:gap-5 relative">
                   <img
-                    className="relative w-[160px] h-[213px] md:w-[160px] md:h-[213px] xl:w-[211px] xl:h-[281px] aspect-[0.75] object-cover"
+                    className="relative w-full h-auto aspect-[0.75] object-cover"
                     alt="S"
                     src="/img/s-10559502-2.png"
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9">
                       毛穴治療
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-sm md:text-sm xl:text-base text-center tracking-[0] leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       4,200円〜
                     </div>
                   </div>
@@ -230,7 +230,7 @@ export const PricePlan = () => {
 
           {/* 睡眠治療 */}
           <div className="flex flex-col items-start gap-2.5 relative self-stretch w-full flex-[0_0_auto]">
-            <div className="flex flex-col items-center justify-center gap-4 md:gap-6 xl:gap-2.5 pt-12 md:pt-14 xl:pt-16 pb-8 md:pb-9 xl:pb-10 px-2 md:px-4 xl:px-px relative self-stretch w-full flex-[0_0_auto] bg-[#f9f2f4]">
+            <div className="flex flex-col items-center justify-center gap-4 md:gap-6 xl:gap-2.5 pt-16 md:pt-14 xl:pt-16 pb-8 md:pb-9 xl:pb-10 px-2 md:px-4 xl:px-px relative self-stretch w-full flex-[0_0_auto] bg-[#f9f2f4]">
               <img
                 className="relative w-[160px] h-[213px] md:w-[160px] md:h-[213px] xl:w-[211px] xl:h-[281px] aspect-[0.75]"
                 alt="S"
@@ -277,75 +277,75 @@ export const PricePlan = () => {
 
           {/* ドクターズコスメ */}
           <div className="flex flex-col items-start gap-2.5 relative self-stretch w-full flex-[0_0_auto]">
-            <div className="flex flex-col items-center justify-center gap-4 md:gap-6 xl:gap-2.5 pt-12 md:pt-14 xl:pt-16 pb-8 md:pb-9 xl:pb-10 px-2 md:px-4 xl:px-px relative self-stretch w-full flex-[0_0_auto] bg-[#f9f2f4]">
+            <div className="flex flex-col items-center justify-center gap-4 md:gap-6 xl:gap-2.5 pt-16 md:pt-14 xl:pt-16 pb-8 md:pb-9 xl:pb-10 px-2 md:px-4 xl:px-px relative self-stretch w-full flex-[0_0_auto] bg-[#f9f2f4]">
               <div className="flex flex-col w-full max-w-[875px] items-center gap-6 md:gap-8 xl:gap-10 relative flex-[0_0_auto]">
-                <div className="flex flex-col md:flex-row xl:flex-row items-center md:items-center xl:items-center justify-center gap-6 md:gap-6 xl:gap-10 relative self-stretch w-full flex-[0_0_auto]">
-                  <div className="flex flex-col w-full max-w-[200px] md:max-w-[200px] xl:w-[265px] items-center gap-4 md:gap-4 xl:gap-5 relative">
-                    <div className="relative w-[160px] h-[213px] md:w-[160px] md:h-[213px] xl:w-[211px] xl:h-[281px] bg-white">
-                      <div className="absolute top-[119px] md:top-[119px] xl:top-[157px] left-2 w-[144px] md:w-[144px] xl:w-[196px] h-2.5 bg-[#d9d9d9] rounded-[98px/5px] blur-[4.5px]" />
+              <div className="flex flex-row flex-wrap md:flex-row xl:flex-row items-start md:items-center xl:items-center justify-center gap-2 md:gap-6 xl:gap-10 relative self-stretch w-full flex-[0_0_auto]">
+                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 xl:gap-5 relative">
+                  <div className="relative w-full h-auto aspect-[0.75] bg-white">
+                    <div className="absolute top-[56%] md:top-[56%] xl:top-[56%] left-[5%] w-[90%] h-2.5 bg-[#d9d9d9] rounded-[98px/5px] blur-[4.5px]" />
 
-                      <img
-                        className="absolute top-[74px] md:top-[74px] xl:top-[98px] left-2 w-[144px] md:w-[144px] xl:w-[196px] h-12 md:h-12 xl:h-16 aspect-[3.07] object-cover"
-                        alt="S"
-                        src="/img/s-9977868-3x-1.png"
-                      />
-                    </div>
-
-                    <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                      <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
-                        ゼオスキン
-                      </div>
-
-                      <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-sm md:text-sm xl:text-base text-center tracking-[0] leading-9">
-                        1,870円〜
-                      </div>
-                    </div>
+                    <img
+                      className="absolute top-[35%] md:top-[35%] xl:top-[35%] left-[5%] w-[90%] h-auto aspect-[3.07] object-cover"
+                      alt="S"
+                      src="/img/s-9977868-3x-1.png"
+                    />
                   </div>
 
-                  <div className="flex flex-col w-full max-w-[200px] md:max-w-[200px] xl:w-[265px] items-center gap-4 md:gap-4 xl:gap-5 relative">
-                    <div className="relative w-[160px] h-[213px] md:w-[160px] md:h-[213px] xl:w-[212px] xl:h-[281px]">
-                      <div className="absolute top-0 left-0 md:left-px xl:left-px w-[160px] md:w-[160px] xl:w-[211px] h-[213px] md:h-[213px] xl:h-[281px] bg-white" />
-
-                      <div className="absolute top-[127px] md:top-[127px] xl:top-[168px] left-2 w-[144px] md:w-[144px] xl:w-[196px] h-2.5 bg-[#d9d9d9] rounded-[98px/5px] blur-[4.5px]" />
-
-                      <img
-                        className="absolute top-[59px] md:top-[59px] xl:top-[78px] left-0 w-[160px] md:w-[160px] xl:w-[212px] h-[95px] md:h-[95px] xl:h-[125px] aspect-[1.7]"
-                        alt="Eafc ae a"
-                        src="/img/ea9fc746-a57e-422a-9e38-dbf842f0672d-1.png"
-                      />
+                  <div className="flex flex-col items-center relative flex-[0_0_auto]">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
+                      ゼオスキン
                     </div>
 
-                    <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                      <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
-                        MDEAR
-                      </div>
-
-                      <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-sm md:text-sm xl:text-base text-center tracking-[0] leading-9">
-                        1,870円〜
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="flex flex-col w-full max-w-[200px] md:max-w-[200px] xl:w-[265px] items-center gap-4 md:gap-4 xl:gap-5 relative">
-                    <div className="relative w-[160px] h-[213px] md:w-[160px] md:h-[213px] xl:w-[211px] xl:h-[281px] bg-white">
-                      <img
-                        className="absolute top-[22px] md:top-[22px] xl:top-[29px] left-0 w-[160px] md:w-[160px] xl:w-[211px] h-[169px] md:h-[169px] xl:h-56 aspect-[0.94]"
-                        alt="Gaudi SKIN"
-                        src="/img/gaudi-skin.png"
-                      />
-                    </div>
-
-                    <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                      <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
-                        GAUDI SKIN
-                      </div>
-
-                      <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-sm md:text-sm xl:text-base text-center tracking-[0] leading-9">
-                        1,870円〜
-                      </div>
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                      1,870円〜
                     </div>
                   </div>
                 </div>
+
+                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 xl:gap-5 relative">
+                  <div className="relative w-full h-auto aspect-[0.75]">
+                    <div className="absolute top-0 left-0 w-full h-full bg-white" />
+
+                    <div className="absolute top-[60%] md:top-[60%] xl:top-[60%] left-[5%] w-[90%] h-2.5 bg-[#d9d9d9] rounded-[98px/5px] blur-[4.5px]" />
+
+                    <img
+                      className="absolute top-[28%] md:top-[28%] xl:top-[28%] left-0 w-full h-auto aspect-[1.7]"
+                      alt="Eafc ae a"
+                      src="/img/ea9fc746-a57e-422a-9e38-dbf842f0672d-1.png"
+                    />
+                  </div>
+
+                  <div className="flex flex-col items-center relative flex-[0_0_auto]">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
+                      MDEAR
+                    </div>
+
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                      1,870円〜
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 xl:gap-5 relative">
+                  <div className="relative w-full h-auto aspect-[0.75] bg-white">
+                    <img
+                      className="absolute top-[10%] md:top-[10%] xl:top-[10%] left-0 w-full h-[80%] aspect-[0.94]"
+                      alt="Gaudi SKIN"
+                      src="/img/gaudi-skin.png"
+                    />
+                  </div>
+
+                  <div className="flex flex-col items-center relative flex-[0_0_auto]">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
+                      GAUDI SKIN
+                    </div>
+
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                      1,870円〜
+                    </div>
+                  </div>
+                </div>
+              </div>
               </div>
 
               <BtnPc className="!left-[unset] !top-[unset]" />

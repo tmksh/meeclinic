@@ -5,7 +5,7 @@ export const View = () => {
   return (
     <div className="relative w-full h-auto max-w-[1445px] mx-auto z-5 mt-12 md:mt-20">
       {/* Wave Background */}
-      <div className="absolute top-[-200px] md:top-0 left-0 w-full h-[calc(100%+200px)] md:h-full pointer-events-none overflow-hidden -z-10">
+      <div className="absolute top-[-200px] md:top-0 left-0 w-full h-[calc(100%+200px)] md:h-full pointer-events-none overflow-hidden z-0">
         <svg
           viewBox="0 0 1440 320"
           className="absolute top-0 left-0 w-full h-[320px] object-cover"
@@ -20,19 +20,19 @@ export const View = () => {
       </div>
 
       <img
-        className="absolute top-[100px] right-0 w-[150px] h-auto md:top-[230px] md:left-[1027px] md:w-[379px] md:h-[424px] object-cover z-50"
+        className="absolute top-[100px] right-0 w-[150px] h-auto md:top-[230px] md:left-[1027px] md:w-[379px] md:h-[424px] object-cover z-10"
         alt="Vector"
         src="/img/vector-6.png"
       />
 
       <img
-        className="absolute top-[450px] left-[-30px] w-[150px] h-auto md:top-[510px] md:left-[58px] md:w-[293px] md:h-[359px] object-cover z-0"
+        className="absolute top-[450px] left-[-30px] w-[150px] h-auto md:top-[510px] md:left-[58px] md:w-[293px] md:h-[359px] object-cover z-10"
         alt="Vector"
         src="/img/vector-8.png"
       />
 
       {/* Container 1: Intro + Mind&Body + 3 Columns */}
-      <div className="flex flex-col w-full md:w-[998px] items-center gap-10 relative mx-auto px-4 md:px-0 py-12 md:py-0">
+      <div className="flex flex-col w-full md:w-[998px] items-center gap-10 relative mx-auto px-4 md:px-0 py-12 md:py-0 z-10">
         <div className="relative w-full md:w-[1005px] h-auto md:h-[115px] md:ml-[-2.49px] md:mr-[-4.49px] text-center md:text-left mb-8 md:mb-0">
           <img
             className="hidden md:block absolute top-[88px] left-52 w-[315px] h-5"
@@ -81,75 +81,151 @@ export const View = () => {
               </div>
             </div>
 
-            <div className="flex flex-row md:inline-flex h-auto md:h-[202.24px] items-end justify-center gap-4 md:gap-6 relative w-full md:w-auto mt-8 md:mt-0 mb-0 md:mb-0 scale-[0.5] sm:scale-75 md:scale-100 origin-center md:origin-top">
-              {/* Column 1 */}
-              <div className="relative w-[182px] h-[197.24px]">
-                <img
-                  className="absolute top-[29px] left-0 w-[180px] h-[156px]"
-                  alt="Polygon"
-                  src="/img/polygon-3-2.svg"
-                />
-                <Img
-                  element="/img/img.svg"
-                  elementClassName="!h-[77px] !left-[52px] !w-[77px]"
-                  one="one"
-                />
-                <div className="absolute top-[92px] left-[30px] w-[120px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-xl text-center tracking-[0] leading-[normal]">
-                  ピルについて
+            <div className="w-full flex justify-center">
+              {/* PC Layout */}
+              <div className="hidden md:inline-flex flex-row h-auto md:h-[202.24px] items-end justify-center gap-6 relative w-auto scale-100 origin-top">
+                {/* Column 1 */}
+                <div className="relative w-[182px] h-[197.24px]">
+                  <img
+                    className="absolute top-[29px] left-0 w-[180px] h-[156px]"
+                    alt="Polygon"
+                    src="/img/polygon-3-2.svg"
+                  />
+                  <Img
+                    element="/img/img.svg"
+                    elementClassName="!h-[77px] !left-[52px] !w-[77px]"
+                    one="one"
+                  />
+                  <div className="absolute top-[92px] left-[30px] w-[120px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-xl text-center tracking-[0] leading-[normal]">
+                    ピルについて
+                  </div>
+                  <img
+                    className="absolute top-[147px] left-[77px] w-[26px] h-[17px]"
+                    alt="Polygon"
+                    src="/img/polygon-12.svg"
+                  />
                 </div>
-                <img
-                  className="absolute top-[147px] left-[77px] w-[26px] h-[17px]"
-                  alt="Polygon"
-                  src="/img/polygon-12.svg"
-                />
+
+                {/* Column 2 */}
+                <div className="relative w-[182px] h-[202.24px]">
+                  <img
+                    className="top-[34px] absolute left-0 w-[180px] h-[156px]"
+                    alt="Polygon"
+                    src="/img/polygon-3-2.svg"
+                  />
+                  <Img
+                    elementClassName="!h-[77px] !absolute !left-[54px] !w-[77px] !top-0"
+                    maskGroup="/img/mask-group-3.png"
+                    maskGroupClassName="!ml-[3.5px] !h-[66.5px] !mt-[5.2px] !w-[72.14px]"
+                    one="two"
+                  />
+                  <div className="absolute top-[97px] left-[30px] w-[120px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-xl text-center tracking-[0] leading-[normal]">
+                    睡眠について
+                  </div>
+                  <img
+                    className="absolute top-[152px] left-[77px] w-[26px] h-[17px]"
+                    alt="Polygon"
+                    src="/img/polygon-12.svg"
+                  />
+                </div>
+
+                {/* Column 3 */}
+                <div className="relative w-[182px] h-[198.24px] md:mr-[-2.00px]">
+                  <img
+                    className="top-[30px] absolute left-0 w-[180px] h-[156px]"
+                    alt="Polygon"
+                    src="/img/polygon-3-2.svg"
+                  />
+                  <Img
+                    elementClassName="!h-[77px] !absolute !left-[52px] !w-[77px] !top-0"
+                    img="/img/mask-group-4.png"
+                    maskGroupClassName="!h-[63px] !mt-[7px] !w-[77px]"
+                    one="three"
+                  />
+                  <div className="absolute top-[85px] left-10 w-[100px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-xl text-center tracking-[0] leading-[23px]">
+                    肌トラブル
+                    <br />
+                    について
+                  </div>
+                  <img
+                    className="absolute top-[148px] left-[77px] w-[26px] h-[17px]"
+                    alt="Polygon"
+                    src="/img/polygon-12.svg"
+                  />
+                </div>
               </div>
 
-              {/* Column 2 */}
-              <div className="relative w-[182px] h-[202.24px]">
-                <img
-                  className="top-[34px] absolute left-0 w-[180px] h-[156px]"
-                  alt="Polygon"
-                  src="/img/polygon-3-2.svg"
-                />
-                <Img
-                  elementClassName="!h-[77px] !absolute !left-[54px] !w-[77px] !top-0"
-                  maskGroup="/img/mask-group-3.png"
-                  maskGroupClassName="!ml-[3.5px] !h-[66.5px] !mt-[5.2px] !w-[72.14px]"
-                  one="two"
-                />
-                <div className="absolute top-[97px] left-[30px] w-[120px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-xl text-center tracking-[0] leading-[normal]">
-                  睡眠について
+              {/* SP Layout (Smaller) */}
+              <div className="flex md:hidden flex-row items-end justify-center gap-2 relative w-full mt-4">
+                {/* Column 1 */}
+                <div className="relative w-[100px] h-[110px]">
+                  <img
+                    className="absolute top-[16px] left-0 w-[100px] h-[86px]"
+                    alt="Polygon"
+                    src="/img/polygon-3-2.svg"
+                  />
+                  <Img
+                    element="/img/img.svg"
+                    elementClassName="!h-[42px] !left-[29px] !w-[42px]"
+                    one="one"
+                  />
+                  <div className="absolute top-[50px] left-[10px] w-[80px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-[11px] text-center tracking-[0] leading-[normal]">
+                    ピルについて
+                  </div>
+                  <img
+                    className="absolute top-[82px] left-[42px] w-[14px] h-[9px]"
+                    alt="Polygon"
+                    src="/img/polygon-12.svg"
+                  />
                 </div>
-                <img
-                  className="absolute top-[152px] left-[77px] w-[26px] h-[17px]"
-                  alt="Polygon"
-                  src="/img/polygon-12.svg"
-                />
-              </div>
 
-              {/* Column 3 */}
-              <div className="relative w-[182px] h-[198.24px] md:mr-[-2.00px]">
-                <img
-                  className="top-[30px] absolute left-0 w-[180px] h-[156px]"
-                  alt="Polygon"
-                  src="/img/polygon-3-2.svg"
-                />
-                <Img
-                  elementClassName="!h-[77px] !absolute !left-[52px] !w-[77px] !top-0"
-                  img="/img/mask-group-4.png"
-                  maskGroupClassName="!h-[63px] !mt-[7px] !w-[77px]"
-                  one="three"
-                />
-                <div className="absolute top-[85px] left-10 w-[100px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-xl text-center tracking-[0] leading-[23px]">
-                  肌トラブル
-                  <br />
-                  について
+                {/* Column 2 */}
+                <div className="relative w-[100px] h-[113px]">
+                  <img
+                    className="top-[19px] absolute left-0 w-[100px] h-[86px]"
+                    alt="Polygon"
+                    src="/img/polygon-3-2.svg"
+                  />
+                  <Img
+                    elementClassName="!h-[42px] !absolute !left-[30px] !w-[42px] !top-0"
+                    maskGroup="/img/mask-group-3.png"
+                    maskGroupClassName="!ml-[2px] !h-[36px] !mt-[3px] !w-[39px]"
+                    one="two"
+                  />
+                  <div className="absolute top-[53px] left-[10px] w-[80px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-[11px] text-center tracking-[0] leading-[normal]">
+                    睡眠について
+                  </div>
+                  <img
+                    className="absolute top-[85px] left-[42px] w-[14px] h-[9px]"
+                    alt="Polygon"
+                    src="/img/polygon-12.svg"
+                  />
                 </div>
-                <img
-                  className="absolute top-[148px] left-[77px] w-[26px] h-[17px]"
-                  alt="Polygon"
-                  src="/img/polygon-12.svg"
-                />
+
+                {/* Column 3 */}
+                <div className="relative w-[100px] h-[111px]">
+                  <img
+                    className="top-[17px] absolute left-0 w-[100px] h-[86px]"
+                    alt="Polygon"
+                    src="/img/polygon-3-2.svg"
+                  />
+                  <Img
+                    elementClassName="!h-[42px] !absolute !left-[29px] !w-[42px] !top-0"
+                    img="/img/mask-group-4.png"
+                    maskGroupClassName="!h-[35px] !mt-[4px] !w-[42px]"
+                    one="three"
+                  />
+                  <div className="absolute top-[46px] left-[5px] w-[90px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-[11px] text-center tracking-[0] leading-[13px]">
+                    肌トラブル
+                    <br />
+                    について
+                  </div>
+                  <img
+                    className="absolute top-[83px] left-[42px] w-[14px] h-[9px]"
+                    alt="Polygon"
+                    src="/img/polygon-12.svg"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -157,21 +233,20 @@ export const View = () => {
       </div>
 
       {/* Container 2: Japan Pill Gap + Doctor */}
-      <div className="relative w-full md:w-[1442px] h-auto md:min-h-[805px] mt-12 md:mt-20 mx-auto px-4 md:px-0 pb-12 md:pb-0 bg-[#e4e7f7] md:bg-transparent">
-        {/* Background "Pil" text for mobile */}
-        <div className="relative w-full text-center md:hidden pt-8">
+      <div className="relative w-full md:w-[1442px] h-auto md:min-h-[805px] mt-12 md:mt-20 mx-auto px-4 md:px-0 pb-0 md:pb-0 bg-[#e4e7f7] z-10">
+        {/* Background Image Layer */}
+        <img
+          className="absolute top-0 left-0 w-full h-full md:h-[687px] z-0 object-cover opacity-50 md:opacity-100 pointer-events-none"
+          alt="Mask group"
+          src="/img/mask-group-5.png"
+        />
+
+        {/* Background "Pill" text for mobile */}
+        <div className="relative w-full text-center md:hidden pt-8 z-10">
           <div className="[font-family:'Noto_Serif',Helvetica] font-light text-white text-[150px] leading-[1] opacity-50">
             Pill
           </div>
         </div>
-
-        <div className="hidden md:block absolute top-0 left-0 w-full h-[687px] bg-[#e4e7f7] -z-10" />
-
-        <img
-          className="hidden md:block absolute top-0 left-0 w-full h-[687px] -z-10 object-cover"
-          alt="Mask group"
-          src="/img/mask-group-5.png"
-        />
 
         {/* Title Section */}
         <div className="relative w-full md:w-auto mb-8 md:mb-0 text-center md:text-left z-10 md:ml-[102px] pt-0 md:pt-[124px] mt-[-80px] md:mt-0">
@@ -211,13 +286,13 @@ export const View = () => {
                     parent.innerHTML = `
                       <img
                         className="absolute w-[53.08%] h-[44.02%] top-[53.92%] left-[7.48%] object-contain"
-                        alt="Group"
+              alt="Group"
                         src="/img/group-1.png"
                         style="display: block;"
-                      />
-                      <img
+            />
+            <img
                         className="absolute w-[41.36%] h-[47.35%] top-[52.59%] left-[57.49%] object-contain"
-                        alt="Group"
+              alt="Group"
                         src="/img/group.png"
                         style="display: block;"
                       />
@@ -270,10 +345,14 @@ export const View = () => {
                 <br />
                 いまなお「世界で取り残された国」のひとつです。
                 <br />
-                ピルは本来、月経困難症やPMS（月経前症候群）の改善にも役立つ、
+                ピルは本来、月経困難症やPMS
+                <br />
+                （月経前症候群）の改善にも役立つ、
                 <br />
                 女性の健康を支えるツールです 。<br />
-                オンライン診療を活用すれば、もっと手軽に専門家へ相談できます 。
+                オンライン診療を活用すれば、
+                <br />
+                もっと手軽に専門家へ相談できます 。
               </span>
             </p>
           </div>

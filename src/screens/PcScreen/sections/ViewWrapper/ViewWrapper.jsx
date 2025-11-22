@@ -9,9 +9,10 @@ export const ViewWrapper = () => {
         src="/img/group-141.png"
       />
 
-      <div className="flex flex-col w-full md:w-[600px] items-end md:items-start gap-3 relative md:ml-[576px] pt-[200px] md:pt-[88px] px-4 md:px-0 pb-4 md:pb-0">
-        <div className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-white md:text-[var(--)] text-lg md:text-[40px] tracking-[0] leading-[1.4] md:leading-[48.0px] text-right md:text-left drop-shadow-md md:drop-shadow-none whitespace-nowrap">
-          多くの女性に選ばれ、相談が日々スタートしています。
+グラフ      <div className="flex flex-col w-full md:w-[600px] items-end md:items-start gap-3 relative md:ml-[576px] pt-[120px] md:pt-[88px] px-4 md:px-0 pb-4 md:pb-[88px]">
+        <div className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-white md:text-[var(--)] text-[28px] md:text-[40px] tracking-[0] leading-[1.4] md:leading-[48.0px] text-right md:text-left drop-shadow-md md:drop-shadow-none whitespace-normal md:whitespace-nowrap">
+          多くの女性に選ばれ、<br />
+          相談が日々スタートしています。
         </div>
 
         <div className="flex flex-col md:flex-row items-end md:items-center justify-center gap-4 md:gap-6 relative flex-[0_0_auto] mt-4 md:mt-0 w-full md:w-auto">

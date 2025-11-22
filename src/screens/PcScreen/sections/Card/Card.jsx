@@ -182,11 +182,11 @@ export const Card = () => {
       </div>
 
       <div className="w-full flex justify-center my-8 relative z-20">
-        <img
+      <img
           className="w-[240px] md:w-[240px] xl:w-[277px] h-[75px] md:h-[75px] xl:h-[87px]"
-          alt="Tooltip"
-          src="/img/tooltip.svg"
-        />
+        alt="Tooltip"
+        src="/img/tooltip.svg"
+      />
       </div>
 
       {/* メッセージボックス (Swapped order for mobile flow) */}

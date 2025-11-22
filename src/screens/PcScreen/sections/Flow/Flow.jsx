@@ -33,7 +33,7 @@ export const Flow = () => {
         <div className="relative w-full md:w-[500px] xl:w-[257px] h-auto flex flex-col items-center">
           <div className="flex flex-col w-full items-center gap-6 relative z-10">
             <img
-              className="relative self-stretch w-full h-[200px] md:h-[200px] xl:h-[255px] object-cover"
+              className="relative w-[90%] max-w-[340px] md:w-full h-[200px] md:h-[200px] xl:h-[255px] object-cover md:self-stretch rounded-lg"
               alt="Rectangle"
               src="/img/rectangle-140.png"
             />
@@ -58,7 +58,7 @@ export const Flow = () => {
         <div className="relative w-full md:w-[500px] xl:w-[257px] h-auto flex flex-col items-center">
           <div className="flex flex-col w-full items-center gap-6 relative z-10">
             <img
-              className="relative self-stretch w-full h-[200px] md:h-[200px] xl:h-[255px] object-cover"
+              className="relative w-[90%] max-w-[340px] md:w-full h-[200px] md:h-[200px] xl:h-[255px] object-cover md:self-stretch rounded-lg"
               alt="Rectangle"
               src="/img/rectangle-141.png"
             />
@@ -85,7 +85,7 @@ export const Flow = () => {
         <div className="relative w-full md:w-[500px] xl:w-[257px] h-auto flex flex-col items-center">
           <div className="flex flex-col w-full items-center gap-6 relative z-10">
             <img
-              className="relative self-stretch w-full h-[200px] md:h-[200px] xl:h-[255px] object-cover"
+              className="relative w-[90%] max-w-[340px] md:w-full h-[200px] md:h-[200px] xl:h-[255px] object-cover md:self-stretch rounded-lg"
               alt="Rectangle"
               src="/img/rectangle-142.png"
             />
@@ -110,7 +110,7 @@ export const Flow = () => {
         <div className="relative w-full md:w-[500px] xl:w-[257px] h-auto flex flex-col items-center">
           <div className="flex flex-col w-full items-center gap-6 relative z-10">
             <img
-              className="relative self-stretch w-full h-[200px] md:h-[200px] xl:h-[255px]"
+              className="relative w-[90%] max-w-[340px] md:w-full h-[200px] md:h-[200px] xl:h-[255px] object-cover md:self-stretch rounded-lg"
               alt="Rectangle"
               src="/img/rectangle-143.png"
             />
