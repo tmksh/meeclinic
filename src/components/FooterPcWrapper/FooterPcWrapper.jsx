@@ -20,7 +20,14 @@ export const FooterPcWrapper = ({
     >
       <div className="flex flex-col md:flex-col xl:flex-row items-start items-center md:items-center xl:items-start gap-8 md:gap-8 xl:gap-[62px] relative self-stretch w-full flex-[0_0_auto]">
         <div className="inline-flex flex-col items-center md:items-center xl:items-start gap-6 md:gap-6 xl:gap-8 relative flex-[0_0_auto]">
-          <Logo className="!left-[unset] !top-[unset] scale-75 md:scale-75 xl:scale-100" group={logoGroup} />
+          <Logo
+            className="!left-[unset] !top-[unset] scale-75 md:scale-75 xl:scale-100"
+            group={logoGroup}
+            style={{
+              filter:
+                "brightness(0) saturate(100%) invert(80%) sepia(16%) saturate(1086%) hue-rotate(306deg) brightness(97%) contrast(96%)",
+            }}
+          />
           <div className="flex items-center gap-2 md:gap-2 xl:gap-[11px] relative self-stretch w-full flex-[0_0_auto]">
             <div className="flex w-10 h-10 md:w-10 md:h-10 xl:w-[52px] xl:h-[52px] items-center gap-2.5 p-2 md:p-2 xl:p-3 relative bg-white rounded-[26px]">
               <X className="!relative !w-6 !h-6 md:!w-6 md:!h-6 xl:!w-7 xl:!h-7 !aspect-[1]" />

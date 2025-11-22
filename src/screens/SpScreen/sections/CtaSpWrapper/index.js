@@ -1,1 +1,0 @@
-export { CtaSpWrapper } from "./CtaSpWrapper";

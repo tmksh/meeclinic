@@ -39,6 +39,6 @@ export const ReasonTextPc = ({
 
 ReasonTextPc.propTypes = {
   prop: PropTypes.string,
-  prop1: PropTypes.string,
-  text2: PropTypes.string,
+  prop1: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+  text2: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
 };

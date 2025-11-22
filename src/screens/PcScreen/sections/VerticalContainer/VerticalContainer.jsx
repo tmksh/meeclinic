@@ -2,7 +2,7 @@ import React from "react";
 
 export const VerticalContainer = () => {
   return (
-    <div className="flex flex-col md:flex-row w-full max-w-[1238px] items-start gap-6 md:gap-[41px] px-4 md:px-0 relative md:absolute md:top-[1299px] md:left-[calc(50.00%_-_618px)] z-15">
+    <div className="flex flex-col md:flex-row w-full max-w-[1238px] items-start gap-6 md:gap-[41px] px-4 md:px-0 relative mt-12 md:mt-20 z-15 mx-auto">
       <div className="relative w-full md:w-[706px] h-[320px] md:h-[583px]">
         <div className="absolute top-10 md:top-20 left-0 w-full md:w-[611px] h-[260px] md:h-[503px] bg-[url(/img/container.png)] bg-cover bg-[50%_50%]" />
 
@@ -18,7 +18,7 @@ export const VerticalContainer = () => {
       </div>
 
       <div className="w-full md:w-[489px] items-start gap-6 md:gap-10 pt-6 md:pt-[146px] pb-0 px-0 relative flex flex-col">
-        <div className="relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333333] text-2xl md:text-3xl xl:text-4xl tracking-[1.20px] md:tracking-[1.80px] leading-[normal]">
+        <div className="relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-2xl md:text-3xl xl:text-4xl tracking-[1.20px] md:tracking-[1.80px] leading-[normal]">
           オンラインで、
           <br />
           もっと身近に医療を。

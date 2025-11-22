@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Img } from "../../../../components/Img";
 
 export const View = () => {
   return (
-    <div className="relative w-full h-auto md:absolute md:top-[10552px] md:left-[-5px] md:w-[1445px] md:h-[2663px] z-5">
+    <div className="relative w-full h-auto max-w-[1445px] mx-auto z-5 mt-12 md:mt-20">
       {/* Wave Background */}
-      <div className="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden">
+      <div className="absolute top-[-200px] md:top-0 left-0 w-full h-[calc(100%+200px)] md:h-full pointer-events-none overflow-hidden -z-10">
         <svg
           viewBox="0 0 1440 320"
           className="absolute top-0 left-0 w-full h-[320px] object-cover"
@@ -20,19 +20,19 @@ export const View = () => {
       </div>
 
       <img
-        className="hidden md:block absolute top-[75px] left-[1027px] w-[379px] h-[424px] object-cover"
+        className="absolute top-[100px] right-0 w-[150px] h-auto md:top-[230px] md:left-[1027px] md:w-[379px] md:h-[424px] object-cover z-50"
         alt="Vector"
         src="/img/vector-6.png"
       />
 
       <img
-        className="hidden md:block absolute top-[358px] left-[58px] w-[293px] h-[359px] object-cover"
+        className="absolute top-[450px] left-[-30px] w-[150px] h-auto md:top-[510px] md:left-[58px] md:w-[293px] md:h-[359px] object-cover z-0"
         alt="Vector"
         src="/img/vector-8.png"
       />
 
       {/* Container 1: Intro + Mind&Body + 3 Columns */}
-      <div className="flex flex-col w-full md:w-[998px] items-center gap-10 relative md:absolute md:top-[120px] md:left-[219px] px-4 md:px-0 py-12 md:py-0">
+      <div className="flex flex-col w-full md:w-[998px] items-center gap-10 relative mx-auto px-4 md:px-0 py-12 md:py-0">
         <div className="relative w-full md:w-[1005px] h-auto md:h-[115px] md:ml-[-2.49px] md:mr-[-4.49px] text-center md:text-left mb-8 md:mb-0">
           <img
             className="hidden md:block absolute top-[88px] left-52 w-[315px] h-5"
@@ -40,7 +40,7 @@ export const View = () => {
             src="/img/line-26.svg"
           />
 
-          <p className="relative md:absolute top-0 left-0 w-full [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-[32px] md:text-5xl text-center leading-[normal]">
+          <p className="relative md:absolute top-0 left-0 w-full [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-[32px] md:text-5xl text-center leading-[normal] whitespace-normal md:whitespace-nowrap">
             <span className="tracking-[0]">あなた</span>
             <span className="tracking-[-11.75px]">の</span>
             <span className="text-[48px] md:text-[80px] tracking-[0]">「困った</span>
@@ -64,23 +64,24 @@ export const View = () => {
             日本の女性たちが直面するリアルな課題を紐解いていきましょう。
           </div>
 
-          <div className="flex flex-col w-full md:w-[681px] items-center gap-3.5 relative flex-[0_0_auto]">
-            <div className="flex flex-col items-center gap-2.5 relative self-stretch w-full flex-[0_0_auto]">
-              <p className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif',Helvetica] font-bold text-[var(--)] text-[40px] md:text-[64px] text-center tracking-[0] leading-[1.2] md:leading-[57.6px]">
+          <div className="flex flex-col w-full md:w-[681px] items-end md:items-center gap-2 relative flex-[0_0_auto]">
+            <div className="flex flex-col items-end md:items-center gap-2.5 relative self-stretch w-full flex-[0_0_auto]">
+              <p className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif',Helvetica] font-bold text-[var(--)] text-[40px] md:text-[64px] text-right md:text-center tracking-[0] leading-[1.2] md:leading-[57.6px] whitespace-nowrap">
                 <span className="text-[#c76f7e]">M</span>
                 <span className="text-[#6b6b6b]">ind &amp; </span>
                 <span className="text-[#c76f7e]">B</span>
                 <span className="text-[#6b6b6b]">ody </span>
+                <br className="md:hidden" />
                 <span className="text-[#c76f7e]">I</span>
                 <span className="text-[#6b6b6b]">nsights</span>
               </p>
 
-              <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[var(--)] text-2xl md:text-4xl text-center tracking-[1.80px] leading-[1.5] md:leading-[57.6px]">
+              <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[var(--)] text-lg md:text-4xl text-right md:text-center tracking-[1.80px] leading-[1.5] md:leading-[57.6px]">
                 知っておきたいカラダとココロの豆知識
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row md:inline-flex h-auto md:h-[202.24px] items-center md:items-end gap-8 md:gap-6 relative w-full md:w-auto mt-8 md:mt-0">
+            <div className="flex flex-row md:inline-flex h-auto md:h-[202.24px] items-end justify-center gap-4 md:gap-6 relative w-full md:w-auto mt-8 md:mt-0 mb-0 md:mb-0 scale-[0.5] sm:scale-75 md:scale-100 origin-center md:origin-top">
               {/* Column 1 */}
               <div className="relative w-[182px] h-[197.24px]">
                 <img
@@ -156,25 +157,25 @@ export const View = () => {
       </div>
 
       {/* Container 2: Japan Pill Gap + Doctor */}
-      <div className="relative w-full md:w-[1442px] h-auto md:h-[805px] mt-12 md:mt-0 md:absolute md:top-[1187px] md:left-[calc(50.00%_-_718px)] px-4 md:px-0 pb-12 md:pb-0">
+      <div className="relative w-full md:w-[1442px] h-auto md:min-h-[805px] mt-12 md:mt-20 mx-auto px-4 md:px-0 pb-12 md:pb-0 bg-[#e4e7f7] md:bg-transparent">
         {/* Background "Pil" text for mobile */}
-        <div className="absolute top-0 left-0 w-full h-full md:hidden -z-10 flex items-center justify-center">
-          <div className="[font-family:'Noto_Serif',Helvetica] font-light text-[#e5e5e5] text-[200px] leading-[1] opacity-30">
-            Pil
+        <div className="relative w-full text-center md:hidden pt-8">
+          <div className="[font-family:'Noto_Serif',Helvetica] font-light text-white text-[150px] leading-[1] opacity-50">
+            Pill
           </div>
         </div>
 
-        <div className="hidden md:block absolute top-0 left-[calc(50.00%_-_721px)] w-[1440px] h-[687px] bg-x-2" />
+        <div className="hidden md:block absolute top-0 left-0 w-full h-[687px] bg-[#e4e7f7] -z-10" />
 
         <img
-          className="hidden md:block absolute top-0 left-[calc(50.00%_-_721px)] w-[1440px] h-[687px]"
+          className="hidden md:block absolute top-0 left-0 w-full h-[687px] -z-10 object-cover"
           alt="Mask group"
           src="/img/mask-group-5.png"
         />
 
         {/* Title Section */}
-        <div className="relative md:absolute md:top-[124px] md:left-[102px] w-full md:w-auto mb-8 md:mb-0 text-center md:text-left z-10">
-          <p className="[font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#333333] text-[28px] md:text-[40px] leading-[1.4] md:leading-[normal]">
+        <div className="relative w-full md:w-auto mb-8 md:mb-0 text-center md:text-left z-10 md:ml-[102px] pt-0 md:pt-[124px] mt-[-80px] md:mt-0">
+          <p className="[font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#555555] text-[28px] md:text-[40px] leading-[1.4] md:leading-[normal]">
             <span className="text-[#6b6b6b] tracking-[0]">日本</span>
             <span className="text-[#6b6b6b] tracking-[-6.72px]">は</span>
             <span className="text-[#c76f7e] tracking-[-2.40px]">「</span>
@@ -188,47 +189,72 @@ export const View = () => {
         </div>
 
         {/* Graph Section - World Map */}
-        <div className="relative md:absolute md:top-[124px] md:left-[623px] w-full md:w-[725px] h-auto md:h-[681px] mb-8 md:mb-0 flex flex-col items-center md:block z-10">
-          <div className="relative w-full h-[300px] md:h-auto md:w-[725px] md:h-[681px] flex items-center justify-center md:block">
+        <div className="relative w-full md:w-[725px] h-[300px] md:h-[681px] mb-8 md:mb-0 z-10 md:absolute md:top-[124px] md:right-0 xl:left-[623px]">
+          <div className="relative w-full h-[300px] md:!w-[725px] md:!h-[681px] flex items-center justify-center bg-transparent">
+            {/* まず map.png を試す、なければ地図.png、それでもなければ既存の画像を表示 */}
             <img
-              className="relative md:absolute md:w-[41.36%] md:h-[47.35%] md:top-[52.59%] md:left-[57.49%] w-[150px] md:w-auto mb-4 md:mb-0"
-              alt="Group"
-              src="/img/group.png"
-            />
-            <img
-              className="relative md:absolute md:w-[53.08%] md:h-[44.02%] md:top-[53.92%] md:left-[7.48%] w-[200px] md:w-auto mb-4 md:mb-0"
-              alt="Group"
-              src="/img/group-1.png"
+              className="w-full h-full object-contain"
+              alt="World Map with Data"
+              src="/img/map.png"
+              style={{ display: 'block', maxWidth: '100%', maxHeight: '100%' }}
+              onError={(e) => {
+                const currentSrc = e.target.src;
+                // フォールバック1: 地図.pngを試す
+                if (!currentSrc.includes('地図') && !currentSrc.includes('%E5%9C%B0%E5%9B%B3')) {
+                  e.target.src = '/img/地図.png';
+                } 
+                // フォールバック2: 既存のgroup.pngとgroup-1.pngを組み合わせて表示
+                else if (!currentSrc.includes('group')) {
+                  // 親要素に複数の画像を配置
+                  const parent = e.target.parentElement;
+                  if (parent && !parent.querySelector('.fallback-map')) {
+                    parent.innerHTML = `
+                      <img
+                        className="absolute w-[53.08%] h-[44.02%] top-[53.92%] left-[7.48%] object-contain"
+                        alt="Group"
+                        src="/img/group-1.png"
+                        style="display: block;"
+                      />
+                      <img
+                        className="absolute w-[41.36%] h-[47.35%] top-[52.59%] left-[57.49%] object-contain"
+                        alt="Group"
+                        src="/img/group.png"
+                        style="display: block;"
+                      />
+                    `;
+                  }
+                }
+              }}
             />
           </div>
         </div>
 
         {/* Doctor Profile Section */}
-        <div className="relative md:absolute md:top-72 md:left-[102px] flex flex-col md:inline-flex md:items-start gap-5 w-full md:w-auto items-center z-10 mt-8 md:mt-0">
-          <div className="relative w-[175px] h-[190px] flex-shrink-0">
+        <div className="relative flex flex-row items-start gap-4 md:gap-5 w-full md:w-auto z-10 mt-8 md:mt-[144px] md:ml-[102px]">
+          <div className="relative w-[120px] h-[130px] md:w-[175px] md:h-[190px] flex-shrink-0">
             <img
-              className="absolute top-0 left-0 w-[175px] h-[175px]"
+              className="absolute top-0 left-0 w-full h-full object-cover"
               alt="Img"
               src="/img/img.png"
             />
-            <div className="flex w-[132px] items-center justify-between px-2 py-[3px] absolute top-[159px] left-[22px] bg-[#efa3af]">
+            <div className="flex w-full md:w-[132px] items-center justify-between px-1 md:px-2 py-[3px] absolute bottom-[10px] md:top-[159px] left-0 md:left-[22px] bg-[#efa3af]">
               <img
-                className="relative w-px h-[25px] ml-[-1.00px] object-cover"
+                className="relative w-px h-[20px] md:h-[25px] ml-[-1.00px] object-cover"
                 alt="Line"
                 src="/img/line-36-1.svg"
               />
-              <div className="relative w-fit [font-family:'Noto_Serif_JP',Helvetica] font-medium text-white text-sm text-center tracking-[0] leading-[normal] whitespace-nowrap">
+              <div className="relative w-fit [font-family:'Noto_Serif_JP',Helvetica] font-medium text-white text-xs md:text-sm text-center tracking-[0] leading-[normal] whitespace-nowrap">
                 産婦人科専門医
               </div>
               <img
-                className="relative w-px h-[25px] object-cover"
+                className="relative w-px h-[20px] md:h-[25px] object-cover"
                 alt="Line"
                 src="/img/line-36-1.svg"
               />
             </div>
           </div>
 
-          <div className="flex flex-col w-full md:w-[306px] items-start gap-3.5 relative">
+          <div className="flex flex-col flex-1 md:w-[306px] items-start gap-3.5 relative">
             <p className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-normal text-[#6b6b6b] text-sm md:text-base text-justify tracking-[0] leading-[1.8] md:leading-[normal]">
               <span className="font-medium text-[#6b6b6b]">
                 日本のピル服用率は わずか

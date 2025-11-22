@@ -10,7 +10,7 @@ export const BtnPc = ({ className }) => {
     <div
       className={`flex w-full max-w-[441px] md:max-w-[340px] xl:max-w-[441px] h-[66px] md:h-[54px] xl:h-[66px] items-center justify-end gap-16 md:gap-8 xl:gap-16 px-[18px] md:px-4 xl:px-[18px] py-[15px] md:py-3 xl:py-[15px] relative bg-white rounded-[100px] border-2 border-solid border-[#cccccc] ${className}`}
     >
-      <div className="relative flex items-center justify-center w-fit mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-[#333333] text-2xl md:text-lg xl:text-2xl text-center tracking-[0] leading-[normal]">
+      <div className="relative flex items-center justify-center w-fit mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-[#555555] text-2xl md:text-lg xl:text-2xl text-center tracking-[0] leading-[normal]">
         お申し込みはこちら
       </div>
 

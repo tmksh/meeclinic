@@ -5,11 +5,11 @@ import { SectionTitle } from "../../../../components/SectionTitle";
 
 export const Card = () => {
   return (
-    <div className="relative w-full h-auto pb-20 md:absolute md:top-[1800px] xl:top-[2016px] md:left-[calc(50.00%_-_400px)] xl:left-[calc(50.00%_-_730px)] md:w-[800px] xl:w-[1460px] md:min-h-[3000px] xl:h-[3569px] bg-[#F9F2F4] z-10">
+    <div className="relative w-full h-auto pb-20 md:w-full xl:w-full bg-[#F9F2F4] z-10 mt-8 md:mt-12">
       {/* Background */}
-      <div className="absolute top-0 left-0 w-full h-full -z-10 md:w-[800px] xl:w-[1460px] md:min-h-[3000px] xl:h-[3569px]">
+      <div className="absolute top-0 left-0 w-full h-full -z-10">
         <img
-          className="top-0 h-full min-h-full absolute left-0 md:left-2.5 xl:left-2.5 w-full md:w-[780px] xl:w-[1440px] object-cover"
+          className="top-0 h-full min-h-full absolute left-0 w-full object-cover"
           alt="Bg color"
           src="/img/bg-color.svg"
         />
@@ -37,7 +37,7 @@ export const Card = () => {
       
       {/* PC版画像 */}
       <img
-        className="hidden md:block xl:block absolute top-[110px] md:top-[140px] xl:top-[152px] left-0 md:left-2.5 xl:left-2.5 w-full md:w-[780px] xl:w-[1440px] h-[600px] md:h-[720px] xl:h-[861px]"
+        className="hidden md:block absolute top-[110px] md:top-[140px] xl:top-[152px] left-0 w-full max-w-[1440px] mx-auto right-0 h-[600px] md:h-[720px] xl:h-[861px]"
         alt="Switch"
         src="/img/switch.png"
       />
@@ -50,7 +50,7 @@ export const Card = () => {
       />
       
       {/* PC版タイトル */}
-      <div className="hidden md:block md:absolute md:top-[200px] xl:top-[249px] md:left-[calc(50.00%_-_350px)] xl:left-[calc(50.00%_-_402px)] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#333333] text-[48px] xl:text-[64px] tracking-[1.5px] xl:tracking-[1.92px] leading-[normal] text-left xl:text-left">
+      <div className="hidden md:block relative mt-[200px] xl:mt-[249px] w-full max-w-[1440px] mx-auto px-4 md:px-[calc(50%-350px)] xl:px-[calc(50%-402px)] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#333333] text-[48px] xl:text-[64px] tracking-[1.5px] xl:tracking-[1.92px] leading-[normal] text-left xl:text-left z-20">
         こんなお悩みありませんか？
       </div>
 
@@ -63,18 +63,18 @@ export const Card = () => {
         />
         
         {/* タイトル - 画像の上部中央に配置 */}
-        <div className="absolute top-4 left-1/2 -translate-x-1/2 w-[85%] z-30">
-          <div className="[font-family:'Noto_Serif_JP',Helvetica] font-semibold text-white text-[20px] tracking-[1.2px] leading-[1.4] text-center drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">
-            こんなお悩みありませんか？
+        <div className="absolute top-6 left-0 w-full px-4 z-30">
+          <div className="[font-family:'Noto_Serif_JP',Helvetica] font-semibold text-white text-[24px] tracking-[1.2px] leading-[1.4] text-left drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] pl-56">
+            こんなお悩み<br />ありませんか？
           </div>
         </div>
         
         {/* スマホ用悩みサークルオーバーレイ - 画像の上に配置 */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 py-8 px-2 pointer-events-none">
+        <div className="absolute inset-0 pointer-events-none">
           {/* 上段左 */}
-          <div className="absolute top-[80px] left-[8%] w-[110px] h-[110px] flex items-center justify-center">
-            <div className="relative w-full h-full bg-[#d89da6cc] rounded-full backdrop-blur-sm p-1.5">
-              <div className="relative w-full h-full rounded-full border-[2px] border-dashed border-white flex items-center justify-center">
+          <div className="absolute top-[15%] left-[2%] w-[100px] h-[100px] flex items-center justify-center">
+            <div className="relative w-full h-full bg-[#d89da6cc] rounded-full backdrop-blur-sm p-1">
+              <div className="relative w-full h-full rounded-full border-[1.5px] border-dashed border-white flex items-center justify-center">
                 <div className="text-white text-[9px] font-medium text-center leading-[1.3] px-1">
                   生理前のつらい症状や<br />避妊の不安
                 </div>
@@ -83,20 +83,20 @@ export const Card = () => {
           </div>
           
           {/* 上段右 */}
-          <div className="absolute top-[140px] right-[8%] w-[110px] h-[110px] flex items-center justify-center">
-            <div className="relative w-full h-full bg-[#b9737fcc] rounded-full backdrop-blur-sm p-1.5">
-              <div className="relative w-full h-full rounded-full border-[2px] border-dashed border-white flex items-center justify-center">
-                <div className="text-white text-[9px] font-medium text-center leading-[1.3] px-1 whitespace-nowrap">
-                  繰り返す肌荒れやニキビ
+          <div className="absolute top-[25%] right-[2%] w-[100px] h-[100px] flex items-center justify-center">
+            <div className="relative w-full h-full bg-[#b9737fcc] rounded-full backdrop-blur-sm p-1">
+              <div className="relative w-full h-full rounded-full border-[1.5px] border-dashed border-white flex items-center justify-center">
+                <div className="text-white text-[9px] font-medium text-center leading-[1.3] px-1">
+                  繰り返す<br />肌荒れやニキビ
                 </div>
               </div>
             </div>
           </div>
           
           {/* 中央（女性の上） */}
-          <div className="absolute top-[180px] left-1/2 -translate-x-1/2 w-[130px] h-[130px] flex items-center justify-center">
-            <div className="relative w-full h-full bg-[#d89da6cc] rounded-full backdrop-blur-sm p-1.5">
-              <div className="relative w-full h-full rounded-full border-[2px] border-dashed border-white flex items-center justify-center">
+          <div className="absolute top-[45%] left-1/2 -translate-x-1/2 w-[120px] h-[120px] flex items-center justify-center">
+            <div className="relative w-full h-full bg-[#d89da6cc] rounded-full backdrop-blur-sm p-1">
+              <div className="relative w-full h-full rounded-full border-[1.5px] border-dashed border-white flex items-center justify-center">
                 <div className="text-white text-[9px] font-medium text-center leading-[1.3] px-1">
                   「なんとなく不安」<br />「眠れない」<br />といったメンタルの不調
                 </div>
@@ -105,9 +105,9 @@ export const Card = () => {
           </div>
           
           {/* 下段左 */}
-          <div className="absolute bottom-[100px] left-[8%] w-[110px] h-[110px] flex items-center justify-center">
-            <div className="relative w-full h-full bg-[#b9737fcc] rounded-full backdrop-blur-sm p-1.5">
-              <div className="relative w-full h-full rounded-full border-[2px] border-dashed border-white flex items-center justify-center">
+          <div className="absolute bottom-[15%] left-[2%] w-[100px] h-[100px] flex items-center justify-center">
+            <div className="relative w-full h-full bg-[#b9737fcc] rounded-full backdrop-blur-sm p-1">
+              <div className="relative w-full h-full rounded-full border-[1.5px] border-dashed border-white flex items-center justify-center">
                 <div className="text-white text-[9px] font-medium text-center leading-[1.3] px-1">
                   忙しくて<br />病院に行く時間がない
                 </div>
@@ -116,9 +116,9 @@ export const Card = () => {
           </div>
           
           {/* 下段右 */}
-          <div className="absolute bottom-[60px] right-[8%] w-[110px] h-[110px] flex items-center justify-center">
-            <div className="relative w-full h-full bg-[#d89da6cc] rounded-full backdrop-blur-sm p-1.5">
-              <div className="relative w-full h-full rounded-full border-[2px] border-dashed border-white flex items-center justify-center">
+          <div className="absolute bottom-[5%] right-[2%] w-[100px] h-[100px] flex items-center justify-center">
+            <div className="relative w-full h-full bg-[#d89da6cc] rounded-full backdrop-blur-sm p-1">
+              <div className="relative w-full h-full rounded-full border-[1.5px] border-dashed border-white flex items-center justify-center">
                 <div className="text-white text-[9px] font-medium text-center leading-[1.3] px-1">
                   誰にも知られずに<br />相談したい
                 </div>
@@ -129,9 +129,9 @@ export const Card = () => {
       </div>
       
       {/* PC用悩みサークル (スマホでは非表示) */}
-      <div className="hidden md:flex relative md:absolute md:top-[360px] xl:top-[422px] left-0 md:left-[60px] xl:left-[105px] w-[calc(100%-32px)] md:w-[700px] xl:w-[1245px] h-auto md:min-h-[380px] xl:h-[415px] flex-col md:flex-row xl:flex-row md:flex-wrap xl:flex-nowrap gap-6 md:gap-0 xl:gap-0">
+      <div className="hidden md:flex relative mt-[100px] w-full max-w-[1440px] mx-auto h-auto md:min-h-[380px] xl:h-[415px] flex-col md:flex-row xl:flex-row md:flex-wrap xl:flex-nowrap gap-6 md:gap-0 xl:gap-0 justify-center">
         {/* 悩み1 */}
-        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[35px] xl:px-[49px] py-16 md:py-[70px] xl:py-[91px] relative md:absolute xl:absolute md:top-[90px] xl:top-[119px] md:left-0 xl:left-0">
+        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[35px] xl:px-[49px] py-16 md:py-[70px] xl:py-[91px] relative">
           <div className="absolute top-0 left-0 w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] bg-[#d89da6d9] rounded-[100px] md:rounded-[100px] xl:rounded-[133.5px]">
             <div className="relative top-[7px] md:top-[7px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] xl:w-[250px] h-[186px] md:h-[186px] xl:h-[250px] rounded-[93px] md:rounded-[93px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
           </div>
@@ -141,7 +141,7 @@ export const Card = () => {
         </div>
 
         {/* 悩み2 */}
-        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[26px] xl:px-[35px] py-16 md:py-[55px] xl:py-[74px] relative md:absolute xl:absolute md:top-6 xl:top-6 md:left-[180px] xl:left-[262px]">
+        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[26px] xl:px-[35px] py-16 md:py-[55px] xl:py-[74px] relative mt-6 md:mt-12">
           <div className="absolute top-0 left-0 w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] bg-[#b9737fd9] rounded-[100px] md:rounded-[100px] xl:rounded-[133.5px]">
             <div className="relative top-[7px] md:top-[7px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] xl:w-[250px] h-[186px] md:h-[186px] xl:h-[250px] rounded-[93px] md:rounded-[93px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
           </div>
@@ -151,7 +151,7 @@ export const Card = () => {
         </div>
 
         {/* 悩み3 */}
-        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[19px] xl:px-[26px] py-16 md:py-[70px] xl:py-[93px] relative md:absolute xl:absolute md:top-0 xl:top-0 md:left-[380px] xl:left-[728px]">
+        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[19px] xl:px-[26px] py-16 md:py-[70px] xl:py-[93px] relative">
           <div className="absolute top-0 left-0 w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] bg-[#b9737fd9] rounded-[100px] md:rounded-[100px] xl:rounded-[133.5px]">
             <div className="relative top-[7px] md:top-[7px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] xl:w-[250px] h-[186px] md:h-[186px] xl:h-[250px] rounded-[93px] md:rounded-[93px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
           </div>
@@ -161,8 +161,8 @@ export const Card = () => {
         </div>
 
         {/* 悩み4 */}
-        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[26px] xl:px-[35px] py-12 md:py-10 xl:py-14 relative md:absolute xl:absolute md:top-[110px] xl:top-[148px] md:left-[220px] xl:left-[498px]">
-          <div className="absolute top-0 left-0 md:left-[calc(50.00%_-_100px)] xl:left-[calc(50.00%_-_134px)] w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] bg-[#d89da6d9] rounded-[100px] md:rounded-[100px] xl:rounded-[133.5px]">
+        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[26px] xl:px-[35px] py-12 md:py-10 xl:py-14 relative mt-6 md:mt-24">
+          <div className="absolute top-0 left-0 md:left-0 xl:left-0 w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] bg-[#d89da6d9] rounded-[100px] md:rounded-[100px] xl:rounded-[133.5px]">
             <div className="relative top-[7px] md:top-[7px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] xl:w-[250px] h-[186px] md:h-[186px] xl:h-[250px] rounded-[93px] md:rounded-[93px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
           </div>
           <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base md:text-lg xl:text-xl text-center tracking-[0] leading-[28px] md:leading-[32px] xl:leading-[38px] z-10">
@@ -171,7 +171,7 @@ export const Card = () => {
         </div>
 
         {/* 悩み5 */}
-        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[16px] xl:px-[21px] py-16 md:py-[60px] xl:py-20 relative md:absolute xl:absolute md:top-[88px] xl:top-[116px] md:left-[460px] xl:left-[978px]">
+        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[16px] xl:px-[21px] py-16 md:py-[60px] xl:py-20 relative mt-6 md:mt-12">
           <div className="absolute top-0 left-0 w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] bg-[#d89da6d9] rounded-[100px] md:rounded-[100px] xl:rounded-[133.5px]">
             <div className="relative top-[7px] md:top-[7px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] xl:w-[250px] h-[186px] md:h-[186px] xl:h-[250px] rounded-[93px] md:rounded-[93px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
           </div>
@@ -181,30 +181,33 @@ export const Card = () => {
         </div>
       </div>
 
-      <img
-        className="relative mx-auto my-8 md:absolute md:top-[820px] xl:top-[906px] md:left-[calc(50.00%_-_138px)] xl:left-[calc(50.00%_-_158px)] w-[240px] md:w-[240px] xl:w-[277px] h-[75px] md:h-[75px] xl:h-[87px]"
-        alt="Tooltip"
-        src="/img/tooltip.svg"
-      />
+      <div className="w-full flex justify-center my-8 relative z-20">
+        <img
+          className="w-[240px] md:w-[240px] xl:w-[277px] h-[75px] md:h-[75px] xl:h-[87px]"
+          alt="Tooltip"
+          src="/img/tooltip.svg"
+        />
+      </div>
 
       {/* メッセージボックス (Swapped order for mobile flow) */}
-      <div className="flex flex-col w-[calc(100%-32px)] md:w-[720px] xl:w-[1236px] min-h-[150px] md:min-h-[180px] xl:h-[200px] items-start gap-2.5 p-2 relative mx-auto mb-12 md:absolute md:top-[950px] xl:top-[1034px] md:left-[40px] xl:left-28 bg-white rounded-[16px] md:rounded-[18px] xl:rounded-[20px]">
-        <div className="relative w-full md:w-[704px] xl:w-[1220px] min-h-[134px] md:min-h-[164px] xl:h-[184px] rounded-[16px] md:rounded-[18px] xl:rounded-[20px] border-[3px] border-dashed border-[#efa3af]">
-          <p className="absolute top-[28px] md:top-[35px] xl:top-[49px] left-[16px] md:left-[40px] xl:left-[105px] right-[16px] md:right-[40px] xl:right-auto [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#efa3af] text-[20px] md:text-[48px] xl:text-[64px] text-center tracking-[0] leading-[32px] md:leading-[44px] xl:leading-[56px] px-2">
+      <div className="flex flex-col w-[calc(100%-32px)] md:w-[720px] xl:w-[1236px] min-h-[150px] md:min-h-[180px] xl:h-[200px] items-start gap-2.5 p-2 relative mx-auto mb-12 bg-white rounded-[16px] md:rounded-[18px] xl:rounded-[20px]">
+        <div className="relative w-full md:w-[704px] xl:w-[1220px] min-h-[134px] md:min-h-[164px] xl:h-[184px] rounded-[16px] md:rounded-[18px] xl:rounded-[20px] border-[3px] border-dashed border-[#efa3af] flex items-center justify-center">
+          <p className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#efa3af] text-[20px] md:text-[48px] xl:text-[64px] text-center tracking-[0] leading-[32px] md:leading-[44px] xl:leading-[56px] px-2">
             <span className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#efa3af] text-[20px] md:text-[48px] xl:text-[64px] tracking-[0] leading-[32px] md:leading-[44px] xl:leading-[56px]">
               mee クリニック
             </span>
             <span className="text-[16px] md:text-[32px] xl:text-[40px]">
               なら、
               <br className="md:hidden" />
-              すべてのお悩みを専門家がいつでも丁寧にサポートします。
+              すべてのお悩みを専門家が<br />
+              いつでも丁寧にサポートします。
             </span>
           </p>
         </div>
       </div>
 
       {/* 選ばれる理由セクション */}
-      <div className="flex flex-col w-full md:w-[800px] xl:w-[1441px] items-center gap-12 md:gap-16 xl:gap-20 relative md:absolute md:top-[1000px] xl:top-[1318px] left-0 md:left-[9px] xl:left-[9px] px-4 md:px-0 xl:px-0">
+      <div className="flex flex-col w-full md:w-[800px] xl:w-[1441px] items-center gap-12 md:gap-16 xl:gap-20 relative mt-12 md:mt-16 px-4 md:px-0 xl:px-0 mx-auto">
         <SectionTitle
           className="!self-stretch !flex-[0_0_auto] !bg-[unset] !w-full !top-[unset]"
           text="Reason"
@@ -214,7 +217,7 @@ export const Card = () => {
         <div className="flex flex-col w-full md:w-[700px] xl:w-[895px] items-center gap-8 md:gap-12 xl:gap-16 relative flex-[0_0_auto]">
           {/* 理由1 */}
           <div className="flex flex-col md:flex-row xl:flex-row items-center gap-6 md:gap-8 xl:gap-[57px] relative self-stretch w-full flex-[0_0_auto]">
-            <ReasonPc className="!left-[unset] !top-[unset] !w-full md:!w-auto" one="reason-1" />
+            <ReasonPc className="!left-[unset] !top-[unset]" one="reason-1" />
             <ReasonTextPc
               text2={
                 <>
@@ -232,7 +235,7 @@ export const Card = () => {
 
           {/* 理由2 */}
           <div className="flex flex-col md:flex-row-reverse xl:flex-row-reverse items-center gap-6 md:gap-8 xl:gap-[57px] relative self-stretch w-full flex-[0_0_auto]">
-            <ReasonPc className="!mr-0 md:!mr-[-2.00px] xl:!mr-[-2.00px] !left-[unset] !top-[unset] !w-full md:!w-auto" one="reason-2" />
+            <ReasonPc className="!mr-0 md:!mr-[-2.00px] xl:!mr-[-2.00px] !left-[unset] !top-[unset]" one="reason-2" />
             <ReasonTextPc
               text2={
                 <>
@@ -256,7 +259,7 @@ export const Card = () => {
 
           {/* 理由3 */}
           <div className="flex flex-col md:flex-row xl:flex-row items-center gap-6 md:gap-8 xl:gap-[57px] relative self-stretch w-full flex-[0_0_auto]">
-            <ReasonPc className="!left-[unset] !top-[unset] !w-full md:!w-auto" one="reason-3" />
+            <ReasonPc className="!left-[unset] !top-[unset]" one="reason-3" />
             <ReasonTextPc
               text2={
                 <>
@@ -273,7 +276,7 @@ export const Card = () => {
 
           {/* 理由4 */}
           <div className="flex flex-col md:flex-row-reverse xl:flex-row-reverse items-center gap-6 md:gap-8 xl:gap-[57px] relative self-stretch w-full flex-[0_0_auto]">
-            <ReasonPc className="!mr-0 md:!mr-[-2.00px] xl:!mr-[-2.00px] !left-[unset] !top-[unset] !w-full md:!w-auto" one="reason-4" />
+            <ReasonPc className="!mr-0 md:!mr-[-2.00px] xl:!mr-[-2.00px] !left-[unset] !top-[unset]" one="reason-4" />
             <ReasonTextPc
               text2={
                 <>
@@ -298,7 +301,7 @@ export const Card = () => {
 
           {/* 理由5 */}
           <div className="flex flex-col md:flex-row xl:flex-row items-center gap-6 md:gap-8 xl:gap-[57px] relative self-stretch w-full flex-[0_0_auto]">
-            <ReasonPc className="!left-[unset] !top-[unset] !w-full md:!w-auto" one="reason-5" />
+            <ReasonPc className="!left-[unset] !top-[unset]" one="reason-5" />
             <ReasonTextPc
               text2={
                 <>

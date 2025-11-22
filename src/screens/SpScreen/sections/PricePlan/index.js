@@ -1,1 +1,0 @@
-export { PricePlan } from "./PricePlan";

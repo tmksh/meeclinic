@@ -4,7 +4,7 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 */
 
 import PropTypes from "prop-types";
-import React from "react";
+import React, { useState } from "react";
 import { Logo } from "../Logo";
 
 export const Header = ({
@@ -15,6 +15,12 @@ export const Header = ({
   divClassName1,
   divClassName2,
 }) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div
       className={`flex w-full max-w-[1440px] items-center justify-between px-4 md:px-8 xl:px-[102px] py-4 md:py-4 xl:py-[22px] relative bg-white ${className}`}
@@ -27,8 +33,10 @@ export const Header = ({
             "brightness(0) saturate(100%) invert(80%) sepia(16%) saturate(1086%) hue-rotate(306deg) brightness(97%) contrast(96%)",
         }}
       />
-      <div className="inline-flex items-center gap-4 md:gap-6 xl:gap-14 relative flex-[0_0_auto]">
-        <div className="hidden xl:inline-flex items-center gap-[30px] relative flex-[0_0_auto]">
+
+      {/* Desktop Menu */}
+      <div className="hidden xl:inline-flex items-center gap-4 md:gap-6 xl:gap-14 relative flex-[0_0_auto]">
+        <div className="inline-flex items-center gap-[30px] relative flex-[0_0_auto]">
           <div className="inline-flex items-end gap-2.5 relative flex-[0_0_auto]">
             <div
               className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base text-center tracking-[2.40px] leading-[normal] whitespace-nowrap ${divClassName}`}
@@ -100,6 +108,48 @@ export const Header = ({
                 alt="Vector"
                 src="/img/vector-7-4.svg"
               />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Menu Button (Hamburger) */}
+      <div className="xl:hidden z-50 relative w-6 h-5 cursor-pointer" onClick={toggleMenu}>
+        <span className={`absolute left-0 block w-full h-0.5 bg-[#333] transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-1/2 -translate-y-1/2 rotate-45' : 'top-0'}`} />
+        <span className={`absolute left-0 top-1/2 -translate-y-1/2 block w-full h-0.5 bg-[#333] transition-opacity duration-300 ease-in-out ${isMenuOpen ? 'opacity-0' : 'opacity-100'}`} />
+        <span className={`absolute left-0 block w-full h-0.5 bg-[#333] transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-1/2 -translate-y-1/2 -rotate-45' : 'bottom-0'}`} />
+      </div>
+
+      {/* Mobile Menu Overlay */}
+      <div
+        className={`fixed inset-0 bg-white z-40 flex flex-col items-center justify-center gap-8 transition-transform duration-300 ease-in-out ${
+          isMenuOpen ? "translate-x-0" : "translate-x-full"
+        }`}
+        style={{ transform: isMenuOpen ? 'translateX(0)' : 'translateX(100%)' }}
+      >
+        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333] text-lg tracking-[2.40px] cursor-pointer" onClick={toggleMenu}>
+          クリニックについて
+        </div>
+        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333] text-lg tracking-[2.40px] cursor-pointer" onClick={toggleMenu}>
+          選ばれる理由
+        </div>
+        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333] text-lg tracking-[2.40px] cursor-pointer" onClick={toggleMenu}>
+          料金
+        </div>
+        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333] text-lg tracking-[2.40px] cursor-pointer" onClick={toggleMenu}>
+          豆知識
+        </div>
+        
+        <div className="flex flex-col gap-4 mt-4">
+          <div className="flex items-center gap-2.5 px-4 py-3 bg-white rounded-[45.5px] border border-solid border-[#efa3af] cursor-pointer" onClick={toggleMenu}>
+            <div className="[font-family:'Noto_Serif_JP',Helvetica] font-bold text-[#efa3af] text-sm text-center">
+              薬品はこちら
+            </div>
+          </div>
+          
+          <div className="flex items-center justify-center w-[205px] h-[45px] bg-[#efa3af] rounded-[45.5px] cursor-pointer" onClick={toggleMenu}>
+            <div className="[font-family:'Noto_Serif_JP',Helvetica] font-bold text-white text-sm text-center">
+              オンライン診療はこちら
             </div>
           </div>
         </div>

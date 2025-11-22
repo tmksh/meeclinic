@@ -10,7 +10,7 @@ export const Component1970 = ({ className }) => {
     <div
       className={`relative w-[363px] h-[172px] bg-white border-[5px] border-solid border-[#efa3af] ${className}`}
     >
-      <div className="absolute w-[72.45%] h-[23.26%] top-[25.58%] left-[13.77%] [font-family:'Inter',Helvetica] font-bold text-[#333333] text-[33px] text-center tracking-[0] leading-[normal]">
+      <div className="absolute w-[72.45%] h-[23.26%] top-[25.58%] left-[13.77%] [font-family:'Inter',Helvetica] font-bold text-[#555555] text-[33px] text-center tracking-[0] leading-[normal]">
         キャンペーン情報
       </div>
 

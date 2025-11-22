@@ -2,24 +2,22 @@ import React from "react";
 
 export const ViewWrapper = () => {
   return (
-    <div className="relative w-full h-auto md:absolute md:top-[15955px] md:left-0 md:w-[1446px] md:h-[452px] z-30">
+    <div className="relative w-full h-auto md:w-[1446px] max-w-full mx-auto mt-12 md:mt-20 z-30 overflow-hidden">
       <img
-        className="relative md:absolute top-0 left-0 w-full h-auto md:h-[452px] object-cover"
+        className="absolute top-0 left-0 w-full h-full object-cover object-[30%_10%] md:object-center -z-10"
         alt="Group"
         src="/img/group-141.png"
       />
 
-      <div className="flex flex-col w-full md:w-[600px] items-center gap-3 relative md:absolute mt-8 md:mt-0 md:top-[88px] md:left-[576px] px-4 md:px-0 pb-12 md:pb-0">
-        <div className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-[var(--)] text-2xl md:text-[40px] tracking-[0] leading-[1.4] md:leading-[48.0px] text-center md:text-left">
-          多くの女性に選ばれ、
-          <br />
-          相談が日々スタートしています。
+      <div className="flex flex-col w-full md:w-[600px] items-end md:items-start gap-3 relative md:ml-[576px] pt-[200px] md:pt-[88px] px-4 md:px-0 pb-4 md:pb-0">
+        <div className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-white md:text-[var(--)] text-lg md:text-[40px] tracking-[0] leading-[1.4] md:leading-[48.0px] text-right md:text-left drop-shadow-md md:drop-shadow-none whitespace-nowrap">
+          多くの女性に選ばれ、相談が日々スタートしています。
         </div>
 
-        <div className="inline-flex flex-col md:flex-row items-center gap-6 relative flex-[0_0_auto] mt-8 md:mt-0">
+        <div className="flex flex-col md:flex-row items-end md:items-center justify-center gap-4 md:gap-6 relative flex-[0_0_auto] mt-4 md:mt-0 w-full md:w-auto">
           {/* Stat Circle 1 */}
           <div className="relative w-[200px] h-[199.16px]">
-            <div className="absolute top-[21px] left-[21px] w-[158px] h-[158px] bg-[var(--)] rounded-[79px] blur-[14px]" />
+            <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(closest-side,rgba(255,255,255,1)_50%,rgba(255,255,255,0)_100%)] opacity-100 blur-xl" />
 
             <img
               className="absolute top-0 left-0 w-[200px] h-[199px] aspect-[1] object-cover"
@@ -50,7 +48,7 @@ export const ViewWrapper = () => {
 
           {/* Stat Circle 2 */}
           <div className="relative w-[200px] h-[199.16px]">
-            <div className="absolute top-[21px] left-[21px] w-[158px] h-[158px] bg-[var(--)] rounded-[79px] blur-[14px]" />
+            <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(closest-side,rgba(255,255,255,1)_50%,rgba(255,255,255,0)_100%)] opacity-100 blur-xl" />
 
             <img
               className="absolute top-0 left-0 w-[200px] h-[199px] aspect-[1] object-cover"

@@ -4,7 +4,7 @@ import { SectionTitle } from "../../../../components/SectionTitle";
 
 export const PricePlan = () => {
   return (
-    <div className="flex flex-col w-full max-w-[1441px] items-center gap-12 md:gap-16 xl:gap-[123px] relative md:absolute md:top-[9000px] xl:top-[6465px] left-0 px-4 md:px-8 xl:px-0 z-15">
+    <div className="flex flex-col w-full max-w-[1441px] items-center gap-12 md:gap-16 xl:gap-[123px] relative mt-12 md:mt-20 px-4 md:px-8 xl:px-0 z-15 mx-auto">
       <SectionTitle
         className="!self-stretch !flex-[0_0_auto] !w-full !top-[unset]"
         text="Price &amp; Plan"
@@ -15,7 +15,7 @@ export const PricePlan = () => {
           {/* ピル */}
           <div className="flex flex-col items-center justify-center gap-6 md:gap-8 xl:gap-10 pt-12 md:pt-14 xl:pt-16 pb-8 md:pb-9 xl:pb-10 px-2 md:px-4 xl:px-px relative self-stretch w-full flex-[0_0_auto] bg-[#f9f2f4]">
             <div className="flex flex-col w-full max-w-[875px] items-center gap-6 md:gap-8 xl:gap-10 relative flex-[0_0_auto]">
-              <div className="flex flex-col md:flex-row xl:flex-row items-center md:items-center xl:items-center gap-6 md:gap-6 xl:gap-10 relative self-stretch w-full flex-[0_0_auto]">
+              <div className="flex flex-col md:flex-row xl:flex-row items-center md:items-center xl:items-center justify-center gap-6 md:gap-6 xl:gap-10 relative self-stretch w-full flex-[0_0_auto]">
                 <div className="flex flex-col w-full max-w-[200px] md:max-w-[200px] xl:w-[265px] items-center gap-4 md:gap-4 xl:gap-5 relative">
                   <img
                     className="relative w-[160px] h-[213px] md:w-[160px] md:h-[213px] xl:w-[211px] xl:h-[281px] aspect-[0.75] object-cover"
@@ -24,7 +24,7 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333333] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9">
                       低用量
                     </div>
 
@@ -42,7 +42,7 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333333] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9">
                       中用量
                     </div>
 
@@ -60,7 +60,7 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333333] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9">
                       アフターピル
                     </div>
 
@@ -119,7 +119,7 @@ export const PricePlan = () => {
           {/* 肌治療 */}
           <div className="flex flex-col items-center justify-center gap-6 md:gap-8 xl:gap-10 pt-12 md:pt-14 xl:pt-16 pb-8 md:pb-9 xl:pb-10 px-2 md:px-4 xl:px-px relative self-stretch w-full flex-[0_0_auto] bg-[#f9f2f4]">
             <div className="flex flex-col w-full max-w-[875px] items-center gap-6 md:gap-8 xl:gap-10 relative flex-[0_0_auto]">
-              <div className="flex flex-col md:flex-row xl:flex-row items-center md:items-center xl:items-center gap-6 md:gap-6 xl:gap-10 relative self-stretch w-full flex-[0_0_auto]">
+              <div className="flex flex-col md:flex-row xl:flex-row items-center md:items-center xl:items-center justify-center gap-6 md:gap-6 xl:gap-10 relative self-stretch w-full flex-[0_0_auto]">
                 <div className="flex flex-col w-full max-w-[200px] md:max-w-[200px] xl:w-[265px] items-center gap-4 md:gap-4 xl:gap-5 relative">
                   <img
                     className="relative w-[160px] h-[213px] md:w-[160px] md:h-[213px] xl:w-[211px] xl:h-[281px] aspect-[0.75] object-cover"
@@ -128,7 +128,7 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333333] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
                       ニキビ治療
                     </div>
 
@@ -146,7 +146,7 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333333] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
                       シミ治療
                     </div>
 
@@ -164,7 +164,7 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333333] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9">
                       毛穴治療
                     </div>
 
@@ -241,7 +241,7 @@ export const PricePlan = () => {
                 <div className="flex items-center justify-center gap-10 md:gap-16 xl:gap-20 relative self-stretch w-full flex-[0_0_auto]">
                   <div className="flex flex-col items-center gap-4 md:gap-4 xl:gap-5 relative">
                     <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                      <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333333] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
+                      <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
                         不眠症
                       </div>
 
@@ -279,7 +279,7 @@ export const PricePlan = () => {
           <div className="flex flex-col items-start gap-2.5 relative self-stretch w-full flex-[0_0_auto]">
             <div className="flex flex-col items-center justify-center gap-4 md:gap-6 xl:gap-2.5 pt-12 md:pt-14 xl:pt-16 pb-8 md:pb-9 xl:pb-10 px-2 md:px-4 xl:px-px relative self-stretch w-full flex-[0_0_auto] bg-[#f9f2f4]">
               <div className="flex flex-col w-full max-w-[875px] items-center gap-6 md:gap-8 xl:gap-10 relative flex-[0_0_auto]">
-                <div className="flex flex-col md:flex-row xl:flex-row items-center md:items-center xl:items-center gap-6 md:gap-6 xl:gap-10 relative self-stretch w-full flex-[0_0_auto]">
+                <div className="flex flex-col md:flex-row xl:flex-row items-center md:items-center xl:items-center justify-center gap-6 md:gap-6 xl:gap-10 relative self-stretch w-full flex-[0_0_auto]">
                   <div className="flex flex-col w-full max-w-[200px] md:max-w-[200px] xl:w-[265px] items-center gap-4 md:gap-4 xl:gap-5 relative">
                     <div className="relative w-[160px] h-[213px] md:w-[160px] md:h-[213px] xl:w-[211px] xl:h-[281px] bg-white">
                       <div className="absolute top-[119px] md:top-[119px] xl:top-[157px] left-2 w-[144px] md:w-[144px] xl:w-[196px] h-2.5 bg-[#d9d9d9] rounded-[98px/5px] blur-[4.5px]" />
@@ -292,7 +292,7 @@ export const PricePlan = () => {
                     </div>
 
                     <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                      <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333333] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
+                      <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
                         ゼオスキン
                       </div>
 
@@ -316,7 +316,7 @@ export const PricePlan = () => {
                     </div>
 
                     <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                      <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333333] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
+                      <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
                         MDEAR
                       </div>
 
@@ -336,7 +336,7 @@ export const PricePlan = () => {
                     </div>
 
                     <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                      <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333333] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
+                      <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-9 whitespace-nowrap">
                         GAUDI SKIN
                       </div>
 

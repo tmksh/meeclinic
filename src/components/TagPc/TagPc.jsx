@@ -9,10 +9,10 @@ import React from "react";
 export const TagPc = ({ prop = "ニキビ", className, divClassName }) => {
   return (
     <div
-      className={`inline-flex items-center justify-center gap-2.5 px-[18px] py-3 relative top-[6673px] left-[139px] bg-white rounded-lg border border-solid border-[var(--)] ${className}`}
+      className={`inline-flex items-center justify-center gap-2.5 px-[18px] py-3 relative top-[6673px] left-[139px] bg-white rounded-lg border border-solid border-[#efa3af] ${className}`}
     >
       <div
-        className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-xl tracking-[0] leading-[36.0px] whitespace-nowrap ${divClassName}`}
+        className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#c76f7e] text-xl tracking-[0] leading-[36.0px] whitespace-nowrap ${divClassName}`}
       >
         {prop}
       </div>

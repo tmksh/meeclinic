@@ -21,36 +21,7 @@ import { Voice } from "./sections/Voice";
 
 export const PcScreen = () => {
   return (
-    <div
-      className="bg-white overflow-hidden w-full min-w-[1440px] min-h-[17271px] relative"
-      data-model-id="933:18755"
-    >
-      <VerticalContainer />
-      <Card />
-      <Feature />
-      <PricePlan />
-      <Flow />
-      <div className="absolute top-[13724px] left-[calc(50.00%_-_721px)] w-[1440px] h-[1764px] bg-[var(--)]" />
-
-      <View />
-      <div className="absolute top-[12190px] left-[calc(50.00%_-_720px)] w-[1440px] h-[700px] bg-[var(--)]" />
-
-      <div className="absolute top-[12890px] left-[calc(50.00%_-_723px)] w-[1446px] h-[989px]">
-        <img
-          className="absolute top-[396px] left-[calc(50.00%_-_720px)] w-[1440px] h-[593px]"
-          alt="Bg"
-          src="/img/bg.svg"
-        />
-
-        <div className="absolute top-0 left-[calc(50.00%_-_720px)] w-[1440px] h-[452px] bg-x-100" />
-      </div>
-
-      <Voice />
-      <Cta />
-      <FooterPc />
-      <QA />
-      <ViewWrapper />
-      <Frame />
+    <div className="bg-white w-full relative flex flex-col items-center overflow-x-hidden">
       <Header
         className="!absolute !left-0 !top-0 !z-50"
         divClassName="![white-space:unset]"
@@ -59,12 +30,25 @@ export const PcScreen = () => {
         divClassNameOverride="![white-space:unset]"
         logoGroup="/img/group-97-4.png"
       />
+
       <Fv />
+      <Slider />
       <CtaWrapper />
+      <VerticalContainer />
+      <Card />
+      <Feature />
+      <PricePlan />
+      <Flow />
+      <View />
       <Group />
       <GroupWrapper />
-
-      <Slider />
+      <Voice />
+      <QA />
+      <ViewWrapper />
+      <Frame />
+      <Cta />
+      <CtaWrapper />
+      <FooterPc />
     </div>
   );
 };

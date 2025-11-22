@@ -10,7 +10,7 @@ import { Pc6 } from "../../../../icons/Pc6";
 
 export const Voice = () => {
   return (
-    <div className="w-full max-w-[1441px] items-center relative md:absolute md:top-[14400px] xl:top-[14400px] left-0 flex flex-col gap-6 md:gap-8 xl:gap-10 px-0 md:px-8 xl:px-0 z-20">
+    <div className="w-full max-w-[1441px] items-center relative mt-12 md:mt-20 left-0 flex flex-col gap-6 md:gap-8 xl:gap-10 px-0 md:px-8 xl:px-0 z-20 mx-auto">
       <SectionTitle
         className="!self-stretch !flex-[0_0_auto] !w-full !top-[unset] px-4 md:px-0"
         divClassName="!font-normal"

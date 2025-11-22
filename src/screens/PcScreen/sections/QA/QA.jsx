@@ -4,7 +4,7 @@ import { SectionTitle } from "../../../../components/SectionTitle";
 
 export const QA = () => {
   return (
-    <div className="flex flex-col w-full max-w-[1441px] items-center gap-10 md:gap-10 xl:gap-16 relative md:absolute md:top-[15000px] xl:top-[15000px] md:-left-px px-4 md:px-8 xl:px-0 z-20">
+    <div className="flex flex-col w-full max-w-[1441px] items-center gap-10 md:gap-10 xl:gap-16 relative mt-12 md:mt-20 px-4 md:px-8 xl:px-0 z-20 mx-auto">
       <SectionTitle
         className="!self-stretch !flex-[0_0_auto] !w-full !top-[unset]"
         divClassName="!font-normal"
