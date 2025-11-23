@@ -249,7 +249,7 @@ export const View = () => {
         </div>
 
         {/* Title Section */}
-        <div className="relative w-full md:w-auto mb-8 md:mb-0 text-center md:text-left z-10 md:ml-[102px] pt-0 md:pt-[124px] mt-[-80px] md:mt-0">
+        <div className="relative w-full md:w-auto mb-8 md:mb-0 text-center md:text-left z-10 md:ml-[102px] pt-0 md:pt-[250px] mt-[-80px] md:mt-0">
           <p className="[font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#555555] text-[28px] md:text-[40px] leading-[1.4] md:leading-[normal]">
             <span className="text-[#6b6b6b] tracking-[0]">日本</span>
             <span className="text-[#6b6b6b] tracking-[-6.72px]">は</span>

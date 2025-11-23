@@ -8,7 +8,7 @@ export const Group = () => {
 
       <div className="flex flex-col w-full items-center md:block relative">
         {/* Title */}
-        <div className="relative md:ml-[618px] [font-family:'Noto_Serif',Helvetica] font-medium text-[#ffffffa6] text-[120px] md:text-[300px] tracking-[0] leading-[normal] text-center md:text-left">
+        <div className="relative md:ml-[618px] md:mt-[-80px] [font-family:'Noto_Serif',Helvetica] font-medium text-[#ffffffa6] text-[120px] md:text-[300px] tracking-[0] leading-[normal] text-center md:text-left">
           Skin
         </div>
 
