@@ -15,12 +15,15 @@ export const BtnPc = ({ className }) => {
           ご購入はこちら
         </div>
 
-        <div className="absolute right-4 md:right-4 xl:right-[18px] w-[30px] h-[30px] md:w-6 md:h-6 xl:w-[30px] xl:h-[30px] bg-[#EFA3AF] rounded-[15px]">
-          <img
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3.5 h-[17px] md:w-3 md:h-[14px] xl:w-3.5 xl:h-[17px] brightness-0 invert"
-            alt="Vector"
-            src="/img/vector-7-5.svg"
-          />
+        <div className="absolute right-4 md:right-4 xl:right-[18px] w-[30px] h-[30px] md:w-6 md:h-6 xl:w-[30px] xl:h-[30px] bg-[#EFA3AF] rounded-full flex items-center justify-center">
+          <svg
+            className="w-3 h-3 md:w-2.5 md:h-2.5 xl:w-3 xl:h-3 ml-0.5"
+            viewBox="0 0 14 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M14 8L0.5 15.7942L0.5 0.205771L14 8Z" fill="white" />
+          </svg>
         </div>
       </div>
     </a>

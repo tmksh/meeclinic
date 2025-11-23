@@ -57,9 +57,9 @@ export const FooterPcWrapper = ({
               豆知識
             </div>
 
-            <div className="hidden xl:block relative row-[1_/_2] col-[3_/_4] w-[135px] h-[18px] font-normal text-[#333333] text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
+            <a href="https://meeclinic0903.netlify.app/app/legal" className="hidden xl:block relative row-[1_/_2] col-[3_/_4] w-[135px] h-[18px] font-normal text-[#333333] text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] hover:opacity-70">
               利用規約
-            </div>
+            </a>
 
             <div className="relative row-[2_/_3] col-[1_/_2] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
               クリニックについて
@@ -69,9 +69,9 @@ export const FooterPcWrapper = ({
               ご利用の流れ
             </div>
 
-            <div className="hidden xl:block relative row-[2_/_3] col-[3_/_4] w-[135px] h-[18px] font-normal text-[#333333] text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
+            <a href="https://meeclinic0903.netlify.app/app/legal" className="hidden xl:block relative row-[2_/_3] col-[3_/_4] w-[135px] h-[18px] font-normal text-[#333333] text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] hover:opacity-70">
               個人情報保護方針
-            </div>
+            </a>
 
             <div className="relative row-[3_/_4] col-[1_/_2] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
               選ばれる理由
@@ -81,9 +81,9 @@ export const FooterPcWrapper = ({
               口コミ
             </div>
 
-            <div className="hidden xl:block relative row-[3_/_4] col-[3_/_4] w-[180px] h-[18px] font-normal text-[#333333] text-[15px] whitespace-nowrap [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
+            <a href="https://meeclinic0903.netlify.app/app/legal" className="hidden xl:block relative row-[3_/_4] col-[3_/_4] w-[180px] h-[18px] font-normal text-[#333333] text-[15px] whitespace-nowrap [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] hover:opacity-70">
               特定商取引法に基づく表記
-            </div>
+            </a>
 
             <div className="relative row-[4_/_5] col-[1_/_2] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
               料金プラン
@@ -93,21 +93,21 @@ export const FooterPcWrapper = ({
               よくある質問
             </div>
 
-            <div className="hidden xl:block relative row-[4_/_5] col-[3_/_4] w-[150px] h-[18px] font-normal text-[#333333] text-[15px] whitespace-nowrap [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
+            <a href="https://meeclinic0903.netlify.app/app/legal" className="hidden xl:block relative row-[4_/_5] col-[3_/_4] w-[150px] h-[18px] font-normal text-[#333333] text-[15px] whitespace-nowrap [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] hover:opacity-70">
               プライバシーポリシー
-            </div>
+            </a>
 
-            <div className="block xl:hidden relative row-[5_/_6] col-[1_/_2] w-full md:w-full h-[18px] font-normal text-[#333333] text-sm md:text-sm [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
+            <a href="https://meeclinic0903.netlify.app/app/legal" className="block xl:hidden relative row-[5_/_6] col-[1_/_2] w-full md:w-full h-[18px] font-normal text-[#333333] text-sm md:text-sm [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] hover:opacity-70">
               利用規約
-            </div>
+            </a>
 
-            <div className="block xl:hidden relative row-[5_/_6] col-[2_/_3] w-full md:w-full h-[18px] font-normal text-[#333333] text-sm md:text-sm [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
+            <a href="https://meeclinic0903.netlify.app/app/legal" className="block xl:hidden relative row-[5_/_6] col-[2_/_3] w-full md:w-full h-[18px] font-normal text-[#333333] text-sm md:text-sm [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] hover:opacity-70">
               個人情報保護方針
-            </div>
+            </a>
 
-            <div className="block xl:hidden relative row-[6_/_7] col-[1_/_3] w-full md:w-full h-[18px] font-normal text-[#333333] text-sm md:text-sm [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
+            <a href="https://meeclinic0903.netlify.app/app/legal" className="block xl:hidden relative row-[6_/_7] col-[1_/_3] w-full md:w-full h-[18px] font-normal text-[#333333] text-sm md:text-sm [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] hover:opacity-70">
               特定商取引法に基づく表記
-            </div>
+            </a>
           </div>
         </div>
       </div>
