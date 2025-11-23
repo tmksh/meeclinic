@@ -36,11 +36,13 @@ export const Card = () => {
       </div>
       
       {/* PC版画像 */}
-      <img
-        className="hidden md:block absolute top-[110px] md:top-[140px] xl:top-[152px] left-0 w-full max-w-[1440px] mx-auto right-0 h-[600px] md:h-[720px] xl:h-[861px]"
-        alt="Switch"
-        src="/img/switch.png"
-      />
+      <div className="hidden md:block absolute top-[110px] md:top-[140px] xl:top-[152px] left-0 w-full max-w-[1440px] mx-auto right-0 h-[600px] md:h-[720px] xl:h-[861px] overflow-hidden">
+        <img
+          className="w-full h-full object-cover object-center"
+          alt="Switch"
+          src="/img/switch.png"
+        />
+      </div>
       
       {/* Second BG Layer */}
       <img
@@ -50,7 +52,7 @@ export const Card = () => {
       />
       
       {/* PC版タイトル */}
-      <div className="hidden md:block relative mt-[200px] xl:mt-[249px] w-full max-w-[1440px] mx-auto px-4 md:px-[calc(50%-350px)] xl:px-[calc(50%-402px)] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#333333] text-[48px] xl:text-[64px] tracking-[1.5px] xl:tracking-[1.92px] leading-[normal] text-left xl:text-left z-20">
+      <div className="hidden md:block relative mt-[200px] xl:mt-[249px] w-full max-w-[1440px] mx-auto px-4 md:px-[calc(50%-350px)] xl:px-[calc(50%-402px)] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#333333] text-[48px] lg:text-[56px] xl:text-[64px] tracking-[1.5px] xl:tracking-[1.92px] leading-[normal] text-left xl:text-left z-20">
         こんなお悩みありませんか？
       </div>
 
@@ -64,8 +66,8 @@ export const Card = () => {
         
         {/* タイトル - 画像の上部中央に配置 */}
         <div className="absolute top-6 left-0 w-full px-4 z-30">
-          <div className="[font-family:'Noto_Serif_JP',Helvetica] font-semibold text-white text-[24px] tracking-[1.2px] leading-[1.4] text-left drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] pl-56">
-            こんなお悩み<br />ありませんか？
+          <div className="[font-family:'Noto_Serif_JP',Helvetica] font-semibold text-white text-[24px] tracking-[1.2px] leading-[1.4] text-left drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] pl-28 whitespace-nowrap">
+            こんなお悩みありませんか？
           </div>
         </div>
         
@@ -94,7 +96,7 @@ export const Card = () => {
           </div>
           
           {/* 中央（女性の上） */}
-          <div className="absolute top-[45%] left-1/2 -translate-x-1/2 w-[120px] h-[120px] flex items-center justify-center">
+          <div className="absolute top-[45%] left-[48%] -translate-x-1/2 w-[120px] h-[120px] flex items-center justify-center">
             <div className="relative w-full h-full bg-[#d89da6cc] rounded-full backdrop-blur-sm p-1">
               <div className="relative w-full h-full rounded-full border-[1.5px] border-dashed border-white flex items-center justify-center">
                 <div className="text-white text-[9px] font-medium text-center leading-[1.3] px-1">
@@ -129,11 +131,11 @@ export const Card = () => {
       </div>
       
       {/* PC用悩みサークル (スマホでは非表示) */}
-      <div className="hidden md:flex relative mt-[100px] w-full max-w-[1440px] mx-auto h-auto md:min-h-[380px] xl:h-[415px] flex-col md:flex-row xl:flex-row md:flex-wrap xl:flex-nowrap gap-6 md:gap-0 xl:gap-0 justify-center">
+      <div className="hidden md:flex relative mt-[100px] w-full max-w-[1440px] mx-auto h-auto md:min-h-[380px] lg:h-[400px] xl:h-[415px] flex-col md:flex-row xl:flex-row md:flex-wrap xl:flex-nowrap gap-6 md:gap-0 xl:gap-0 justify-center">
         {/* 悩み1 */}
-        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[35px] xl:px-[49px] py-16 md:py-[70px] xl:py-[91px] relative">
-          <div className="absolute top-0 left-0 w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] bg-[#d89da6d9] rounded-[100px] md:rounded-[100px] xl:rounded-[133.5px]">
-            <div className="relative top-[7px] md:top-[7px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] xl:w-[250px] h-[186px] md:h-[186px] xl:h-[250px] rounded-[93px] md:rounded-[93px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
+        <div className="flex flex-col w-full md:w-[200px] lg:w-[230px] xl:w-[267px] h-[200px] md:h-[200px] lg:h-[230px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[35px] xl:px-[49px] py-16 md:py-[70px] xl:py-[91px] relative">
+          <div className="absolute top-0 left-0 w-full md:w-[200px] lg:w-[230px] xl:w-[267px] h-[200px] md:h-[200px] lg:h-[230px] xl:h-[267px] bg-[#d89da6d9] rounded-[100px] md:rounded-[100px] lg:rounded-[115px] xl:rounded-[133.5px]">
+            <div className="relative top-[7px] md:top-[7px] lg:top-[8px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] lg:w-[216px] xl:w-[250px] h-[186px] md:h-[186px] lg:h-[216px] xl:h-[250px] rounded-[93px] md:rounded-[93px] lg:rounded-[108px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
           </div>
           <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base md:text-lg xl:text-xl text-center tracking-[0] leading-[28px] md:leading-[32px] xl:leading-[38px] z-10">
             生理前のつらい症状や<br />避妊の不安
@@ -141,9 +143,9 @@ export const Card = () => {
         </div>
 
         {/* 悩み2 */}
-        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[26px] xl:px-[35px] py-16 md:py-[55px] xl:py-[74px] relative mt-6 md:mt-12">
-          <div className="absolute top-0 left-0 w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] bg-[#b9737fd9] rounded-[100px] md:rounded-[100px] xl:rounded-[133.5px]">
-            <div className="relative top-[7px] md:top-[7px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] xl:w-[250px] h-[186px] md:h-[186px] xl:h-[250px] rounded-[93px] md:rounded-[93px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
+        <div className="flex flex-col w-full md:w-[200px] lg:w-[230px] xl:w-[267px] h-[200px] md:h-[200px] lg:h-[230px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[26px] xl:px-[35px] py-16 md:py-[55px] xl:py-[74px] relative mt-6 md:mt-12 lg:mt-16">
+          <div className="absolute top-0 left-0 w-full md:w-[200px] lg:w-[230px] xl:w-[267px] h-[200px] md:h-[200px] lg:h-[230px] xl:h-[267px] bg-[#b9737fd9] rounded-[100px] md:rounded-[100px] lg:rounded-[115px] xl:rounded-[133.5px]">
+            <div className="relative top-[7px] md:top-[7px] lg:top-[8px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] lg:w-[216px] xl:w-[250px] h-[186px] md:h-[186px] lg:h-[216px] xl:h-[250px] rounded-[93px] md:rounded-[93px] lg:rounded-[108px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
           </div>
           <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base md:text-lg xl:text-xl text-center tracking-[0] leading-[28px] md:leading-[32px] xl:leading-[38px] z-10 whitespace-nowrap">
             繰り返す肌荒れやニキビ
@@ -151,9 +153,9 @@ export const Card = () => {
         </div>
 
         {/* 悩み3 */}
-        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[19px] xl:px-[26px] py-16 md:py-[70px] xl:py-[93px] relative">
-          <div className="absolute top-0 left-0 w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] bg-[#b9737fd9] rounded-[100px] md:rounded-[100px] xl:rounded-[133.5px]">
-            <div className="relative top-[7px] md:top-[7px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] xl:w-[250px] h-[186px] md:h-[186px] xl:h-[250px] rounded-[93px] md:rounded-[93px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
+        <div className="flex flex-col w-full md:w-[200px] lg:w-[230px] xl:w-[267px] h-[200px] md:h-[200px] lg:h-[230px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[19px] xl:px-[26px] py-16 md:py-[70px] xl:py-[93px] relative">
+          <div className="absolute top-0 left-0 w-full md:w-[200px] lg:w-[230px] xl:w-[267px] h-[200px] md:h-[200px] lg:h-[230px] xl:h-[267px] bg-[#b9737fd9] rounded-[100px] md:rounded-[100px] lg:rounded-[115px] xl:rounded-[133.5px]">
+            <div className="relative top-[7px] md:top-[7px] lg:top-[8px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] lg:w-[216px] xl:w-[250px] h-[186px] md:h-[186px] lg:h-[216px] xl:h-[250px] rounded-[93px] md:rounded-[93px] lg:rounded-[108px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
           </div>
           <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base md:text-lg xl:text-xl text-center tracking-[0] leading-[28px] md:leading-[32px] xl:leading-[38px] z-10">
             忙しくて<br />病院に行く時間がない
@@ -161,9 +163,9 @@ export const Card = () => {
         </div>
 
         {/* 悩み4 */}
-        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[26px] xl:px-[35px] py-12 md:py-10 xl:py-14 relative mt-6 md:mt-24">
-          <div className="absolute top-0 left-0 md:left-0 xl:left-0 w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] bg-[#d89da6d9] rounded-[100px] md:rounded-[100px] xl:rounded-[133.5px]">
-            <div className="relative top-[7px] md:top-[7px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] xl:w-[250px] h-[186px] md:h-[186px] xl:h-[250px] rounded-[93px] md:rounded-[93px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
+        <div className="flex flex-col w-full md:w-[200px] lg:w-[230px] xl:w-[267px] h-[200px] md:h-[200px] lg:h-[230px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[26px] xl:px-[35px] py-12 md:py-10 xl:py-14 relative mt-6 md:mt-24 lg:mt-32">
+          <div className="absolute top-0 left-0 md:left-0 xl:left-0 w-full md:w-[200px] lg:w-[230px] xl:w-[267px] h-[200px] md:h-[200px] lg:h-[230px] xl:h-[267px] bg-[#d89da6d9] rounded-[100px] md:rounded-[100px] lg:rounded-[115px] xl:rounded-[133.5px]">
+            <div className="relative top-[7px] md:top-[7px] lg:top-[8px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] lg:w-[216px] xl:w-[250px] h-[186px] md:h-[186px] lg:h-[216px] xl:h-[250px] rounded-[93px] md:rounded-[93px] lg:rounded-[108px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
           </div>
           <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base md:text-lg xl:text-xl text-center tracking-[0] leading-[28px] md:leading-[32px] xl:leading-[38px] z-10">
             「なんとなく不安」<br />「眠れない」<br />といったメンタルの不調
@@ -171,9 +173,9 @@ export const Card = () => {
         </div>
 
         {/* 悩み5 */}
-        <div className="flex flex-col w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[16px] xl:px-[21px] py-16 md:py-[60px] xl:py-20 relative mt-6 md:mt-12">
-          <div className="absolute top-0 left-0 w-full md:w-[200px] xl:w-[267px] h-[200px] md:h-[200px] xl:h-[267px] bg-[#d89da6d9] rounded-[100px] md:rounded-[100px] xl:rounded-[133.5px]">
-            <div className="relative top-[7px] md:top-[7px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] xl:w-[250px] h-[186px] md:h-[186px] xl:h-[250px] rounded-[93px] md:rounded-[93px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
+        <div className="flex flex-col w-full md:w-[200px] lg:w-[230px] xl:w-[267px] h-[200px] md:h-[200px] lg:h-[230px] xl:h-[267px] items-center justify-center gap-2.5 px-8 md:px-[16px] xl:px-[21px] py-16 md:py-[60px] xl:py-20 relative mt-6 md:mt-12 lg:mt-16">
+          <div className="absolute top-0 left-0 w-full md:w-[200px] lg:w-[230px] xl:w-[267px] h-[200px] md:h-[200px] lg:h-[230px] xl:h-[267px] bg-[#d89da6d9] rounded-[100px] md:rounded-[100px] lg:rounded-[115px] xl:rounded-[133.5px]">
+            <div className="relative top-[7px] md:top-[7px] lg:top-[8px] xl:top-[9px] left-2 w-[calc(100%-16px)] md:w-[186px] lg:w-[216px] xl:w-[250px] h-[186px] md:h-[186px] lg:h-[216px] xl:h-[250px] rounded-[93px] md:rounded-[93px] lg:rounded-[108px] xl:rounded-[125px] border-[3px] border-dashed border-[var(--)]" />
           </div>
           <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base md:text-lg xl:text-xl text-center tracking-[0] leading-[28px] md:leading-[32px] xl:leading-[38px] z-10">
             誰にも知られずに<br />相談したい
@@ -190,13 +192,13 @@ export const Card = () => {
       </div>
 
       {/* メッセージボックス (Swapped order for mobile flow) */}
-      <div className="flex flex-col w-[calc(100%-32px)] md:w-[720px] xl:w-[1236px] min-h-[150px] md:min-h-[180px] xl:h-[200px] items-start gap-2.5 p-2 relative mx-auto mb-12 bg-white rounded-[16px] md:rounded-[18px] xl:rounded-[20px]">
-        <div className="relative w-full md:w-[704px] xl:w-[1220px] min-h-[134px] md:min-h-[164px] xl:h-[184px] rounded-[16px] md:rounded-[18px] xl:rounded-[20px] border-[3px] border-dashed border-[#efa3af] flex items-center justify-center">
-          <p className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#efa3af] text-[20px] md:text-[48px] xl:text-[64px] text-center tracking-[0] leading-[32px] md:leading-[44px] xl:leading-[56px] px-2">
-            <span className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#efa3af] text-[20px] md:text-[48px] xl:text-[64px] tracking-[0] leading-[32px] md:leading-[44px] xl:leading-[56px]">
+      <div className="flex flex-col w-[calc(100%-32px)] md:w-[720px] lg:w-[900px] xl:w-[1236px] min-h-[150px] md:min-h-[180px] lg:h-[190px] xl:h-[200px] items-start gap-2.5 p-2 relative mx-auto mb-12 bg-white rounded-[16px] md:rounded-[18px] lg:rounded-[19px] xl:rounded-[20px]">
+        <div className="relative w-full md:w-[704px] lg:w-[884px] xl:w-[1220px] min-h-[134px] md:min-h-[164px] lg:h-[174px] xl:h-[184px] rounded-[16px] md:rounded-[18px] lg:rounded-[19px] xl:rounded-[20px] border-[3px] border-dashed border-[#efa3af] flex items-center justify-center">
+          <p className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#efa3af] text-[20px] md:text-[48px] lg:text-[56px] xl:text-[64px] text-center tracking-[0] leading-[32px] md:leading-[44px] lg:leading-[50px] xl:leading-[56px] px-2">
+            <span className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#efa3af] text-[20px] md:text-[48px] lg:text-[56px] xl:text-[64px] tracking-[0] leading-[32px] md:leading-[44px] lg:leading-[50px] xl:leading-[56px]">
               mee クリニック
             </span>
-            <span className="text-[16px] md:text-[32px] xl:text-[40px]">
+            <span className="text-[16px] md:text-[32px] lg:text-[36px] xl:text-[40px]">
               なら、
               <br className="md:hidden" />
               すべてのお悩みを専門家が<br />

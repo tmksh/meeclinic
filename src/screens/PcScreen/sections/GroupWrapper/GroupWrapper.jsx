@@ -3,7 +3,7 @@ import { TagPc } from "../../../../components/TagPc";
 
 export const GroupWrapper = () => {
   return (
-    <div className="relative w-full h-auto pb-48 md:pb-[200px] mt-12 md:mt-[-100px] z-30 px-4 md:px-0 overflow-visible">
+    <div className="relative w-full h-auto pb-48 md:pb-[200px] mt-0 md:mt-[-100px] z-30 px-4 md:px-0 overflow-visible">
       {/* Background */}
       <div className="absolute inset-0 -z-10 bg-[#EDD0D6]" />
 

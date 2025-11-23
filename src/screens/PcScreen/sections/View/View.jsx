@@ -16,7 +16,7 @@ export const View = () => {
             fill="#EDD0D6"
           />
         </svg>
-        <div className="absolute top-[319px] left-0 w-full h-[calc(100%-319px)] bg-[#EDD0D6]" />
+        <div className="absolute top-[319px] left-0 w-full h-[calc(100%-319px-150px)] bg-[#EDD0D6]" />
       </div>
 
       <img
@@ -50,7 +50,7 @@ export const View = () => {
         </div>
 
         <div className="flex flex-col w-full md:w-[739px] items-center gap-12 relative flex-[0_0_auto]">
-          <div className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[var(--)] text-lg md:text-2xl tracking-[0.72px] leading-[1.8] md:leading-[62px]">
+          <div className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[var(--)] text-lg md:text-2xl tracking-[0.72px] leading-[1.8] md:leading-[62px] text-center">
             多くの人が漠然と抱えている、カラダやココロの悩み。
             <br />
             「これって私だけ？」 そう思っていませんか？
@@ -242,7 +242,7 @@ export const View = () => {
         />
 
         {/* Background "Pill" text for mobile */}
-        <div className="relative w-full text-center md:hidden pt-8 z-10">
+        <div className="relative w-full text-center md:hidden pt-8 z-10 top-[-40px]">
           <div className="[font-family:'Noto_Serif',Helvetica] font-light text-white text-[150px] leading-[1] opacity-50">
             Pill
           </div>
@@ -329,14 +329,14 @@ export const View = () => {
             </div>
           </div>
 
-          <div className="flex flex-col flex-1 md:w-[306px] items-start gap-3.5 relative">
-            <p className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-normal text-[#6b6b6b] text-sm md:text-base text-justify tracking-[0] leading-[1.8] md:leading-[normal]">
+          <div className="flex flex-col flex-1 md:w-[306px] lg:w-[400px] xl:w-[500px] items-start gap-3.5 relative">
+            <p className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-normal text-[#6b6b6b] text-sm md:text-base lg:text-lg text-justify tracking-[0] leading-[1.8] md:leading-[1.8]">
               <span className="font-medium text-[#6b6b6b]">
                 日本のピル服用率は わずか
               </span>
               <span className="font-semibold text-[#6b6b6b]">&nbsp;</span>
-              <span className="font-bold text-[#c76f7e] text-xl md:text-2xl">2.9</span>
-              <span className="font-bold text-[#c76f7e]">%</span>
+              <span className="font-bold text-[#c76f7e] text-xl md:text-2xl lg:text-3xl">2.9</span>
+              <span className="font-bold text-[#c76f7e] lg:text-xl">%</span>
               <span className="font-semibold text-[#6b6b6b]">
                 。<br />
               </span>
