@@ -32,8 +32,8 @@ export const PcScreen = () => {
       />
 
       <Fv />
-      <Slider />
       <CtaWrapper />
+      <Slider />
       <VerticalContainer />
       <Card />
       <Feature />

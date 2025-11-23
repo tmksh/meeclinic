@@ -13,7 +13,7 @@ export const Group = () => {
         </div>
 
         {/* Subtitle */}
-        <p className="relative md:ml-[618px] md:mt-[-80px] w-full md:w-[480px] px-4 md:px-0 [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-2xl md:text-[32px] tracking-[0] leading-[normal] text-center md:text-left">
+        <p className="relative md:ml-[618px] md:mt-[-160px] w-full md:w-[480px] px-4 md:px-0 [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-2xl md:text-[32px] tracking-[0] leading-[normal] text-center md:text-left">
           <span className="text-[#555555]">
             スキンケアだけでは解決しない、
             <br />

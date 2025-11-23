@@ -7,11 +7,11 @@ export const VerticalContainer = () => {
         <div className="absolute top-10 md:top-20 left-0 w-full md:w-[611px] h-[260px] md:h-[503px] bg-[url(/img/container.png)] bg-cover bg-[50%_50%]" />
 
         <div className="w-[200px] md:w-[296px] items-end absolute top-0 right-4 md:left-[410px] flex flex-col">
-          <div className="relative w-fit mt-[-1.00px] md:ml-[-13.00px] [font-family:'Noto_Serif',Helvetica] font-semibold text-[#efa3af] text-4xl md:text-6xl xl:text-8xl tracking-[2.40px] md:tracking-[4.80px] leading-[normal]">
+          <div className="relative w-fit mt-[-1.00px] md:ml-[-13.00px] [font-family:'Noto_Serif',Helvetica] font-semibold text-[#EFA3AF] text-4xl md:text-6xl xl:text-8xl tracking-[2.40px] md:tracking-[4.80px] leading-[normal]">
             About
           </div>
 
-          <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#efa3af] text-base md:text-xl xl:text-2xl text-right tracking-[0] leading-[normal]">
+          <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#EFA3AF] text-base md:text-xl xl:text-2xl text-right tracking-[0] leading-[normal]">
             私たちについて
           </div>
         </div>

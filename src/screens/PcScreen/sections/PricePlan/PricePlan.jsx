@@ -181,27 +181,21 @@ export const PricePlan = () => {
                     複数組み合わせも可能
                   </div>
 
-                  <div className="flex flex-col md:flex-col xl:inline-flex items-center md:items-center xl:items-baseline gap-2 md:gap-2 xl:gap-5 relative flex-[0_0_auto]">
-                    <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-base md:text-lg xl:text-2xl tracking-[0] leading-[21.6px] text-center md:whitespace-nowrap xl:whitespace-nowrap">
+                  <div className="flex flex-col md:flex-row items-center justify-center gap-1 md:gap-4 relative w-full">
+                    <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-sm md:text-base xl:text-lg tracking-[0] leading-[normal] text-center whitespace-nowrap mb-1 md:mb-0">
                       5,000円以上の購入で
                     </div>
 
-                    <div className="inline-flex items-baseline gap-2 md:gap-2 xl:gap-0 relative flex-[0_0_auto]">
-                      <p className="relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#555555] text-3xl md:text-4xl xl:text-5xl tracking-[0] leading-[normal]">
-                        <span className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#555555] text-3xl md:text-4xl xl:text-5xl tracking-[0]">
-                          1,000
-                        </span>
+                    <div className="inline-flex items-baseline gap-1 relative flex-[0_0_auto]">
+                      <div className="relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#555555] tracking-[0] leading-[normal]">
+                        <span className="text-3xl md:text-4xl xl:text-5xl">1,000</span>
+                        <span className="text-xl md:text-2xl xl:text-3xl ml-0.5">円OFF</span>
+                      </div>
 
-                        <span className="text-[28px] md:text-[32px] xl:text-[40px]">円</span>
-
-                        <span className="text-[24px] md:text-[28px] xl:text-[32px]">OFF</span>
-                      </p>
-
-                      <p className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#555555] text-[24px] md:text-[28px] xl:text-[32px] tracking-[0] leading-[normal]">
-                        <span className="text-[#555555]">＋</span>
-
+                      <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-2xl xl:text-3xl tracking-[0] leading-[normal] ml-1">
+                        ＋
                         <span className="font-bold text-[#efa3af]">送料無料</span>
-                      </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -371,7 +365,7 @@ export const PricePlan = () => {
           </div>
         </div>
 
-        <div className="relative w-full max-w-[665px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xs md:text-sm xl:text-base tracking-[0] leading-[28.8px] md:leading-[33.6px] xl:leading-[38.4px] px-2 md:px-0 xl:px-0">
+        <div className="relative w-full max-w-[665px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#EFA3AF] text-xs md:text-sm xl:text-base tracking-[0] leading-[28.8px] md:leading-[33.6px] xl:leading-[38.4px] px-2 md:px-0 xl:px-0">
           注意事項や副作用リスク
           <br />{" "}
           ピル：18歳未満、45歳以上は不可、過去にアレルギー反応があった方、BMI30以上や喫煙、既往歴で血栓症のリスクがあった場合は医師の判断で処方不可となる場合があります

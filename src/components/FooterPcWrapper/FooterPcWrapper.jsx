@@ -16,7 +16,7 @@ export const FooterPcWrapper = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-full max-w-[1440px] min-h-[280px] md:min-h-[280px] xl:min-h-[353px] items-center justify-center gap-2.5 px-4 md:px-8 xl:px-[102px] py-8 md:py-8 xl:py-[49px] relative bg-white ${className}`}
+      className={`flex flex-col w-full max-w-[1440px] min-h-[280px] md:min-h-[280px] xl:min-h-[353px] items-center justify-center gap-2.5 px-4 md:px-8 xl:px-[102px] py-8 md:py-8 xl:py-[49px] relative mx-auto ${className}`}
     >
       <div className="flex flex-col md:flex-col xl:flex-row items-start items-center md:items-center xl:items-start gap-8 md:gap-8 xl:gap-[62px] relative self-stretch w-full flex-[0_0_auto]">
         <div className="inline-flex flex-col items-center md:items-center xl:items-start gap-6 md:gap-6 xl:gap-8 relative flex-[0_0_auto]">
@@ -29,21 +29,21 @@ export const FooterPcWrapper = ({
             }}
           />
           <div className="flex items-center gap-2 md:gap-2 xl:gap-[11px] relative self-stretch w-full flex-[0_0_auto]">
-            <div className="flex w-10 h-10 md:w-10 md:h-10 xl:w-[52px] xl:h-[52px] items-center gap-2.5 p-2 md:p-2 xl:p-3 relative bg-white rounded-[26px]">
+            <a href="#" className="flex w-10 h-10 md:w-10 md:h-10 xl:w-[52px] xl:h-[52px] items-center gap-2.5 p-2 md:p-2 xl:p-3 relative bg-white rounded-[26px] cursor-pointer hover:opacity-80 transition-opacity">
               <X className="!relative !w-6 !h-6 md:!w-6 md:!h-6 xl:!w-7 xl:!h-7 !aspect-[1]" />
-            </div>
+            </a>
 
-            <div className="flex w-10 h-10 md:w-10 md:h-10 xl:w-[52px] xl:h-[52px] items-center gap-2.5 p-2 md:p-2 xl:p-3 relative bg-white rounded-[26px]">
+            <a href="#" className="flex w-10 h-10 md:w-10 md:h-10 xl:w-[52px] xl:h-[52px] items-center gap-2.5 p-2 md:p-2 xl:p-3 relative bg-white rounded-[26px] cursor-pointer hover:opacity-80 transition-opacity">
               <Instagram1 className="!relative !w-6 !h-6 md:!w-6 md:!h-6 xl:!w-7 xl:!h-7 !aspect-[1]" />
-            </div>
+            </a>
 
-            <div className="flex w-10 h-10 md:w-10 md:h-10 xl:w-[52px] xl:h-[52px] items-center gap-2.5 p-2 md:p-2 xl:p-3 relative bg-white rounded-[26px]">
+            <a href="#" className="flex w-10 h-10 md:w-10 md:h-10 xl:w-[52px] xl:h-[52px] items-center gap-2.5 p-2 md:p-2 xl:p-3 relative bg-white rounded-[26px] cursor-pointer hover:opacity-80 transition-opacity">
               <Line
                 className="!h-6 md:!h-6 xl:!h-7 !aspect-[1] !left-[unset] !w-6 md:!w-6 xl:!w-7 !top-[unset]"
                 link="white"
                 subtract="/img/subtract.svg"
               />
-            </div>
+            </a>
           </div>
         </div>
 

@@ -21,7 +21,7 @@ export const SectionTitle = ({
       </div>
 
       <div
-        className={`relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#efa3af] text-sm md:text-sm xl:text-base text-center tracking-[0] leading-[16.8px] md:leading-[16.8px] xl:leading-[19.2px] ${divClassName}`}
+        className={`relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6B6B6B] text-sm md:text-sm xl:text-base text-center tracking-[0] leading-[16.8px] md:leading-[16.8px] xl:leading-[19.2px] ${divClassName}`}
       >
         {text1}
       </div>

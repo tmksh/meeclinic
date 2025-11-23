@@ -96,7 +96,7 @@ export const View = () => {
                     elementClassName="!h-[77px] !left-[52px] !w-[77px]"
                     one="one"
                   />
-                  <div className="absolute top-[92px] left-[30px] w-[120px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-xl text-center tracking-[0] leading-[normal]">
+                  <div className="absolute top-[92px] left-[30px] w-[120px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#C76F7E] text-xl text-center tracking-[0] leading-[normal]">
                     ピルについて
                   </div>
                   <img
@@ -119,7 +119,7 @@ export const View = () => {
                     maskGroupClassName="!ml-[3.5px] !h-[66.5px] !mt-[5.2px] !w-[72.14px]"
                     one="two"
                   />
-                  <div className="absolute top-[97px] left-[30px] w-[120px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-xl text-center tracking-[0] leading-[normal]">
+                  <div className="absolute top-[97px] left-[30px] w-[120px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#C76F7E] text-xl text-center tracking-[0] leading-[normal]">
                     睡眠について
                   </div>
                   <img
@@ -142,7 +142,7 @@ export const View = () => {
                     maskGroupClassName="!h-[63px] !mt-[7px] !w-[77px]"
                     one="three"
                   />
-                  <div className="absolute top-[85px] left-10 w-[100px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-xl text-center tracking-[0] leading-[23px]">
+                  <div className="absolute top-[85px] left-10 w-[100px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#C76F7E] text-xl text-center tracking-[0] leading-[23px]">
                     肌トラブル
                     <br />
                     について
@@ -169,7 +169,7 @@ export const View = () => {
                     elementClassName="!h-[42px] !left-[29px] !w-[42px]"
                     one="one"
                   />
-                  <div className="absolute top-[50px] left-[10px] w-[80px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-[11px] text-center tracking-[0] leading-[normal]">
+                  <div className="absolute top-[50px] left-[10px] w-[80px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#C76F7E] text-[11px] text-center tracking-[0] leading-[normal]">
                     ピルについて
                   </div>
                   <img
@@ -192,7 +192,7 @@ export const View = () => {
                     maskGroupClassName="!ml-[2px] !h-[36px] !mt-[3px] !w-[39px]"
                     one="two"
                   />
-                  <div className="absolute top-[53px] left-[10px] w-[80px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-[11px] text-center tracking-[0] leading-[normal]">
+                  <div className="absolute top-[53px] left-[10px] w-[80px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#C76F7E] text-[11px] text-center tracking-[0] leading-[normal]">
                     睡眠について
                   </div>
                   <img
@@ -215,7 +215,7 @@ export const View = () => {
                     maskGroupClassName="!h-[35px] !mt-[4px] !w-[42px]"
                     one="three"
                   />
-                  <div className="absolute top-[46px] left-[5px] w-[90px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-[11px] text-center tracking-[0] leading-[13px]">
+                  <div className="absolute top-[46px] left-[5px] w-[90px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#C76F7E] text-[11px] text-center tracking-[0] leading-[13px]">
                     肌トラブル
                     <br />
                     について
@@ -286,13 +286,13 @@ export const View = () => {
                     parent.innerHTML = `
                       <img
                         className="absolute w-[53.08%] h-[44.02%] top-[53.92%] left-[7.48%] object-contain"
-              alt="Group"
+                        alt="Group"
                         src="/img/group-1.png"
                         style="display: block;"
             />
             <img
                         className="absolute w-[41.36%] h-[47.35%] top-[52.59%] left-[57.49%] object-contain"
-              alt="Group"
+                        alt="Group"
                         src="/img/group.png"
                         style="display: block;"
                       />
