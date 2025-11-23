@@ -52,7 +52,7 @@ export const Card = () => {
       /> */}
       
       {/* PC版タイトル */}
-      <div className="hidden md:block relative mt-[200px] xl:mt-[249px] w-full max-w-[1440px] mx-auto px-4 md:px-[calc(50%-350px)] xl:px-[calc(50%-402px)] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-white text-[48px] lg:text-[56px] xl:text-[64px] tracking-[1.5px] xl:tracking-[1.92px] leading-[normal] text-left xl:text-left z-20 whitespace-nowrap">
+      <div className="hidden md:block relative mt-[200px] xl:mt-[249px] w-full max-w-[1440px] mx-auto px-4 md:px-[max(16px,calc(50%-350px))] xl:px-[max(16px,calc(50%-402px))] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-white text-[48px] lg:text-[56px] xl:text-[64px] tracking-[1.5px] xl:tracking-[1.92px] leading-[normal] text-left xl:text-left z-20 whitespace-nowrap">
         こんなお悩みありませんか？
       </div>
 

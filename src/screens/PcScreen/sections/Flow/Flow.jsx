@@ -9,7 +9,7 @@ export const Flow = () => {
         text="Flow"
         text1="ご利用の流れ"
       />
-      <div className="relative w-full max-w-[1239px] h-auto flex flex-col md:flex-col xl:flex-row items-center md:items-center xl:items-start gap-12 md:gap-12 xl:gap-0 justify-between">
+      <div className="relative w-full max-w-[1239px] h-auto flex flex-col md:flex-col lg:flex-row items-center md:items-center lg:items-start gap-12 md:gap-12 lg:gap-4 xl:gap-0 justify-between">
         {/* Arrow Images - Hide on Mobile */}
         <img
           className="hidden xl:block left-[274px] absolute top-[170px] w-[37px] h-[29px]"
@@ -30,7 +30,7 @@ export const Flow = () => {
         />
 
         {/* Step 1 */}
-        <div className="relative w-full md:w-[500px] xl:w-[257px] h-auto flex flex-col items-center">
+        <div className="relative w-full md:w-[500px] lg:w-[24%] xl:w-[257px] h-auto flex flex-col items-center">
           <div className="flex flex-col w-full items-center gap-6 relative z-10">
             <img
               className="relative w-[90%] max-w-[340px] md:w-full h-[200px] md:h-[200px] xl:h-[255px] object-cover md:self-stretch rounded-lg"
@@ -55,7 +55,7 @@ export const Flow = () => {
         </div>
 
         {/* Step 2 */}
-        <div className="relative w-full md:w-[500px] xl:w-[257px] h-auto flex flex-col items-center">
+        <div className="relative w-full md:w-[500px] lg:w-[24%] xl:w-[257px] h-auto flex flex-col items-center">
           <div className="flex flex-col w-full items-center gap-6 relative z-10">
             <img
               className="relative w-[90%] max-w-[340px] md:w-full h-[200px] md:h-[200px] xl:h-[255px] object-cover md:self-stretch rounded-lg"
@@ -82,7 +82,7 @@ export const Flow = () => {
         </div>
 
         {/* Step 3 */}
-        <div className="relative w-full md:w-[500px] xl:w-[257px] h-auto flex flex-col items-center">
+        <div className="relative w-full md:w-[500px] lg:w-[24%] xl:w-[257px] h-auto flex flex-col items-center">
           <div className="flex flex-col w-full items-center gap-6 relative z-10">
             <img
               className="relative w-[90%] max-w-[340px] md:w-full h-[200px] md:h-[200px] xl:h-[255px] object-cover md:self-stretch rounded-lg"
@@ -107,7 +107,7 @@ export const Flow = () => {
         </div>
 
         {/* Step 4 */}
-        <div className="relative w-full md:w-[500px] xl:w-[257px] h-auto flex flex-col items-center">
+        <div className="relative w-full md:w-[500px] lg:w-[24%] xl:w-[257px] h-auto flex flex-col items-center">
           <div className="flex flex-col w-full items-center gap-6 relative z-10">
             <img
               className="relative w-[90%] max-w-[340px] md:w-full h-[200px] md:h-[200px] xl:h-[255px] object-cover md:self-stretch rounded-lg"
@@ -117,7 +117,7 @@ export const Flow = () => {
 
             <div className="inline-flex flex-col items-center gap-2.5 relative flex-[0_0_auto]">
               <p className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl text-center tracking-[0] leading-[normal]">
-                <span className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-xl md:text-xl xl:text-2xl tracking-[0]">
+                <span className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xl md:text-xl xl:text-2xl tracking-[0]">
                   ご自宅に配送
                 </span>
 

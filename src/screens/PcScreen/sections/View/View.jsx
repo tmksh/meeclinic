@@ -32,8 +32,8 @@ export const View = () => {
       />
 
       {/* Container 1: Intro + Mind&Body + 3 Columns */}
-      <div className="flex flex-col w-full md:w-[739px] lg:w-[900px] xl:w-[998px] items-center gap-10 relative mx-auto px-4 md:px-0 py-12 md:py-0 z-10">
-        <div className="relative w-full md:w-[739px] lg:w-[900px] xl:w-[1005px] h-auto md:h-[115px] md:ml-[-2.49px] md:mr-[-4.49px] text-center md:text-left mb-8 md:mb-0">
+      <div className="flex flex-col w-full md:w-[739px] lg:w-[900px] xl:max-w-[998px] xl:w-full items-center gap-10 relative mx-auto px-4 md:px-0 py-12 md:py-0 z-10">
+        <div className="relative w-full md:w-[739px] lg:w-[900px] xl:max-w-[1005px] xl:w-full h-auto md:h-[115px] md:ml-[-2.49px] md:mr-[-4.49px] text-center md:text-left mb-8 md:mb-0">
           <img
             className="hidden md:block absolute top-[88px] left-[10px] lg:left-[100px] xl:left-52 w-[315px] h-5"
             alt="Line"
@@ -66,14 +66,14 @@ export const View = () => {
 
           <div className="flex flex-col w-full md:w-[500px] lg:w-[681px] items-end md:items-center gap-2 relative flex-[0_0_auto]">
             <div className="flex flex-col items-end md:items-center gap-2.5 relative self-stretch w-full flex-[0_0_auto]">
-              <p className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif',Helvetica] font-bold text-[var(--)] text-[40px] md:text-[48px] lg:text-[64px] text-right md:text-center tracking-[0] leading-[1.2] md:leading-[1.2] lg:leading-[57.6px] whitespace-nowrap">
+              <p className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif',Helvetica] font-bold text-[var(--)] text-[40px] md:text-[48px] lg:text-[56px] xl:text-[64px] text-right md:text-center tracking-[0] leading-[1.2] md:leading-[1.2] lg:leading-[57.6px] whitespace-nowrap">
                 <span className="text-[#c76f7e]">M</span>
-                <span className="text-[#6b6b6b]">ind &amp; </span>
+                <span className="text-[#555555]">ind &amp; </span>
                 <span className="text-[#c76f7e]">B</span>
-                <span className="text-[#6b6b6b]">ody </span>
+                <span className="text-[#555555]">ody </span>
                 <br className="md:hidden" />
                 <span className="text-[#c76f7e]">I</span>
-                <span className="text-[#6b6b6b]">nsights</span>
+                <span className="text-[#555555]">nsights</span>
               </p>
 
               <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[var(--)] text-lg md:text-2xl lg:text-4xl text-right md:text-center tracking-[1.80px] leading-[1.5] md:leading-[1.5] lg:leading-[57.6px]">
@@ -251,12 +251,12 @@ export const View = () => {
         {/* Title Section */}
         <div className="relative w-full md:w-auto mb-8 md:mb-0 text-center md:text-left z-10 md:ml-[102px] pt-0 md:pt-[250px] mt-[-80px] md:mt-0">
           <p className="[font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#555555] text-[28px] md:text-[40px] leading-[1.4] md:leading-[normal]">
-            <span className="text-[#6b6b6b] tracking-[0]">日本</span>
-            <span className="text-[#6b6b6b] tracking-[-6.72px]">は</span>
+            <span className="text-[#555555] tracking-[0]">日本</span>
+            <span className="text-[#555555] tracking-[-6.72px]">は</span>
             <span className="text-[#c76f7e] tracking-[-2.40px]">「</span>
             <span className="text-[#c76f7e] tracking-[0]">ピル後進国</span>
             <span className="text-[#c76f7e] tracking-[-9.60px]">」</span>
-            <span className="text-[#6b6b6b] tracking-[0]">
+            <span className="text-[#555555] tracking-[0]">
               ？<br />
               驚くべき世界とのギャップ
             </span>
@@ -330,17 +330,17 @@ export const View = () => {
           </div>
 
           <div className="flex flex-col flex-1 md:w-[306px] lg:w-[400px] xl:w-[500px] items-start gap-3.5 relative">
-            <p className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-normal text-[#6b6b6b] text-sm md:text-base lg:text-lg text-justify tracking-[0] leading-[1.8] md:leading-[1.8]">
-              <span className="font-medium text-[#6b6b6b]">
+            <p className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-normal text-[#555555] text-sm md:text-base lg:text-lg text-justify tracking-[0] leading-[1.8] md:leading-[1.8]">
+              <span className="font-medium text-[#555555]">
                 日本のピル服用率は わずか
               </span>
-              <span className="font-semibold text-[#6b6b6b]">&nbsp;</span>
+              <span className="font-semibold text-[#555555]">&nbsp;</span>
               <span className="font-bold text-[#c76f7e] text-xl md:text-2xl lg:text-3xl">2.9</span>
               <span className="font-bold text-[#c76f7e] lg:text-xl">%</span>
-              <span className="font-semibold text-[#6b6b6b]">
+              <span className="font-semibold text-[#555555]">
                 。<br />
               </span>
-              <span className="font-medium text-[#6b6b6b]">
+              <span className="font-medium text-[#555555]">
                 ドイツはその 約18倍。
                 <br />
                 いまなお「世界で取り残された国」のひとつです。

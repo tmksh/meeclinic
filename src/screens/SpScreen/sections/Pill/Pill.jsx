@@ -12,15 +12,15 @@ export const Pill = () => {
       <div className="flex flex-col w-[363px] items-center gap-[26px] absolute top-[121px] left-[15px]">
         <div className="flex items-start gap-8 self-stretch w-full flex-col relative flex-[0_0_auto]">
           <p className="relative w-fit mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-2xl leading-[normal]">
-            <span className="text-[#6b6b6b] tracking-[0]">日本</span>
+            <span className="text-[#555555] tracking-[0]">日本</span>
 
-            <span className="text-[#6b6b6b] tracking-[-2.19px]">は</span>
+            <span className="text-[#555555] tracking-[-2.19px]">は</span>
 
             <span className="text-[#c76f7e] tracking-[0]">「ピル後進国</span>
 
             <span className="text-[#c76f7e] tracking-[-2.19px]">」</span>
 
-            <span className="text-[#6b6b6b] tracking-[0]">
+            <span className="text-[#555555] tracking-[0]">
               ？<br />
               驚くべき世界とのギャップ
             </span>
@@ -117,53 +117,53 @@ export const Pill = () => {
           </div>
 
           <p className="absolute top-[147px] left-[99px] [font-family:'Inter',Helvetica] font-normal text-[var(--)] text-xs tracking-[0] leading-[normal]">
-            <span className="[font-family:'Inter',Helvetica] font-normal text-[#6b6b6b] text-xs tracking-[0]">
+            <span className="[font-family:'Inter',Helvetica] font-normal text-[#555555] text-xs tracking-[0]">
               ドイツ
               <br />
             </span>
 
             <span className="text-base">52.6</span>
 
-            <span className="[font-family:'Inter',Helvetica] font-normal text-[#6b6b6b] text-xs tracking-[0]">
+            <span className="[font-family:'Inter',Helvetica] font-normal text-[#555555] text-xs tracking-[0]">
               %
             </span>
           </p>
 
           <p className="absolute top-[132px] left-0 [font-family:'Inter',Helvetica] font-normal text-[var(--)] text-xs tracking-[0] leading-[normal]">
-            <span className="[font-family:'Inter',Helvetica] font-normal text-[#6b6b6b] text-xs tracking-[0]">
+            <span className="[font-family:'Inter',Helvetica] font-normal text-[#555555] text-xs tracking-[0]">
               フランス
               <br />
             </span>
 
             <span className="text-base">33.1</span>
 
-            <span className="[font-family:'Inter',Helvetica] font-normal text-[#6b6b6b] text-xs tracking-[0]">
+            <span className="[font-family:'Inter',Helvetica] font-normal text-[#555555] text-xs tracking-[0]">
               %
             </span>
           </p>
 
           <p className="absolute top-[151px] left-[172px] [font-family:'Inter',Helvetica] font-normal text-[var(--)] text-xs tracking-[0] leading-[normal]">
-            <span className="[font-family:'Inter',Helvetica] font-normal text-[#6b6b6b] text-xs tracking-[0]">
+            <span className="[font-family:'Inter',Helvetica] font-normal text-[#555555] text-xs tracking-[0]">
               日本
               <br />
             </span>
 
             <span className="text-base">2.9</span>
 
-            <span className="[font-family:'Inter',Helvetica] font-normal text-[#6b6b6b] text-xs tracking-[0]">
+            <span className="[font-family:'Inter',Helvetica] font-normal text-[#555555] text-xs tracking-[0]">
               %
             </span>
           </p>
 
           <p className="absolute top-[127px] left-[269px] [font-family:'Inter',Helvetica] font-normal text-[var(--)] text-xs tracking-[0] leading-[normal]">
-            <span className="[font-family:'Inter',Helvetica] font-normal text-[#6b6b6b] text-xs tracking-[0]">
+            <span className="[font-family:'Inter',Helvetica] font-normal text-[#555555] text-xs tracking-[0]">
               カナダ
               <br />
             </span>
 
             <span className="text-base">28.5</span>
 
-            <span className="[font-family:'Inter',Helvetica] font-normal text-[#6b6b6b] text-xs tracking-[0]">
+            <span className="[font-family:'Inter',Helvetica] font-normal text-[#555555] text-xs tracking-[0]">
               %
             </span>
           </p>

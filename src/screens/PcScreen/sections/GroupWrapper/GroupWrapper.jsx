@@ -31,7 +31,7 @@ export const GroupWrapper = () => {
         {/* Left text content */}
         <div className="flex flex-col w-full md:w-[630px] items-start gap-4 md:gap-6 relative">
           <p className="relative w-full md:w-fit mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-normal text-[var(--)] text-2xl md:text-[28px] xl:text-[32px] tracking-[0] leading-[normal]">
-            <span className="font-semibold text-[#6b6b6b]">
+            <span className="font-semibold text-[#555555]">
               眠れないのは、あなたのせいじゃない。
               <br />
               日本人の4人に1人が
@@ -39,7 +39,7 @@ export const GroupWrapper = () => {
 
             <span className="font-bold text-[#c76f7e]">不眠</span>
 
-            <span className="font-semibold text-[#6b6b6b]">に悩む時代</span>
+            <span className="font-semibold text-[#555555]">に悩む時代</span>
           </p>
 
           <div className="relative self-stretch [font-family:'Noto_Serif_JP',Helvetica] font-medium text-[var(--)] text-base md:text-lg xl:text-xl tracking-[0] leading-[1.8] md:leading-[40px]">
@@ -97,19 +97,19 @@ export const GroupWrapper = () => {
                 <div className="flex flex-1 h-[32px] items-center justify-center px-2 bg-[#f0b8c1] rounded-sm">
                   <div className="text-white text-[10px] whitespace-nowrap font-medium">日中眠くなる</div>
                 </div>
-                <div className="text-[#6b6b6b] text-lg font-medium leading-none">66<span className="text-[10px]">%</span></div>
+                <div className="text-[#555555] text-lg font-medium leading-none">66<span className="text-[10px]">%</span></div>
               </div>
               <div className="flex items-center gap-2 w-full">
                 <div className="flex flex-1 h-[32px] items-center justify-center px-2 bg-[#f0b8c1] rounded-sm">
                   <div className="text-white text-[10px] whitespace-nowrap font-medium">疲れがとれない</div>
                 </div>
-                <div className="text-[#6b6b6b] text-lg font-medium leading-none">61<span className="text-[10px]">%</span></div>
+                <div className="text-[#555555] text-lg font-medium leading-none">61<span className="text-[10px]">%</span></div>
               </div>
               <div className="flex items-center gap-2 w-full">
                 <div className="flex flex-1 h-[32px] items-center justify-center px-2 bg-[#f0b8c1] rounded-sm">
                   <div className="text-white text-[10px] whitespace-nowrap font-medium">眠りが浅い</div>
                 </div>
-                <div className="text-[#6b6b6b] text-lg font-medium leading-none">60<span className="text-[10px]">%</span></div>
+                <div className="text-[#555555] text-lg font-medium leading-none">60<span className="text-[10px]">%</span></div>
               </div>
             </div>
           </div>
@@ -157,8 +157,8 @@ export const GroupWrapper = () => {
                 </div>
               </div>
 
-              <p className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-4xl tracking-[0] leading-[normal] whitespace-nowrap">
-                <span className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-4xl tracking-[0]">
+              <p className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-4xl tracking-[0] leading-[normal] whitespace-nowrap">
+                <span className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-4xl tracking-[0]">
                   66
                 </span>
 
@@ -174,8 +174,8 @@ export const GroupWrapper = () => {
                 </div>
               </div>
 
-              <p className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-4xl tracking-[0] leading-[normal] whitespace-nowrap">
-                <span className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-4xl tracking-[0]">
+              <p className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-4xl tracking-[0] leading-[normal] whitespace-nowrap">
+                <span className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-4xl tracking-[0]">
                   61
                 </span>
 
@@ -191,8 +191,8 @@ export const GroupWrapper = () => {
                 </div>
               </div>
 
-              <p className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-4xl tracking-[0] leading-[normal] whitespace-nowrap">
-                <span className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-4xl tracking-[0]">
+              <p className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-4xl tracking-[0] leading-[normal] whitespace-nowrap">
+                <span className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-4xl tracking-[0]">
                   60
                 </span>
 

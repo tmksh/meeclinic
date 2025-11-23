@@ -24,7 +24,7 @@ export const VerticalContainer = () => {
           もっと身近に医療を。
         </div>
 
-        <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#6b6b6b] text-sm md:text-base tracking-[0.40px] md:tracking-[0.80px] leading-[26px] md:leading-[38.4px]">
+        <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#555555] text-sm md:text-base tracking-[0.40px] md:tracking-[0.80px] leading-[26px] md:leading-[38.4px]">
           meeクリニックは、「私のクリニック」という想いから生まれました。
           <br />{" "}
           女性医師をはじめ専門医が在籍し、性別を問わず幅広いお悩みに対応できるオンライン診療サービスです。

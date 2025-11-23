@@ -14,13 +14,13 @@ export const Group = () => {
 
         {/* Subtitle */}
         <p className="relative md:ml-[618px] md:mt-[-80px] w-full md:w-[480px] px-4 md:px-0 [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-2xl md:text-[32px] tracking-[0] leading-[normal] text-center md:text-left">
-          <span className="text-[#6b6b6b]">
+          <span className="text-[#555555]">
             スキンケアだけでは解決しない、
             <br />
             肌の悩みの
           </span>
           <span className="text-[#c76f7e]">根本原因</span>
-          <span className="text-[#6b6b6b]">とは？</span>
+          <span className="text-[#555555]">とは？</span>
         </p>
 
         {/* Description */}
@@ -55,13 +55,13 @@ export const Group = () => {
           {/* Stats 1 */}
             <div className="flex flex-col w-[160px] md:w-[242px] items-center gap-5 relative mx-auto md:mx-0 md:absolute md:top-[460px] md:left-[764px]">
               <p className="mt-[-1.00px] [font-family:'Inter',Helvetica] font-normal text-[var(--)] text-[24px] md:text-[32px] relative w-fit tracking-[0] leading-[normal]">
-              <span className="text-[#6b6b6b]">55.3</span>
-                <span className="text-[#6b6b6b] text-sm md:text-base">
+              <span className="text-[#555555]">55.3</span>
+                <span className="text-[#555555] text-sm md:text-base">
                 %の女性が
                 <br />
               </span>
               <span className="text-[#c76f7e]">毛穴</span>
-                <span className="text-[#6b6b6b] text-sm md:text-base whitespace-nowrap">に悩んでいます。</span>
+                <span className="text-[#555555] text-sm md:text-base whitespace-nowrap">に悩んでいます。</span>
             </p>
             <img
               className="relative self-stretch w-full flex-[0_0_auto]"
@@ -73,13 +73,13 @@ export const Group = () => {
           {/* Stats 2 */}
             <div className="flex flex-col w-[160px] md:w-[242px] items-center gap-5 relative mx-auto md:mx-0 md:absolute md:top-[460px] md:left-[1018px]">
               <p className="mt-[-1.00px] [font-family:'Inter',Helvetica] font-normal text-[var(--)] text-[24px] md:text-[32px] relative w-fit tracking-[0] leading-[normal]">
-              <span className="text-[#6b6b6b]">49.3</span>
-                <span className="text-[#6b6b6b] text-sm md:text-base">
+              <span className="text-[#555555]">49.3</span>
+                <span className="text-[#555555] text-sm md:text-base">
                 %の男性が
                 <br />
               </span>
               <span className="text-[#c76f7e]">ニキビ</span>
-                <span className="text-[#6b6b6b] text-sm md:text-base whitespace-nowrap">に悩んでいます。</span>
+                <span className="text-[#555555] text-sm md:text-base whitespace-nowrap">に悩んでいます。</span>
             </p>
             <img
               className="relative self-stretch w-full flex-[0_0_auto]"

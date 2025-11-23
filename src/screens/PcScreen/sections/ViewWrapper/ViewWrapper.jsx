@@ -35,7 +35,7 @@ export const ViewWrapper = () => {
                 <p className="relative w-fit mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-normal text-[var(--)] text-[42px] text-center tracking-[0] leading-[42px] whitespace-nowrap">
                   <span className="font-bold text-[#c76f7e]"> 700</span>
 
-                  <span className="font-semibold text-[#6b6b6b] text-2xl leading-6">
+                  <span className="font-semibold text-[#555555] text-2xl leading-6">
                     人
                   </span>
                 </p>
@@ -65,7 +65,7 @@ export const ViewWrapper = () => {
               <p className="relative w-fit [font-family:'Noto_Serif_JP',Helvetica] font-normal text-[var(--)] text-[42px] text-center tracking-[0] leading-[42px] whitespace-nowrap">
                 <span className="font-bold text-[#c76f7e]"> 98</span>
 
-                <span className="font-semibold text-[#6b6b6b] text-2xl leading-6">
+                <span className="font-semibold text-[#555555] text-2xl leading-6">
                   ％
                 </span>
               </p>

@@ -2,11 +2,13 @@
 export default {
   content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1024px', // PC版 (タブレット版を統合) - 1024px以上でPC版スタイル(xl)を適用
+      '2xl': '1536px',
+    },
     extend: {
-      screens: {
-        'md': '768px',   // タブレット版
-        'xl': '1024px',  // PC版
-      },
       colors: {
         "d-mk-rg5": "var(--d-mk-rg5)",
         "harmonized-palette-azure-1000": "var(--harmonized-palette-azure-1000)",

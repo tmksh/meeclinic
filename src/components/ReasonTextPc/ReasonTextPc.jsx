@@ -29,7 +29,7 @@ export const ReasonTextPc = ({
         >
           {prop1}
         </div>
-        <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#6b6b6b] text-sm md:text-sm xl:text-base tracking-[0] leading-[22.4px] md:leading-[22.4px] xl:leading-[25.6px]">
+        <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#555555] text-sm md:text-sm xl:text-base tracking-[0] leading-[22.4px] md:leading-[22.4px] xl:leading-[25.6px]">
           {text2}
         </div>
       </div>

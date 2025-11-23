@@ -4,19 +4,19 @@ import { SectionTitle } from "../../../../components/SectionTitle";
 
 export const PricePlan = () => {
   return (
-    <div className="flex flex-col w-full max-w-[1441px] items-center gap-12 md:gap-16 xl:gap-[123px] relative mt-12 md:mt-20 px-4 md:px-8 xl:px-0 z-15 mx-auto">
+    <div className="flex flex-col w-full max-w-[1441px] items-center gap-12 md:gap-16 lg:gap-24 xl:gap-[123px] relative mt-12 md:mt-20 px-4 md:px-8 xl:px-0 z-15 mx-auto">
       <SectionTitle
         className="!self-stretch !flex-[0_0_auto] !w-full !top-[unset]"
         text="Price &amp; Plan"
         text1="料金プラン"
       />
       <div className="flex flex-col w-full max-w-[1080px] items-center gap-12 relative flex-[0_0_auto]">
-        <div className="flex flex-col items-start gap-12 md:gap-16 xl:gap-20 relative self-stretch w-full flex-[0_0_auto]">
+        <div className="flex flex-col items-start gap-12 md:gap-16 lg:gap-16 xl:gap-20 relative self-stretch w-full flex-[0_0_auto]">
           {/* ピル */}
-          <div className="flex flex-col items-center justify-center gap-6 md:gap-8 xl:gap-10 pt-16 md:pt-14 xl:pt-16 pb-8 md:pb-9 xl:pb-10 px-2 md:px-4 xl:px-px relative self-stretch w-full flex-[0_0_auto] bg-[#f9f2f4]">
-            <div className="flex flex-col w-full max-w-[875px] items-center gap-6 md:gap-8 xl:gap-10 relative flex-[0_0_auto]">
-              <div className="flex flex-row flex-wrap md:flex-row xl:flex-row items-start md:items-center xl:items-center justify-center gap-2 md:gap-6 xl:gap-10 relative self-stretch w-full flex-[0_0_auto]">
-                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 xl:gap-5 relative">
+          <div className="flex flex-col items-center justify-center gap-6 md:gap-8 lg:gap-8 xl:gap-10 pt-16 md:pt-14 lg:pt-14 xl:pt-16 pb-8 md:pb-9 lg:pb-9 xl:pb-10 px-2 md:px-4 lg:px-6 xl:px-px relative self-stretch w-full flex-[0_0_auto] bg-[#f9f2f4]">
+            <div className="flex flex-col w-full max-w-[875px] items-center gap-6 md:gap-8 lg:gap-8 xl:gap-10 relative flex-[0_0_auto]">
+              <div className="flex flex-row flex-wrap md:flex-row xl:flex-row items-start md:items-center xl:items-center justify-center gap-2 md:gap-6 lg:gap-8 xl:gap-10 relative self-stretch w-full flex-[0_0_auto]">
+                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] lg:max-w-[220px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 lg:gap-4 xl:gap-5 relative">
                   <img
                     className="relative w-full h-auto aspect-[0.75] object-cover"
                     alt="S"
@@ -28,13 +28,13 @@ export const PricePlan = () => {
                       低用量
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       2,980円〜
                     </div>
                   </div>
                 </div>
 
-                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 xl:gap-5 relative">
+                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] lg:max-w-[220px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 lg:gap-4 xl:gap-5 relative">
                   <img
                     className="relative w-full h-auto aspect-[0.75] object-cover"
                     alt="S"
@@ -46,13 +46,13 @@ export const PricePlan = () => {
                       中用量
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       3,500円〜
                     </div>
                   </div>
                 </div>
 
-                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 xl:gap-5 relative">
+                <div className="flex flex-col w-[30%] max-w-[110px] md:max-w-[200px] lg:max-w-[220px] xl:w-[265px] xl:max-w-none items-center gap-1 md:gap-4 lg:gap-4 xl:gap-5 relative">
                   <img
                     className="relative w-full h-auto aspect-[0.75] object-cover"
                     alt="S"
@@ -64,26 +64,26 @@ export const PricePlan = () => {
                       アフターピル
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       11,480円〜
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="flex flex-col items-center justify-center gap-2.5 px-4 md:px-6 xl:px-10 py-4 md:py-5 xl:py-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-xl border-[3px] md:border-[4px] xl:border-[5px] border-solid border-[#efa3af] shadow-[0px_4px_20px_#0000001a]">
-                <div className="flex flex-col w-full max-w-[714px] items-center gap-3 md:gap-3 xl:gap-4 relative flex-[0_0_auto]">
+              <div className="flex flex-col items-center justify-center gap-2.5 px-4 md:px-6 lg:px-8 xl:px-10 py-4 md:py-5 lg:py-5 xl:py-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-xl border-[3px] md:border-[4px] lg:border-[4px] xl:border-[5px] border-solid border-[#efa3af] shadow-[0px_4px_20px_#0000001a]">
+                <div className="flex flex-col w-full max-w-[714px] items-center gap-3 md:gap-3 lg:gap-3 xl:gap-4 relative flex-[0_0_auto]">
                   <div className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#efa3af] text-lg md:text-xl xl:text-2xl text-center tracking-[0] leading-[21.6px]">
                     低用量ピル：最安値水準
                   </div>
 
                   <div className="flex flex-col md:flex-row xl:inline-flex items-center md:items-baseline xl:items-baseline gap-2 md:gap-3 xl:gap-5 relative flex-[0_0_auto]">
-                    <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-base md:text-lg xl:text-2xl tracking-[0] leading-[21.6px] text-center md:whitespace-nowrap xl:whitespace-nowrap">
+                    <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-base md:text-lg xl:text-2xl tracking-[0] leading-[21.6px] text-center md:whitespace-nowrap xl:whitespace-nowrap">
                       12ヶ月まとめて処方で
                     </div>
 
-                    <p className="relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#6b6b6b] text-3xl md:text-4xl xl:text-5xl tracking-[0] leading-[normal]">
-                      <span className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#6b6b6b] text-3xl md:text-4xl xl:text-5xl tracking-[0]">
+                    <p className="relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#555555] text-3xl md:text-4xl xl:text-5xl tracking-[0] leading-[normal]">
+                      <span className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#555555] text-3xl md:text-4xl xl:text-5xl tracking-[0]">
                         4,800
                       </span>
 
@@ -132,7 +132,7 @@ export const PricePlan = () => {
                       ニキビ治療
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       1,870円〜
                     </div>
                   </div>
@@ -150,7 +150,7 @@ export const PricePlan = () => {
                       シミ治療
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       2,500円〜
                     </div>
                   </div>
@@ -168,7 +168,7 @@ export const PricePlan = () => {
                       毛穴治療
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       4,200円〜
                     </div>
                   </div>
@@ -182,13 +182,13 @@ export const PricePlan = () => {
                   </div>
 
                   <div className="flex flex-col md:flex-col xl:inline-flex items-center md:items-center xl:items-baseline gap-2 md:gap-2 xl:gap-5 relative flex-[0_0_auto]">
-                    <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-base md:text-lg xl:text-2xl tracking-[0] leading-[21.6px] text-center md:whitespace-nowrap xl:whitespace-nowrap">
+                    <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-base md:text-lg xl:text-2xl tracking-[0] leading-[21.6px] text-center md:whitespace-nowrap xl:whitespace-nowrap">
                       5,000円以上の購入で
                     </div>
 
                     <div className="inline-flex items-baseline gap-2 md:gap-2 xl:gap-0 relative flex-[0_0_auto]">
-                      <p className="relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#6b6b6b] text-3xl md:text-4xl xl:text-5xl tracking-[0] leading-[normal]">
-                        <span className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#6b6b6b] text-3xl md:text-4xl xl:text-5xl tracking-[0]">
+                      <p className="relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#555555] text-3xl md:text-4xl xl:text-5xl tracking-[0] leading-[normal]">
+                        <span className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#555555] text-3xl md:text-4xl xl:text-5xl tracking-[0]">
                           1,000
                         </span>
 
@@ -197,8 +197,8 @@ export const PricePlan = () => {
                         <span className="text-[24px] md:text-[28px] xl:text-[32px]">OFF</span>
                       </p>
 
-                      <p className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#6b6b6b] text-[24px] md:text-[28px] xl:text-[32px] tracking-[0] leading-[normal]">
-                        <span className="text-[#6b6b6b]">＋</span>
+                      <p className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#555555] text-[24px] md:text-[28px] xl:text-[32px] tracking-[0] leading-[normal]">
+                        <span className="text-[#555555]">＋</span>
 
                         <span className="font-bold text-[#efa3af]">送料無料</span>
                       </p>
@@ -245,7 +245,7 @@ export const PricePlan = () => {
                         不眠症
                       </div>
 
-                      <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-sm md:text-sm xl:text-base text-center tracking-[0] leading-9 whitespace-nowrap">
+                      <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-sm md:text-sm xl:text-base text-center tracking-[0] leading-9 whitespace-nowrap">
                         1,870円〜
                       </div>
                     </div>
@@ -296,7 +296,7 @@ export const PricePlan = () => {
                       ゼオスキン
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       1,870円〜
                     </div>
                   </div>
@@ -320,7 +320,7 @@ export const PricePlan = () => {
                       MDEAR
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       1,870円〜
                     </div>
                   </div>
@@ -340,7 +340,7 @@ export const PricePlan = () => {
                       GAUDI SKIN
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       1,870円〜
                     </div>
                   </div>
@@ -371,7 +371,7 @@ export const PricePlan = () => {
           </div>
         </div>
 
-        <div className="relative w-full max-w-[665px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#6b6b6b] text-xs md:text-sm xl:text-base tracking-[0] leading-[28.8px] md:leading-[33.6px] xl:leading-[38.4px] px-2 md:px-0 xl:px-0">
+        <div className="relative w-full max-w-[665px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xs md:text-sm xl:text-base tracking-[0] leading-[28.8px] md:leading-[33.6px] xl:leading-[38.4px] px-2 md:px-0 xl:px-0">
           注意事項や副作用リスク
           <br />{" "}
           ピル：18歳未満、45歳以上は不可、過去にアレルギー反応があった方、BMI30以上や喫煙、既往歴で血栓症のリスクがあった場合は医師の判断で処方不可となる場合があります

@@ -74,18 +74,18 @@ export const View = () => {
             <p className="relative w-fit mt-[-1.00px] [font-family:'Noto_Serif',Helvetica] font-bold text-[var(--)] text-5xl text-center tracking-[0] leading-[52.8px]">
               <span className="text-[#c76f7e]">M</span>
 
-              <span className="text-[#6b6b6b]">ind &amp; </span>
+              <span className="text-[#555555]">ind &amp; </span>
 
               <span className="text-[#c76f7e]">B</span>
 
-              <span className="text-[#6b6b6b]">
+              <span className="text-[#555555]">
                 ody
                 <br />
               </span>
 
               <span className="text-[#c76f7e]">I</span>
 
-              <span className="text-[#6b6b6b]">nsights</span>
+              <span className="text-[#555555]">nsights</span>
             </p>
 
             <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[var(--)] text-base text-center tracking-[0] leading-[normal]">

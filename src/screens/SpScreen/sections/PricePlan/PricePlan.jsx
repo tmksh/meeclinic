@@ -442,7 +442,7 @@ src="/img/s-10559496-2.png"
 >
 <span
   
-    className= "[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#6b6b6b] text-[32px] tracking-[0]" 
+    className= "[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#555555] text-[32px] tracking-[0]" 
 
   
 
@@ -922,7 +922,7 @@ src="/img/s-10559502-1.png"
 >
 <span
   
-    className= "font-bold text-[#6b6b6b]" 
+    className= "font-bold text-[#555555]" 
 
   
 
@@ -938,7 +938,7 @@ src="/img/s-10559502-1.png"
 </span>
 <span
   
-    className= "font-bold text-[#6b6b6b] text-[15px] leading-[20.7px]" 
+    className= "font-bold text-[#555555] text-[15px] leading-[20.7px]" 
 
   
 
@@ -954,7 +954,7 @@ src="/img/s-10559502-1.png"
 </span>
 <span
   
-    className= "font-bold text-[#6b6b6b] text-[27px] leading-[37.3px]" 
+    className= "font-bold text-[#555555] text-[27px] leading-[37.3px]" 
 
   
 
@@ -970,7 +970,7 @@ OFF<br/>
 </span>
 <span
   
-    className= "text-[#6b6b6b] text-[15px] leading-[20.7px]" 
+    className= "text-[#555555] text-[15px] leading-[20.7px]" 
 
   
 

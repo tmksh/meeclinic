@@ -35,7 +35,7 @@ export const Header = ({
       />
 
       {/* Desktop Menu */}
-      <div className="hidden xl:inline-flex items-center gap-4 md:gap-6 xl:gap-14 relative flex-[0_0_auto]">
+      <div className="hidden lg:inline-flex items-center gap-4 md:gap-6 lg:gap-8 xl:gap-14 relative flex-[0_0_auto]">
         <div className="inline-flex items-center gap-[30px] relative flex-[0_0_auto]">
           <div className="inline-flex items-end gap-2.5 relative flex-[0_0_auto]">
             <div
@@ -59,12 +59,6 @@ export const Header = ({
             >
               料金
             </div>
-          </div>
-
-          <div
-            className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base text-center tracking-[2.40px] leading-[normal] whitespace-nowrap ${divClassName2}`}
-          >
-            豆知識
           </div>
         </div>
 
@@ -118,7 +112,7 @@ export const Header = ({
       </div>
 
       {/* Mobile Menu Button (Hamburger) */}
-      <div className="xl:hidden z-50 relative w-6 h-5 cursor-pointer" onClick={toggleMenu}>
+      <div className="lg:hidden z-50 relative w-6 h-5 cursor-pointer" onClick={toggleMenu}>
         <span className={`absolute left-0 block w-full h-0.5 bg-[#333] transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-1/2 -translate-y-1/2 rotate-45' : 'top-0'}`} />
         <span className={`absolute left-0 top-1/2 -translate-y-1/2 block w-full h-0.5 bg-[#333] transition-opacity duration-300 ease-in-out ${isMenuOpen ? 'opacity-0' : 'opacity-100'}`} />
         <span className={`absolute left-0 block w-full h-0.5 bg-[#333] transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-1/2 -translate-y-1/2 -rotate-45' : 'bottom-0'}`} />
@@ -131,17 +125,14 @@ export const Header = ({
         }`}
         style={{ transform: isMenuOpen ? 'translateX(0)' : 'translateX(100%)' }}
       >
-        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333] text-lg tracking-[2.40px] cursor-pointer" onClick={toggleMenu}>
+        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-lg tracking-[2.40px] cursor-pointer" onClick={toggleMenu}>
           クリニックについて
         </div>
-        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333] text-lg tracking-[2.40px] cursor-pointer" onClick={toggleMenu}>
+        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-lg tracking-[2.40px] cursor-pointer" onClick={toggleMenu}>
           選ばれる理由
         </div>
-        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333] text-lg tracking-[2.40px] cursor-pointer" onClick={toggleMenu}>
+        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-lg tracking-[2.40px] cursor-pointer" onClick={toggleMenu}>
           料金
-        </div>
-        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333] text-lg tracking-[2.40px] cursor-pointer" onClick={toggleMenu}>
-          豆知識
         </div>
         
         <div className="flex flex-col gap-4 mt-4">
