@@ -29,15 +29,15 @@ export const FooterPcWrapper = ({
             }}
           />
           <div className="flex items-center gap-2 md:gap-2 xl:gap-[11px] relative self-stretch w-full flex-[0_0_auto]">
-            <a href="#" className="flex w-10 h-10 md:w-10 md:h-10 xl:w-[52px] xl:h-[52px] items-center gap-2.5 p-2 md:p-2 xl:p-3 relative bg-white rounded-[26px] cursor-pointer hover:opacity-80 transition-opacity">
+            <a href="https://x.com/mee_clinic?s=21" className="flex w-10 h-10 md:w-10 md:h-10 xl:w-[52px] xl:h-[52px] items-center gap-2.5 p-2 md:p-2 xl:p-3 relative bg-[#EFA3AF] rounded-[26px] cursor-pointer hover:opacity-80 transition-opacity">
               <X className="!relative !w-6 !h-6 md:!w-6 md:!h-6 xl:!w-7 xl:!h-7 !aspect-[1]" />
             </a>
 
-            <a href="#" className="flex w-10 h-10 md:w-10 md:h-10 xl:w-[52px] xl:h-[52px] items-center gap-2.5 p-2 md:p-2 xl:p-3 relative bg-white rounded-[26px] cursor-pointer hover:opacity-80 transition-opacity">
+            <a href="https://www.instagram.com/mee_clinic?igsh=eXN0aHJnYWYzbDhs&utm_source=qr" className="flex w-10 h-10 md:w-10 md:h-10 xl:w-[52px] xl:h-[52px] items-center gap-2.5 p-2 md:p-2 xl:p-3 relative bg-[#EFA3AF] rounded-[26px] cursor-pointer hover:opacity-80 transition-opacity">
               <Instagram1 className="!relative !w-6 !h-6 md:!w-6 md:!h-6 xl:!w-7 xl:!h-7 !aspect-[1]" />
             </a>
 
-            <a href="#" className="flex w-10 h-10 md:w-10 md:h-10 xl:w-[52px] xl:h-[52px] items-center gap-2.5 p-2 md:p-2 xl:p-3 relative bg-white rounded-[26px] cursor-pointer hover:opacity-80 transition-opacity">
+            <a href="https://lin.ee/PSQ3TJzc" className="flex w-10 h-10 md:w-10 md:h-10 xl:w-[52px] xl:h-[52px] items-center gap-2.5 p-2 md:p-2 xl:p-3 relative bg-[#EFA3AF] rounded-[26px] cursor-pointer hover:opacity-80 transition-opacity">
               <Line
                 className="!h-6 md:!h-6 xl:!h-7 !aspect-[1] !left-[unset] !w-6 md:!w-6 xl:!w-7 !top-[unset]"
                 link="white"
