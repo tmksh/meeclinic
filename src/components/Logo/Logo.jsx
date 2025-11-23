@@ -20,7 +20,7 @@ export const Logo = ({ className, group = "/img/group-97-2.png", style }) => {
 
       <div className="flex flex-col items-start justify-center h-full">
         <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-[10px] tracking-[0] leading-[1] whitespace-nowrap mb-1">
-          忙しい女性専用のオンライン診療
+          自宅で完結するオンライン診療
         </div>
         <div className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[var(--)] text-[33px] tracking-[1.65px] leading-[0.8] whitespace-nowrap">
         mee clinic

@@ -49,7 +49,7 @@ export const Flow = () => {
             </div>
           </div>
 
-          <div className="absolute -top-6 left-1/2 -translate-x-1/2 [font-family:'Noto_Serif',Helvetica] font-light text-[#e3d2d2] text-[80px] md:text-6xl xl:text-8xl tracking-[0] leading-[1] md:leading-[72px] xl:leading-[96px] whitespace-nowrap z-20 opacity-50 md:opacity-100">
+          <div className="absolute -top-10 md:-top-[30px] xl:-top-12 left-1/2 -translate-x-1/2 [font-family:'Noto_Serif',Helvetica] font-light text-[#e3d2d2] text-[80px] md:text-6xl xl:text-8xl tracking-[0] leading-[1] md:leading-[72px] xl:leading-[96px] whitespace-nowrap z-20 opacity-50 md:opacity-100">
             01
           </div>
         </div>
@@ -76,7 +76,7 @@ export const Flow = () => {
             </div>
           </div>
 
-          <div className="absolute -top-6 left-1/2 -translate-x-1/2 [font-family:'Noto_Serif',Helvetica] font-light text-[#e3d2d2] text-[80px] md:text-6xl xl:text-8xl tracking-[0] leading-[1] md:leading-[72px] xl:leading-[96px] whitespace-nowrap z-20 opacity-50 md:opacity-100">
+          <div className="absolute -top-10 md:-top-[30px] xl:-top-12 left-1/2 -translate-x-1/2 [font-family:'Noto_Serif',Helvetica] font-light text-[#e3d2d2] text-[80px] md:text-6xl xl:text-8xl tracking-[0] leading-[1] md:leading-[72px] xl:leading-[96px] whitespace-nowrap z-20 opacity-50 md:opacity-100">
             02
           </div>
         </div>
@@ -101,7 +101,7 @@ export const Flow = () => {
             </div>
           </div>
 
-          <div className="absolute -top-6 left-1/2 -translate-x-1/2 [font-family:'Noto_Serif',Helvetica] font-light text-[#e3d2d2] text-[80px] md:text-6xl xl:text-8xl tracking-[0] leading-[1] md:leading-[72px] xl:leading-[96px] whitespace-nowrap z-20 opacity-50 md:opacity-100">
+          <div className="absolute -top-10 md:-top-[30px] xl:-top-12 left-1/2 -translate-x-1/2 [font-family:'Noto_Serif',Helvetica] font-light text-[#e3d2d2] text-[80px] md:text-6xl xl:text-8xl tracking-[0] leading-[1] md:leading-[72px] xl:leading-[96px] whitespace-nowrap z-20 opacity-50 md:opacity-100">
             03
           </div>
         </div>
@@ -130,7 +130,7 @@ export const Flow = () => {
             </div>
           </div>
 
-          <div className="absolute -top-6 left-1/2 -translate-x-1/2 [font-family:'Noto_Serif',Helvetica] font-light text-[#e3d2d2] text-[80px] md:text-6xl xl:text-8xl tracking-[0] leading-[1] md:leading-[72px] xl:leading-[96px] whitespace-nowrap z-20 opacity-50 md:opacity-100">
+          <div className="absolute -top-10 md:-top-[30px] xl:-top-12 left-1/2 -translate-x-1/2 [font-family:'Noto_Serif',Helvetica] font-light text-[#e3d2d2] text-[80px] md:text-6xl xl:text-8xl tracking-[0] leading-[1] md:leading-[72px] xl:leading-[96px] whitespace-nowrap z-20 opacity-50 md:opacity-100">
             04
           </div>
         </div>

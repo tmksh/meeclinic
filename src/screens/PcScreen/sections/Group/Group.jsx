@@ -8,12 +8,12 @@ export const Group = () => {
 
       <div className="flex flex-col w-full items-center md:block relative">
         {/* Title */}
-        <div className="relative md:ml-[618px] md:mt-[-80px] [font-family:'Noto_Serif',Helvetica] font-medium text-[#ffffffa6] text-[120px] md:text-[300px] tracking-[0] leading-[normal] text-center md:text-left">
+        <div className="hidden md:block relative md:ml-[618px] md:mt-[-80px] [font-family:'Noto_Serif',Helvetica] font-medium text-[#ffffffa6] text-[120px] md:text-[300px] tracking-[0] leading-[normal] text-center md:text-left">
           Skin
         </div>
 
         {/* Subtitle */}
-        <p className="relative md:ml-[618px] md:mt-[-160px] w-full md:w-[480px] px-4 md:px-0 [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-2xl md:text-[32px] tracking-[0] leading-[normal] text-center md:text-left">
+        <p className="hidden md:block relative md:ml-[618px] md:mt-[-160px] w-full md:w-[480px] px-4 md:px-0 [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-2xl md:text-[32px] tracking-[0] leading-[normal] text-center md:text-left">
           <span className="text-[#555555]">
             スキンケアだけでは解決しない、
             <br />
@@ -24,7 +24,7 @@ export const Group = () => {
         </p>
 
         {/* Description */}
-        <div className="relative md:absolute md:top-[420px] md:left-[299px] w-full md:w-[417px] px-4 md:px-0 mt-8 [font-family:'Noto_Serif_JP',Helvetica] font-medium text-[var(--)] text-base md:text-xl text-justify tracking-[0] leading-[1.6] md:leading-[normal]">
+        <div className="hidden md:block md:absolute md:top-[420px] md:left-[299px] w-full md:w-[417px] px-4 md:px-0 mt-8 [font-family:'Noto_Serif_JP',Helvetica] font-medium text-[var(--)] text-base md:text-xl text-justify tracking-[0] leading-[1.6] md:leading-[normal]">
           肌トラブルは、ホルモンバランスの変動に大きく影響されます 。<br />
           特に生理前は、  皮脂の分泌を促すホルモンが増え、
           <br />
@@ -32,8 +32,17 @@ export const Group = () => {
           スキンケアで解決しない場合は、根本原因にアプローチすることが大切です。
         </div>
 
-        {/* Image & Stats Section for Mobile */}
-        <div className="flex flex-col md:block w-full items-center gap-8 mt-8 px-4">
+        {/* SP Only Image (Group 9335 (2).svg) */}
+        <div className="md:hidden w-full mt-8 px-0">
+          <img
+            className="w-full h-auto"
+            alt="Skin Trouble Stats"
+            src="/img/Group 9335 (2).svg"
+          />
+        </div>
+
+        {/* Image & Stats Section for PC Only */}
+        <div className="hidden md:block w-full items-center gap-8 mt-8 px-4">
           {/* Image */}
           <div className="relative w-[175px] h-[190px] mx-auto md:mx-0 md:absolute md:top-[460px] md:left-[104px]">
             <div className="absolute top-0 left-0 w-[175px] h-[175px] bg-white rounded-md p-2">
@@ -50,7 +59,7 @@ export const Group = () => {
             </div>
           </div>
 
-          {/* Stats Wrapper for Mobile */}
+          {/* Stats Wrapper for PC */}
           <div className="flex flex-row justify-center gap-4 w-full md:contents">
           {/* Stats 1 */}
             <div className="flex flex-col w-[160px] md:w-[242px] items-center gap-5 relative mx-auto md:mx-0 md:absolute md:top-[460px] md:left-[764px]">
@@ -91,7 +100,7 @@ export const Group = () => {
         </div>
 
         {/* Tags */}
-        <div className="flex flex-wrap justify-center w-full md:w-[528px] items-center gap-[16px_16px] relative mt-8 mb-12 px-4 md:absolute md:top-[670px] md:left-[104px] md:mt-0 md:mb-0 md:px-0">
+        <div className="hidden md:flex flex-wrap justify-center w-full md:w-[528px] items-center gap-[16px_16px] relative mt-8 mb-12 px-4 md:absolute md:top-[670px] md:left-[104px] md:mt-0 md:mb-0 md:px-0">
           <TagPc className="!flex-[0_0_auto] !left-[unset] !top-[unset]" prop="ニキビ" />
           <TagPc className="!flex-[0_0_auto] !left-[unset] !top-[unset]" prop="ニキビ痕" />
           <TagPc className="!flex-[0_0_auto] !left-[unset] !top-[unset]" prop="肝斑" />

@@ -23,7 +23,7 @@ export const PcScreen = () => {
   return (
     <div className="bg-white w-full relative flex flex-col items-center overflow-x-hidden">
       <Header
-        className="!absolute !left-0 !top-0 !z-50"
+        className="!fixed !left-0 !top-0 !z-50"
         divClassName="![white-space:unset]"
         divClassName1="![white-space:unset]"
         divClassName2="![white-space:unset]"

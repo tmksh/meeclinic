@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Img } from "../../../../components/Img";
 
 export const View = () => {
@@ -33,7 +33,12 @@ export const View = () => {
 
       {/* Container 1: Intro + Mind&Body + 3 Columns */}
       <div className="flex flex-col w-full md:w-[739px] lg:w-[900px] xl:max-w-[998px] xl:w-full items-center gap-10 relative mx-auto px-4 md:px-0 py-12 md:py-0 z-10">
-        <div className="relative w-full md:w-[739px] lg:w-[900px] xl:max-w-[1005px] xl:w-full h-auto md:h-[115px] md:ml-[-2.49px] md:mr-[-4.49px] text-center md:text-left mb-8 md:mb-0">
+        <img
+          className="md:hidden w-[calc(100%+2rem)] max-w-none -mx-4 h-auto object-cover"
+          alt=""
+          src="/img/Group 9332.svg"
+        />
+        <div className="hidden md:block relative w-full md:w-[739px] lg:w-[900px] xl:max-w-[1005px] xl:w-full h-auto md:h-[115px] md:ml-[-2.49px] md:mr-[-4.49px] text-center md:text-left mb-8 md:mb-0">
           <img
             className="hidden md:block absolute top-[88px] left-[10px] lg:left-[100px] xl:left-52 w-[315px] h-5"
             alt="Line"
@@ -49,8 +54,8 @@ export const View = () => {
           </p>
         </div>
 
-        <div className="flex flex-col w-full md:w-[600px] lg:w-[739px] items-center gap-12 relative flex-[0_0_auto]">
-          <div className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[var(--)] text-lg md:text-xl lg:text-2xl tracking-[0.72px] leading-[1.8] md:leading-[1.8] lg:leading-[62px] text-center">
+        <div className="hidden md:flex flex-col w-full md:w-[600px] lg:w-[739px] items-center gap-12 relative flex-[0_0_auto]">
+          <div className="hidden md:block relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[var(--)] text-lg md:text-xl lg:text-2xl tracking-[0.72px] leading-[1.8] md:leading-[1.8] lg:leading-[62px] text-center">
             多くの人が漠然と抱えている、カラダやココロの悩み。
             <br />
             「これって私だけ？」 そう思っていませんか？
@@ -64,7 +69,7 @@ export const View = () => {
             日本の女性たちが直面するリアルな課題を紐解いていきましょう。
           </div>
 
-          <div className="flex flex-col w-full md:w-[500px] lg:w-[681px] items-end md:items-center gap-2 relative flex-[0_0_auto]">
+          <div className="hidden md:flex flex-col w-full md:w-[500px] lg:w-[681px] items-end md:items-center gap-2 relative flex-[0_0_auto]">
             <div className="flex flex-col items-end md:items-center gap-2.5 relative self-stretch w-full flex-[0_0_auto]">
               <p className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif',Helvetica] font-bold text-[var(--)] text-[40px] md:text-[48px] lg:text-[56px] xl:text-[64px] text-right md:text-center tracking-[0] leading-[1.2] md:leading-[1.2] lg:leading-[57.6px] whitespace-nowrap">
                 <span className="text-[#c76f7e]">M</span>
@@ -233,128 +238,113 @@ export const View = () => {
       </div>
 
       {/* Container 2: Japan Pill Gap + Doctor */}
-      <div className="relative w-full md:w-[1442px] h-auto md:min-h-[805px] mt-12 md:mt-20 mx-auto px-4 md:px-0 pb-0 md:pb-0 bg-[#e4e7f7] z-10">
-        {/* Background Image Layer */}
-        <img
-          className="absolute top-0 left-0 w-full h-full md:h-[687px] z-0 object-cover opacity-50 md:opacity-100 pointer-events-none"
-          alt="Mask group"
-          src="/img/mask-group-5.png"
-        />
+      <div className="relative w-full mt-12 md:mt-20 bg-[#e8ecf7] overflow-hidden z-10">
+        <div className="absolute -right-10 top-10 w-[220px] h-[220px] bg-white/40 blur-[80px]" aria-hidden="true" />
+        <div className="absolute -left-24 bottom-[-80px] w-[320px] h-[320px] bg-[#d2d7f6]/60 blur-[90px]" aria-hidden="true" />
 
-        {/* Background "Pill" text for mobile */}
-        <div className="relative w-full text-center md:hidden pt-8 z-10 top-[-40px]">
-          <div className="[font-family:'Noto_Serif',Helvetica] font-light text-white text-[150px] leading-[1] opacity-50" style={{ textShadow: '0 0 10px rgba(255,255,255,0.5)' }}>
-            Pill
-          </div>
-        </div>
-
-        {/* Title Section */}
-        <div className="relative w-full md:w-auto mb-8 md:mb-0 text-center md:text-left z-10 md:ml-[102px] pt-0 md:pt-[250px] mt-[-80px] md:mt-0">
-          <p className="[font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#555555] text-[28px] md:text-[40px] leading-[1.4] md:leading-[normal]">
-            <span className="text-[#555555] tracking-[0]">日本</span>
-            <span className="text-[#555555] tracking-[-6.72px]">は</span>
-            <span className="text-[#c76f7e] tracking-[-2.40px]">「</span>
-            <span className="text-[#c76f7e] tracking-[0]">ピル後進国</span>
-            <span className="text-[#c76f7e] tracking-[-9.60px]">」</span>
-            <span className="text-[#555555] tracking-[0]">
-              ？<br />
-              驚くべき世界とのギャップ
-            </span>
-          </p>
-        </div>
-
-        {/* Graph Section - World Map */}
-        <div className="relative w-full md:w-[725px] h-[300px] md:h-[681px] mb-8 md:mb-0 z-10 md:absolute md:top-[124px] md:right-0 xl:left-[623px]">
-          <div className="relative w-full h-[300px] md:!w-[725px] md:!h-[681px] flex items-center justify-center bg-transparent">
-            {/* まず map.png を試す、なければ地図.png、それでもなければ既存の画像を表示 */}
-            <img
-              className="w-full h-full object-contain"
-              alt="World Map with Data"
-              src="/img/map.png"
-              style={{ display: 'block', maxWidth: '100%', maxHeight: '100%' }}
-              onError={(e) => {
-                const currentSrc = e.target.src;
-                // フォールバック1: 地図.pngを試す
-                if (!currentSrc.includes('地図') && !currentSrc.includes('%E5%9C%B0%E5%9B%B3')) {
-                  e.target.src = '/img/地図.png';
-                } 
-                // フォールバック2: 既存のgroup.pngとgroup-1.pngを組み合わせて表示
-                else if (!currentSrc.includes('group')) {
-                  // 親要素に複数の画像を配置
-                  const parent = e.target.parentElement;
-                  if (parent && !parent.querySelector('.fallback-map')) {
-                    parent.innerHTML = `
-                      <img
-                        className="absolute w-[53.08%] h-[44.02%] top-[53.92%] left-[7.48%] object-contain"
-                        alt="Group"
-                        src="/img/group-1.png"
-                        style="display: block;"
-            />
-            <img
-                        className="absolute w-[41.36%] h-[47.35%] top-[52.59%] left-[57.49%] object-contain"
-                        alt="Group"
-                        src="/img/group.png"
-                        style="display: block;"
-                      />
-                    `;
-                  }
-                }
-              }}
-            />
-          </div>
-        </div>
-
-        {/* Doctor Profile Section */}
-        <div className="relative flex flex-row items-start gap-4 md:gap-5 w-full md:w-auto z-10 mt-8 md:mt-[144px] md:ml-[102px]">
-          <div className="relative w-[120px] h-[130px] md:w-[175px] md:h-[190px] flex-shrink-0">
-            <img
-              className="absolute top-0 left-0 w-full h-full object-cover"
-              alt="Img"
-              src="/img/img.png"
-            />
-            <div className="flex w-full md:w-[132px] items-center justify-between px-1 md:px-2 py-[3px] absolute bottom-[10px] md:top-[159px] left-0 md:left-[22px] bg-[#efa3af]">
-              <img
-                className="relative w-px h-[20px] md:h-[25px] ml-[-1.00px] object-cover"
-                alt="Line"
-                src="/img/line-36-1.svg"
-              />
-              <div className="relative w-fit [font-family:'Noto_Serif_JP',Helvetica] font-medium text-white text-xs md:text-sm text-center tracking-[0] leading-[normal] whitespace-nowrap">
-                産婦人科専門医
+        <div className="relative max-w-[1120px] mx-auto px-6 md:px-12 pt-0 md:pt-8 pb-12 md:pb-20 flex flex-col gap-10">
+          <img
+            className="md:hidden relative z-50 block w-[calc(100%+3rem)] -mx-6 h-auto mt-[-100px]"
+            alt=""
+            aria-hidden="true"
+            src="/img/Pill.svg"
+          />
+          <div className="hidden md:flex flex-col gap-10">
+            <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8 md:gap-12">
+              {/* Doctor Profile Section */}
+              <div className="relative w-[210px] sm:w-[240px] flex-shrink-0">
+                <img
+                  className="w-full h-[260px] sm:h-[300px] object-cover rounded-[24px] shadow-[0_20px_40px_rgba(95,110,145,0.25)]"
+                  alt="産婦人科専門医の写真"
+                  src="/img/img.png"
+                />
+                <div className="absolute left-1/2 -translate-x-1/2 bottom-[-18px] px-4 py-2 flex items-center gap-2 bg-[#efa3af] rounded-full shadow-[0_10px_25px_rgba(198,111,126,0.45)]">
+                  <img className="w-px h-5 opacity-80" alt="Line" src="/img/line-36-1.svg" />
+                  <span className="[font-family:'Noto_Serif_JP',Helvetica] font-semibold text-white text-xs sm:text-sm whitespace-nowrap tracking-[0.08em]">
+                    産婦人科専門医
+                  </span>
+                  <img className="w-px h-5 opacity-80" alt="Line" src="/img/line-36-1.svg" />
+                </div>
               </div>
-              <img
-                className="relative w-px h-[20px] md:h-[25px] object-cover"
-                alt="Line"
-                src="/img/line-36-1.svg"
-              />
-            </div>
-          </div>
 
-          <div className="flex flex-col flex-1 md:w-[306px] lg:w-[400px] xl:w-[500px] items-start gap-3.5 relative">
-            <p className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-normal text-[#555555] text-sm md:text-base lg:text-lg text-justify tracking-[0] leading-[1.8] md:leading-[1.8]">
-              <span className="font-medium text-[#555555]">
-                日本のピル服用率は わずか
-              </span>
-              <span className="font-semibold text-[#555555]">&nbsp;</span>
-              <span className="font-bold text-[#c76f7e] text-xl md:text-2xl lg:text-3xl">2.9</span>
-              <span className="font-bold text-[#c76f7e] lg:text-xl">%</span>
-              <span className="font-semibold text-[#555555]">
-                。<br />
-              </span>
-              <span className="font-medium text-[#555555]">
-                ドイツはその 約18倍。
-                <br />
-                いまなお「世界で取り残された国」のひとつです。
-                <br />
-                ピルは本来、月経困難症やPMS
-                <br />
-                （月経前症候群）の改善にも役立つ、
-                <br />
-                女性の健康を支えるツールです 。<br />
-                オンライン診療を活用すれば、
-                <br />
-                もっと手軽に専門家へ相談できます 。
-              </span>
-            </p>
+              {/* Text Section */}
+              <div className="flex-1 text-[#555555] [font-family:'Noto_Serif_JP',Helvetica] space-y-6">
+                <p className="text-lg md:text-[22px] leading-[1.85]">
+                  日本においてのピルの服用率は2019年時点でわずか
+                  <span className="px-1 text-[#c76f7e] font-semibold text-2xl md:text-3xl">2.9%</span>
+                  です。この数字は世界的に見て極めて低い水準で、ドイツはその約18倍にものぼります。
+                </p>
+                <p className="text-base md:text-xl leading-[1.95]">
+                  ピルは本来、月経困難症やPMS（
+                  <span className="text-sm md:text-base">月経前症候群</span>
+                  ）の改善にも役立つ、女性の健康を支える重要なツールです。適切に活用することで、体と心の負担を軽減し、日常生活の質を高めることができます。
+                </p>
+                <p className="text-base md:text-xl leading-[1.95]">
+                  オンライン診療を活用すれば、もっと手軽に専門家へ相談できます。
+                </p>
+              </div>
+            </div>
+
+            {/* Graph Section - World Map */}
+            <div className="relative mt-10 w-full">
+              <div className="mx-auto w-full max-w-[960px] rounded-[40px] bg-white/60 border border-white/70 shadow-[0_30px_60px_rgba(92,109,159,0.25)] px-4 py-6 md:px-10 md:py-12 backdrop-blur-sm">
+                <div className="relative w-full h-[260px] md:h-[360px]">
+                  <img className="w-full h-full object-contain" alt="世界各国のピル服用率" src="/img/map.png" />
+
+                  {/* France */}
+                  <div className="absolute bottom-[18%] left-[16%] flex flex-col items-center gap-2 text-[#555555] text-[11px] md:text-sm">
+                    <div
+                      className="w-[12px] md:w-[18px] rounded-full bg-white shadow-[0_15px_30px_rgba(88,105,150,0.35)]"
+                      style={{ height: '90px' }}
+                    />
+                    <p className="text-center leading-tight">
+                      フランス
+                      <br />
+                      <span className="text-base md:text-lg font-semibold">33.1%</span>
+                    </p>
+                  </div>
+
+                  {/* Germany */}
+                  <div className="absolute bottom-[22%] left-[42%] flex flex-col items-center gap-2 text-[#555555] text-[11px] md:text-sm">
+                    <div
+                      className="w-[14px] md:w-[20px] rounded-full bg-white shadow-[0_18px_35px_rgba(88,105,150,0.45)]"
+                      style={{ height: '150px' }}
+                    />
+                    <p className="text-center leading-tight">
+                      ドイツ
+                      <br />
+                      <span className="text-base md:text-lg font-semibold">52.6%</span>
+                    </p>
+                  </div>
+
+                  {/* Japan */}
+                  <div className="absolute bottom-[22%] left-[58%] flex flex-col items-center gap-2 text-[#555555] text-[11px] md:text-sm">
+                    <div
+                      className="w-[10px] md:w-[16px] rounded-full bg-[#c76f7e] shadow-[0_15px_30px_rgba(199,111,126,0.4)]"
+                      style={{ height: '40px' }}
+                    />
+                    <p className="text-center leading-tight">
+                      日本
+                      <br />
+                      <span className="text-base md:text-lg font-semibold">2.9%</span>
+                    </p>
+                  </div>
+
+                  {/* Canada */}
+                  <div className="absolute bottom-[20%] right-[14%] flex flex-col items-center gap-2 text-[#555555] text-[11px] md:text-sm">
+                    <div
+                      className="w-[12px] md:w-[18px] rounded-full bg-white shadow-[0_15px_30px_rgba(88,105,150,0.35)]"
+                      style={{ height: '120px' }}
+                    />
+                    <p className="text-center leading-tight">
+                      カナダ
+                      <br />
+                      <span className="text-base md:text-lg font-semibold">28.5%</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

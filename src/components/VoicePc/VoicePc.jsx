@@ -15,24 +15,24 @@ export const VoicePc = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-full max-w-[280px] md:max-w-[220px] xl:max-w-[344px] min-h-[180px] md:min-h-[180px] xl:min-h-[216px] items-start gap-6 md:gap-6 xl:gap-10 p-4 md:p-4 xl:p-6 relative bg-white rounded-2xl shadow-[0px_4px_16px_#ff69b410] ${className}`}
+      className={`flex flex-col w-full max-w-[280px] md:max-w-[344px] xl:max-w-[344px] min-h-[180px] md:min-h-[216px] xl:min-h-[216px] items-start gap-6 md:gap-6 xl:gap-10 p-4 md:p-6 xl:p-6 relative bg-white rounded-2xl shadow-[0px_4px_16px_#ff69b410] ${className}`}
     >
-      <div className="flex items-center gap-2 md:gap-2 xl:gap-3 relative self-stretch w-full flex-[0_0_auto]">
+      <div className="flex items-center gap-2 md:gap-3 xl:gap-3 relative self-stretch w-full flex-[0_0_auto]">
         {icon}
         <div className="inline-flex flex-col items-start gap-1 relative flex-1 min-w-0">
-          <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-black text-[#555555] text-xs md:text-xs xl:text-sm tracking-[0] leading-[12px] md:leading-[12px] xl:leading-[14px] whitespace-nowrap">
+          <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-black text-[#555555] text-xs md:text-sm xl:text-sm tracking-[0] leading-[12px] md:leading-[14px] xl:leading-[14px] whitespace-nowrap">
             {prop}
           </div>
 
           <img
-            className="relative flex-[0_0_auto] w-[60px] md:w-[60px] xl:w-[88px]"
+            className="relative flex-[0_0_auto] w-[60px] md:w-[88px] xl:w-[88px]"
             alt="Rating"
             src="/img/rating.svg"
           />
         </div>
       </div>
 
-      <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#555555] text-xs md:text-xs xl:text-sm text-justify tracking-[0] leading-[16.8px] md:leading-[16.8px] xl:leading-[19.6px]">
+      <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#555555] text-xs md:text-sm xl:text-sm text-justify tracking-[0] leading-[16.8px] md:leading-[19.6px] xl:leading-[19.6px]">
         {prop1}
       </div>
     </div>

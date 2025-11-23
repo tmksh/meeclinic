@@ -2,6 +2,12 @@ import React from "react";
 import { TagPc } from "../../../../components/TagPc";
 
 export const GroupWrapper = () => {
+  const sleepConcerns = [
+    { label: "日中眠くなる", value: 66 },
+    { label: "疲れがとれない", value: 61 },
+    { label: "眠りが浅い", value: 60 },
+  ];
+
   return (
     <div className="relative w-full h-auto pb-48 md:pb-[200px] mt-0 md:mt-[-100px] z-30 px-4 md:px-0 overflow-visible">
       {/* Background */}
@@ -58,60 +64,70 @@ export const GroupWrapper = () => {
 
       {/* Bottom text section */}
       <div className="relative md:ml-[102px] [font-family:'Noto_Serif_JP',Helvetica] font-medium text-[var(--)] text-base md:text-lg xl:text-xl tracking-[0] leading-[1.6] md:leading-[32px] mt-8 mb-8 z-10">
-        働き盛り世代は「仕事」や「育児」 、若い世代では  <br />
-        就寝前のスマホ使用が睡眠不足を招いています 。<br />
-        良質な睡眠は美容やメンタルにも直結します。
-        <br />
-        まずはオンラインで専門家へ相談してみませんか？
+        <span className="md:hidden text-[#6B6B6B]">
+          働き盛り世代は「仕事」や「育児」 、若い世代では
+          <br />
+          就寝前のスマホ使用が睡眠不足を招いています 。
+          <br />
+          良質な睡眠は美容やメンタルにも直結します。
+          <br />
+          まずはオンラインで専門家へ相談してみませんか？
+        </span>
+        <span className="hidden md:inline">
+          働き盛り世代は「仕事」や「育児」 、若い世代では
+          <br />
+          就寝前のスマホ使用が睡眠不足を招いています 。
+          <br />
+          良質な睡眠は美容やメンタルにも直結します。
+          <br />
+          まずはオンラインで専門家へ相談してみませんか？
+        </span>
       </div>
 
       {/* SP Layout */}
       <div className="flex flex-col w-full md:hidden mt-8 px-4 items-center">
-        {/* Tags (SP) */}
-        <div className="flex flex-wrap w-full items-center justify-center gap-1.5 z-10 mb-4">
-          <TagPc className="!flex-[0_0_auto] !left-[unset] !top-[unset] !px-3 !py-1.5 !border-[0.5px] w-[48%]" divClassName="!text-xs !leading-normal text-center" prop="ニキビ" />
-          <TagPc className="!flex-[0_0_auto] !left-[unset] !top-[unset] !px-3 !py-1.5 !border-[0.5px] w-[48%]" divClassName="!text-xs !leading-normal text-center" prop="ニキビ痕" />
-          <TagPc className="!flex-[0_0_auto] !left-[unset] !top-[unset] !px-3 !py-1.5 !border-[0.5px] w-[48%]" divClassName="!text-xs !leading-normal text-center" prop="肝斑" />
-          <TagPc className="!flex-[0_0_auto] !left-[unset] !top-[unset] !px-3 !py-1.5 !border-[0.5px] w-[48%]" divClassName="!text-xs !leading-normal text-center" prop="開き毛穴" />
-          <TagPc className="!flex-[0_0_auto] !left-[unset] !top-[unset] !px-3 !py-1.5 !border-[0.5px] w-[48%]" divClassName="!text-xs !leading-normal text-center whitespace-nowrap" prop="つまり(黒ずみ)毛穴" />
-          <TagPc className="!flex-[0_0_auto] !left-[unset] !top-[unset] !px-3 !py-1.5 !border-[0.5px] w-[48%]" divClassName="!text-xs !leading-normal text-center" prop="エイジングケア" />
-        </div>
-
-        {/* Photo & Graph (SP) */}
-        <div className="flex flex-row items-start justify-center gap-4 w-full">
-          {/* Doctor Image */}
-          <div className="relative w-[180px] h-[220px] flex bg-[url(/img/s-10706965-2025-11-19-2.png)] bg-contain bg-no-repeat bg-center z-10 flex-shrink-0 mt-[-20px] ml-[-10px]">
-            <div className="mt-[auto] w-full h-[20px] bg-[linear-gradient(180deg,rgba(229,188,197,0)_0%,rgba(229,188,197,1)_100%)]" />
+        {/* Graph Card */}
+        <div className="w-full bg-[#fdf1f4] rounded-[32px] border border-[#f0bac5] shadow-[0_15px_40px_rgba(207,145,160,0.2)] px-6 py-6">
+          <div className="flex items-center justify-center h-12 border border-[#efa3af] rounded-full bg-white">
+            <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#c76f7e] text-sm tracking-[0.1em]">
+              特に多い睡眠の悩み
+            </div>
           </div>
 
-          {/* Graph Card */}
-          <div className="flex flex-col w-[180px] items-center justify-center gap-2 p-3 bg-white rounded-[16px] shadow-md border border-[#efa3af] mt-4 mr-[-10px]">
-            <div className="flex w-full h-[32px] items-center justify-center gap-1 px-2 py-1 relative bg-white rounded-[20px] border border-solid border-[#efa3af]">
-              <div className="relative w-fit mt-[-0.50px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#c76f7e] text-[10px] tracking-[0] leading-[normal] whitespace-nowrap">
-                特に多い睡眠の悩み
+          <div className="flex flex-col w-full gap-4 mt-6">
+            {sleepConcerns.map((item) => (
+              <div key={item.label} className="flex items-center gap-4">
+                <div className="flex-1 h-[52px] rounded-[12px] bg-[#efa3af] flex items-center px-6 shadow-[0_10px_20px_rgba(207,145,160,0.25)]">
+                  <p className="text-white text-base font-semibold whitespace-nowrap">
+                    {item.label}
+                  </p>
+                </div>
+                <div className="text-[#5a5a5a] text-xl font-semibold leading-none">
+                  {item.value}
+                  <span className="text-sm font-medium ml-1">%</span>
+                </div>
               </div>
-            </div>
+            ))}
+          </div>
+        </div>
 
-            <div className="flex flex-col w-full gap-2">
-              <div className="flex items-center gap-2 w-full">
-                <div className="flex flex-1 h-[32px] items-center justify-center px-2 bg-[#f0b8c1] rounded-sm">
-                  <div className="text-white text-[10px] whitespace-nowrap font-medium">日中眠くなる</div>
-                </div>
-                <div className="text-[#555555] text-lg font-medium leading-none">66<span className="text-[10px]">%</span></div>
+        {/* Photo & Tags */}
+        <div className="flex w-full items-start gap-4 mt-8">
+          {/* Doctor Image */}
+          <div className="flex-1 max-w-[200px] h-[240px] bg-[url(/img/s-10706965-2025-11-19-2.png)] bg-contain bg-no-repeat bg-center relative">
+            <div className="absolute bottom-0 left-0 w-full h-[30px] bg-[linear-gradient(180deg,rgba(229,188,197,0)_0%,rgba(229,188,197,1)_100%)]" />
+          </div>
+
+          {/* Tags */}
+          <div className="flex-1 flex flex-wrap gap-2 content-start">
+            {["ニキビ", "ニキビ痕", "肝斑", "開き毛穴", "つまり(黒ずみ)毛穴", "エイジングケア"].map((tag) => (
+              <div
+                key={tag}
+                className="w-fit px-3 py-1.5 border border-[#efa3af] rounded-[999px] text-center text-xs text-[#c76f7e] bg-white/80 [font-family:'Noto_Sans_JP',Helvetica] font-medium"
+              >
+                {tag}
               </div>
-              <div className="flex items-center gap-2 w-full">
-                <div className="flex flex-1 h-[32px] items-center justify-center px-2 bg-[#f0b8c1] rounded-sm">
-                  <div className="text-white text-[10px] whitespace-nowrap font-medium">疲れがとれない</div>
-                </div>
-                <div className="text-[#555555] text-lg font-medium leading-none">61<span className="text-[10px]">%</span></div>
-              </div>
-              <div className="flex items-center gap-2 w-full">
-                <div className="flex flex-1 h-[32px] items-center justify-center px-2 bg-[#f0b8c1] rounded-sm">
-                  <div className="text-white text-[10px] whitespace-nowrap font-medium">眠りが浅い</div>
-                </div>
-                <div className="text-[#555555] text-lg font-medium leading-none">60<span className="text-[10px]">%</span></div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
@@ -135,70 +151,31 @@ export const GroupWrapper = () => {
       </div>
 
       {/* White card with sleep concerns (PC) */}
-      <div 
-        className="hidden md:inline-flex md:h-[403px] items-center justify-center gap-2.5 md:p-[53px] relative md:absolute md:top-[600px] md:right-[100px] bg-[#efe3e5] md:rounded-[40px] md:shadow-none md:max-w-none"
-        style={{ transform: "scale(0.9)", transformOrigin: "top right" }}
+      <div
+        className="hidden md:flex md:absolute md:top-[600px] md:right-[100px] bg-transparent"
+        style={{ transform: "scale(0.95)", transformOrigin: "top right" }}
       >
-        <div className="flex flex-col items-start gap-8 relative">
-          {/* Title button */}
-          <div className="md:w-[406px] h-[54px] items-center justify-center gap-2.5 px-[101px] py-[15px] relative bg-white rounded-[50px] border border-solid border-[#efa3af] hidden md:flex">
-            <div className="relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#c76f7e] text-xl tracking-[0] leading-[normal] whitespace-nowrap">
+        <div className="w-[430px] bg-[#fdf1f4] rounded-[40px] border border-[#f0bac5] shadow-[0_25px_65px_rgba(207,145,160,0.25)] px-10 py-10">
+          <div className="flex items-center justify-center h-[60px] border-[1.5px] border-[#efa3af] rounded-full bg-white">
+            <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#c76f7e] text-lg tracking-[0.08em]">
               特に多い睡眠の悩み
             </div>
           </div>
 
-          {/* Stats list */}
-          <div className="md:w-[406px] md:h-[255px] items-start gap-[18px] relative md:mb-[-24.00px] md:aspect-[1.59] hidden md:flex flex-col">
-            {/* Stat 1 */}
-            <div className="flex items-center gap-[19px] relative self-stretch w-full flex-[0_0_auto]">
-              <div className="flex md:w-[327px] h-[65px] items-center gap-2.5 px-[31px] py-5 relative bg-[#e694a1] rounded-sm">
-                <div className="mt-[-0.50px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-xl whitespace-nowrap relative w-fit tracking-[0] leading-[normal]">
-                  日中眠くなる
+          <div className="flex flex-col gap-5 mt-8">
+            {sleepConcerns.map((item) => (
+              <div key={item.label} className="flex items-center gap-5">
+                <div className="flex-1 h-[65px] rounded-[12px] bg-[#efa3af] flex items-center px-8 shadow-[0_15px_30px_rgba(199,111,126,0.3)]">
+                  <p className="text-white text-xl font-semibold whitespace-nowrap [font-family:'Noto_Sans_JP',Helvetica]">
+                    {item.label}
+                  </p>
+                </div>
+                <div className="[font-family:'Noto_Sans_JP',Helvetica] text-[#5a5a5a] text-[34px] font-semibold leading-none">
+                  {item.value}
+                  <span className="text-xl font-medium ml-1">%</span>
                 </div>
               </div>
-
-              <p className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-4xl tracking-[0] leading-[normal] whitespace-nowrap">
-                <span className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-4xl tracking-[0]">
-                  66
-                </span>
-
-                <span className="text-xl">%</span>
-              </p>
-            </div>
-
-            {/* Stat 2 */}
-            <div className="flex items-center gap-3.5 relative flex-[0_0_auto] self-stretch w-full">
-              <div className="flex md:w-[302px] h-[65px] items-center gap-2.5 px-[31px] py-5 relative bg-[#e694a1] rounded-sm">
-                <div className="mt-[-0.50px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-xl whitespace-nowrap relative w-fit tracking-[0] leading-[normal]">
-                  疲れがとれない
-                </div>
-              </div>
-
-              <p className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-4xl tracking-[0] leading-[normal] whitespace-nowrap">
-                <span className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-4xl tracking-[0]">
-                  61
-                </span>
-
-                <span className="text-xl">%</span>
-              </p>
-            </div>
-
-            {/* Stat 3 */}
-            <div className="flex items-center gap-4 relative flex-[0_0_auto] self-stretch w-full">
-              <div className="flex md:w-[297px] h-[65px] items-center gap-2.5 px-[31px] py-5 relative bg-[#e694a1] rounded-sm">
-                <div className="mt-[-0.50px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-xl whitespace-nowrap relative w-fit tracking-[0] leading-[normal]">
-                  眠りが浅い
-                </div>
-              </div>
-
-              <p className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-4xl tracking-[0] leading-[normal] whitespace-nowrap">
-                <span className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-4xl tracking-[0]">
-                  60
-                </span>
-
-                <span className="text-xl">%</span>
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </div>

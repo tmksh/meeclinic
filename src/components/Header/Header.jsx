@@ -113,9 +113,9 @@ export const Header = ({
 
       {/* Mobile Menu Button (Hamburger) */}
       <div className="lg:hidden z-50 relative w-6 h-5 cursor-pointer" onClick={toggleMenu}>
-        <span className={`absolute left-0 block w-full h-0.5 bg-[#333] transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-1/2 -translate-y-1/2 rotate-45' : 'top-0'}`} />
-        <span className={`absolute left-0 top-1/2 -translate-y-1/2 block w-full h-0.5 bg-[#333] transition-opacity duration-300 ease-in-out ${isMenuOpen ? 'opacity-0' : 'opacity-100'}`} />
-        <span className={`absolute left-0 block w-full h-0.5 bg-[#333] transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-1/2 -translate-y-1/2 -rotate-45' : 'bottom-0'}`} />
+        <span className={`absolute left-0 block w-full h-0.5 bg-[#EFA3AF] transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-1/2 -translate-y-1/2 rotate-45' : 'top-0'}`} />
+        <span className={`absolute left-0 top-1/2 -translate-y-1/2 block w-full h-0.5 bg-[#EFA3AF] transition-opacity duration-300 ease-in-out ${isMenuOpen ? 'opacity-0' : 'opacity-100'}`} />
+        <span className={`absolute left-0 block w-full h-0.5 bg-[#EFA3AF] transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-1/2 -translate-y-1/2 -rotate-45' : 'bottom-0'}`} />
       </div>
 
       {/* Mobile Menu Overlay */}

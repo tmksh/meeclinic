@@ -56,78 +56,13 @@ export const Card = () => {
         こんなお悩みありませんか？
       </div>
 
-      {/* スマホ版: 画像とオーバーレイ */}
-      <div className="relative w-full h-auto md:hidden mt-4 mb-8">
+      {/* スマホ版: SVGのみ表示 */}
+      <div className="w-full md:hidden mt-4 mb-8">
         <img
           className="w-full h-auto object-cover"
-          alt="Switch"
-          src="/img/switch.png"
+          alt="Mee Clinic concern illustration"
+          src="/img/Group 9336 (1).svg"
         />
-        
-        {/* タイトル - 画像の上部中央に配置 */}
-        <div className="absolute top-6 left-0 w-full px-4 z-30">
-          <div className="[font-family:'Noto_Serif_JP',Helvetica] font-semibold text-white text-[20px] md:text-[24px] tracking-[1.2px] leading-[1.4] text-left drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] pl-28 whitespace-nowrap">
-            こんなお悩みありませんか？
-          </div>
-        </div>
-        
-        {/* スマホ用悩みサークルオーバーレイ - 画像の上に配置 */}
-        <div className="absolute inset-0 pointer-events-none">
-          {/* 上段左 */}
-          <div className="absolute top-[15%] left-[2%] w-[100px] h-[100px] flex items-center justify-center">
-            <div className="relative w-full h-full bg-[#d89da6cc] rounded-full backdrop-blur-sm p-1">
-              <div className="relative w-full h-full rounded-full border-[1.5px] border-dashed border-white flex items-center justify-center">
-                <div className="text-white text-[9px] font-medium text-center leading-[1.3] px-1">
-                  生理前のつらい症状や<br />避妊の不安
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          {/* 上段右 */}
-          <div className="absolute top-[25%] right-[2%] w-[100px] h-[100px] flex items-center justify-center">
-            <div className="relative w-full h-full bg-[#b9737fcc] rounded-full backdrop-blur-sm p-1">
-              <div className="relative w-full h-full rounded-full border-[1.5px] border-dashed border-white flex items-center justify-center">
-                <div className="text-white text-[9px] font-medium text-center leading-[1.3] px-1">
-                  繰り返す<br />肌荒れやニキビ
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          {/* 中央（女性の上） */}
-          <div className="absolute top-[45%] left-[48%] -translate-x-1/2 w-[120px] h-[120px] flex items-center justify-center">
-            <div className="relative w-full h-full bg-[#d89da6cc] rounded-full backdrop-blur-sm p-1">
-              <div className="relative w-full h-full rounded-full border-[1.5px] border-dashed border-white flex items-center justify-center">
-                <div className="text-white text-[9px] font-medium text-center leading-[1.3] px-1">
-                  「なんとなく不安」<br />「眠れない」<br />といったメンタルの不調
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          {/* 下段左 */}
-          <div className="absolute bottom-[15%] left-[2%] w-[100px] h-[100px] flex items-center justify-center">
-            <div className="relative w-full h-full bg-[#b9737fcc] rounded-full backdrop-blur-sm p-1">
-              <div className="relative w-full h-full rounded-full border-[1.5px] border-dashed border-white flex items-center justify-center">
-                <div className="text-white text-[9px] font-medium text-center leading-[1.3] px-1">
-                  忙しくて<br />病院に行く時間がない
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          {/* 下段右 */}
-          <div className="absolute bottom-[5%] right-[2%] w-[100px] h-[100px] flex items-center justify-center">
-            <div className="relative w-full h-full bg-[#d89da6cc] rounded-full backdrop-blur-sm p-1">
-              <div className="relative w-full h-full rounded-full border-[1.5px] border-dashed border-white flex items-center justify-center">
-                <div className="text-white text-[9px] font-medium text-center leading-[1.3] px-1">
-                  誰にも知られずに<br />相談したい
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       
       {/* PC用悩みサークル (スマホでは非表示) */}
@@ -183,12 +118,12 @@ export const Card = () => {
         </div>
       </div>
 
-      <div className="w-full flex justify-center my-8 relative z-20">
-      <img
+      <div className="hidden md:flex w-full justify-center my-8 relative z-20">
+        <img
           className="w-[240px] md:w-[240px] xl:w-[277px] h-[75px] md:h-[75px] xl:h-[87px]"
-        alt="Tooltip"
-        src="/img/tooltip.svg"
-      />
+          alt="Tooltip"
+          src="/img/tooltip.svg"
+        />
       </div>
 
       {/* メッセージボックス (Swapped order for mobile flow) */}
@@ -218,7 +153,7 @@ export const Card = () => {
         
         <div className="flex flex-col w-full md:w-[700px] xl:w-[895px] items-center gap-8 md:gap-12 xl:gap-16 relative flex-[0_0_auto]">
           {/* 理由1 */}
-          <div className="flex flex-col md:flex-row xl:flex-row items-center gap-6 md:gap-8 xl:gap-[57px] relative self-stretch w-full flex-[0_0_auto]">
+          <div className="hidden md:flex md:flex-row xl:flex-row items-center gap-6 md:gap-8 xl:gap-[57px] relative self-stretch w-full flex-[0_0_auto]">
             <ReasonPc className="!left-[unset] !top-[unset]" one="reason-1" />
             <ReasonTextPc
               text2={
@@ -237,7 +172,16 @@ export const Card = () => {
 
           {/* 理由2 */}
           <div className="flex flex-col md:flex-row-reverse xl:flex-row-reverse items-center gap-6 md:gap-8 xl:gap-[57px] relative self-stretch w-full flex-[0_0_auto]">
-            <ReasonPc className="!mr-0 md:!mr-[-2.00px] xl:!mr-[-2.00px] !left-[unset] !top-[unset]" one="reason-2" />
+            {/* Mobile Image Replacement (Group 9333.svg) */}
+            <div className="md:hidden w-full flex justify-center px-0">
+              <img
+                className="w-full"
+                alt="Group 9333"
+                src="/img/Group 9333.svg"
+              />
+            </div>
+
+            <ReasonPc className="hidden md:block !mr-0 md:!mr-[-2.00px] xl:!mr-[-2.00px] !left-[unset] !top-[unset]" one="reason-2" />
             <ReasonTextPc
               text2={
                 <>
@@ -245,7 +189,7 @@ export const Card = () => {
                   <br /> 「聞きづらい…」をなくす相談窓口です。
                 </>
               }
-              className="!left-[unset] !w-full md:!w-[350px] xl:!w-[420px] !top-[unset]"
+              className="hidden md:flex !left-[unset] !w-full md:!w-[350px] xl:!w-[420px] !top-[unset]"
               divClassName="![white-space:unset]"
               frameClassName="!mr-0 md:!mr-[-167.00px] xl:!mr-[-167.00px]"
               prop="02"
@@ -261,7 +205,7 @@ export const Card = () => {
 
           {/* 理由3 */}
           <div className="flex flex-col md:flex-row xl:flex-row items-center gap-6 md:gap-8 xl:gap-[57px] relative self-stretch w-full flex-[0_0_auto]">
-            <ReasonPc className="!left-[unset] !top-[unset]" one="reason-3" />
+            <ReasonPc className="hidden md:block !left-[unset] !top-[unset]" one="reason-3" />
             <ReasonTextPc
               text2={
                 <>
@@ -269,7 +213,7 @@ export const Card = () => {
                   <br /> ライフスタイルに合わせて利用できます。
                 </>
               }
-              className="!left-[unset] !w-full md:!w-[350px] xl:!w-[420px] !top-[unset]"
+              className="hidden md:flex !left-[unset] !w-full md:!w-[350px] xl:!w-[420px] !top-[unset]"
               frameClassName="!mr-0 md:!mr-[-167.00px] xl:!mr-[-167.00px]"
               prop="03"
               prop1="24時間365日対応"
@@ -278,7 +222,7 @@ export const Card = () => {
 
           {/* 理由4 */}
           <div className="flex flex-col md:flex-row-reverse xl:flex-row-reverse items-center gap-6 md:gap-8 xl:gap-[57px] relative self-stretch w-full flex-[0_0_auto]">
-            <ReasonPc className="!mr-0 md:!mr-[-2.00px] xl:!mr-[-2.00px] !left-[unset] !top-[unset]" one="reason-4" />
+            <ReasonPc className="hidden md:block !mr-0 md:!mr-[-2.00px] xl:!mr-[-2.00px] !left-[unset] !top-[unset]" one="reason-4" />
             <ReasonTextPc
               text2={
                 <>
@@ -287,7 +231,7 @@ export const Card = () => {
                   中身がわからない【雑貨】表記で、プライバシーも安心です。
                 </>
               }
-              className="!left-[unset] !w-full md:!w-[350px] xl:!w-[420px] !top-[unset]"
+              className="hidden md:flex !left-[unset] !w-full md:!w-[350px] xl:!w-[420px] !top-[unset]"
               divClassName="![white-space:unset]"
               frameClassName="!mr-0 md:!mr-[-167.00px] xl:!mr-[-167.00px]"
               prop="04"
@@ -303,7 +247,7 @@ export const Card = () => {
 
           {/* 理由5 */}
           <div className="flex flex-col md:flex-row xl:flex-row items-center gap-6 md:gap-8 xl:gap-[57px] relative self-stretch w-full flex-[0_0_auto]">
-            <ReasonPc className="!left-[unset] !top-[unset]" one="reason-5" />
+            <ReasonPc className="hidden md:block !left-[unset] !top-[unset]" one="reason-5" />
             <ReasonTextPc
               text2={
                 <>
@@ -311,7 +255,7 @@ export const Card = () => {
                   <br /> さらに定期キャンペーンでお得に利用できます。
                 </>
               }
-              className="!mr-0 md:!mr-[-2.00px] xl:!mr-[-2.00px] !left-[unset] !w-full md:!w-[350px] xl:!w-[420px] !top-[unset]"
+              className="hidden md:flex !mr-0 md:!mr-[-2.00px] xl:!mr-[-2.00px] !left-[unset] !w-full md:!w-[350px] xl:!w-[420px] !top-[unset]"
               frameClassName="!self-stretch !w-full"
               prop="05"
               prop1="続けやすい料金プラン"

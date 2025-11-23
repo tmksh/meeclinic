@@ -22,13 +22,13 @@ export const QAPc = ({
     >
       <div className="flex items-center justify-between w-full">
         <div
-          className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[var(--)] text-xl tracking-[0] leading-[normal] whitespace-nowrap ${divClassName}`}
+          className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#333333] text-xl tracking-[0] leading-[normal] whitespace-nowrap ${divClassName}`}
         >
           Q.
         </div>
 
         <div
-          className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[var(--)] text-xl tracking-[0] leading-[normal] whitespace-nowrap ${divClassNameOverride}`}
+          className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#333333] text-xl tracking-[0] leading-[normal] whitespace-nowrap ${divClassNameOverride}`}
         >
           {prop}
         </div>
