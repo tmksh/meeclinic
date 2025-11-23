@@ -40,33 +40,37 @@ export const ConcreteComponentNode = ({ className }) => {
         </div>
 
         <div className="inline-flex flex-col items-start gap-4 relative flex-[0_0_auto]">
-          <div className="bg-[var(--)] flex w-[363px] h-14 items-center justify-end gap-6 px-[17px] py-3 relative rounded-[100px] border border-solid border-[var(--)]">
-            <div className="flex items-center justify-center mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-[var(--)] text-[22px] tracking-[0] relative w-fit text-center leading-[normal]">
-              オンライン診療はこちら
-            </div>
+          <a href="https://meeclinic0903.netlify.app/app" className="no-underline contents">
+            <div className="bg-[var(--)] flex w-[363px] h-14 items-center justify-end gap-6 px-[17px] py-3 relative rounded-[100px] border border-solid border-[var(--)]">
+              <div className="flex items-center justify-center mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-[var(--)] text-[22px] tracking-[0] relative w-fit text-center leading-[normal]">
+                オンライン診療はこちら
+              </div>
 
-            <div className="relative w-[22px] h-[22px] bg-[var(--)] rounded-[11px]">
-              <img
-                className="absolute top-[5px] left-[7px] w-2.5 h-3"
-                alt="Vector"
-                src="/img/vector-7.svg"
-              />
+              <div className="relative w-[22px] h-[22px] bg-[var(--)] rounded-[11px]">
+                <img
+                  className="absolute top-[5px] left-[7px] w-2.5 h-3"
+                  alt="Vector"
+                  src="/img/vector-7.svg"
+                />
+              </div>
             </div>
-          </div>
+          </a>
 
-          <div className="bg-[#7182e4] flex w-[363px] h-14 items-center justify-end gap-6 px-[17px] py-3 relative rounded-[100px] border border-solid border-[var(--)]">
-            <div className="flex items-center justify-center mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-[var(--)] text-[22px] tracking-[0] relative w-fit text-center leading-[normal]">
-              薬品カタログページへ
-            </div>
+          <a href="https://meeclinic0903.netlify.app/app/medicines" className="no-underline contents">
+            <div className="bg-[#7182e4] flex w-[363px] h-14 items-center justify-end gap-6 px-[17px] py-3 relative rounded-[100px] border border-solid border-[var(--)]">
+              <div className="flex items-center justify-center mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-[var(--)] text-[22px] tracking-[0] relative w-fit text-center leading-[normal]">
+                薬品カタログページへ
+              </div>
 
-            <div className="relative w-[22px] h-[22px] bg-[var(--)] rounded-[11px]">
-              <img
-                className="absolute top-[5px] left-[7px] w-2.5 h-3"
-                alt="Vector"
-                src="/img/vector-7-1.svg"
-              />
+              <div className="relative w-[22px] h-[22px] bg-[var(--)] rounded-[11px]">
+                <img
+                  className="absolute top-[5px] left-[7px] w-2.5 h-3"
+                  alt="Vector"
+                  src="/img/vector-7-1.svg"
+                />
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

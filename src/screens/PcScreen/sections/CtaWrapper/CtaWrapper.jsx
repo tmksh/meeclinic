@@ -34,32 +34,36 @@ export const CtaWrapper = () => {
       {/* Buttons */}
       <div className="flex flex-col md:inline-flex md:flex-row items-center md:items-start gap-4 md:gap-10 relative flex-[0_0_auto] w-full md:w-auto">
         {/* Pink Button */}
-        <div className="border-2 border-solid border-white w-full md:w-[369px] max-w-[369px] flex items-center gap-4 md:gap-6 px-4 md:px-[18px] py-3 md:py-[15px] h-[56px] md:h-[66px] rounded-[100px] justify-center md:justify-end relative bg-[#dba1a9] cursor-pointer hover:opacity-90 transition-opacity">
-          <div className="[font-family:'Noto_Serif_JP',Helvetica] w-fit flex mt-[-1.00px] tracking-[0] text-lg md:text-2xl items-center text-white font-bold text-center justify-center leading-[normal] relative">
-            オンライン診療はこちら
+        <a href="https://meeclinic0903.netlify.app/app" className="no-underline contents">
+          <div className="border-2 border-solid border-white w-full md:w-[369px] max-w-[369px] flex items-center gap-4 md:gap-6 px-4 md:px-[18px] py-3 md:py-[15px] h-[56px] md:h-[66px] rounded-[100px] justify-center md:justify-end relative bg-[#dba1a9] cursor-pointer hover:opacity-90 transition-opacity">
+            <div className="[font-family:'Noto_Serif_JP',Helvetica] w-fit flex mt-[-1.00px] tracking-[0] text-lg md:text-2xl items-center text-white font-bold text-center justify-center leading-[normal] relative">
+              オンライン診療はこちら
+            </div>
+            <div className="w-[24px] md:w-[30px] h-[24px] md:h-[30px] rounded-[12px] md:rounded-[15px] bg-white relative">
+              <img
+                className="w-3 md:w-3.5 left-2 md:left-2.5 top-[6px] md:top-[7px] h-[14px] md:h-[17px] absolute"
+                alt="Vector"
+                src="/img/vector-7-2.svg"
+              />
+            </div>
           </div>
-          <div className="w-[24px] md:w-[30px] h-[24px] md:h-[30px] rounded-[12px] md:rounded-[15px] bg-white relative">
-            <img
-              className="w-3 md:w-3.5 left-2 md:left-2.5 top-[6px] md:top-[7px] h-[14px] md:h-[17px] absolute"
-              alt="Vector"
-              src="/img/vector-7-2.svg"
-            />
-          </div>
-        </div>
+        </a>
 
         {/* Blue Button */}
-        <div className="border-2 border-solid border-white w-full md:w-[369px] max-w-[369px] flex items-center gap-4 md:gap-6 px-4 md:px-[18px] py-3 md:py-[15px] h-[56px] md:h-[66px] rounded-[100px] justify-center md:justify-end relative bg-[#7182e4] cursor-pointer hover:opacity-90 transition-opacity">
-          <div className="[font-family:'Noto_Serif_JP',Helvetica] w-fit flex mt-[-1.00px] tracking-[0] text-lg md:text-2xl items-center text-white font-bold text-center justify-center leading-[normal] relative">
-            薬品カタログページへ
+        <a href="https://meeclinic0903.netlify.app/app/medicines" className="no-underline contents">
+          <div className="border-2 border-solid border-white w-full md:w-[369px] max-w-[369px] flex items-center gap-4 md:gap-6 px-4 md:px-[18px] py-3 md:py-[15px] h-[56px] md:h-[66px] rounded-[100px] justify-center md:justify-end relative bg-[#7182e4] cursor-pointer hover:opacity-90 transition-opacity">
+            <div className="[font-family:'Noto_Serif_JP',Helvetica] w-fit flex mt-[-1.00px] tracking-[0] text-lg md:text-2xl items-center text-white font-bold text-center justify-center leading-[normal] relative">
+              薬品カタログページへ
+            </div>
+            <div className="w-[24px] md:w-[30px] h-[24px] md:h-[30px] rounded-[12px] md:rounded-[15px] bg-white relative">
+              <img
+                className="w-3 md:w-3.5 left-2 md:left-2.5 top-[6px] md:top-[7px] h-[14px] md:h-[17px] absolute"
+                alt="Vector"
+                src="/img/vector-7-3.svg"
+              />
+            </div>
           </div>
-          <div className="w-[24px] md:w-[30px] h-[24px] md:h-[30px] rounded-[12px] md:rounded-[15px] bg-white relative">
-            <img
-              className="w-3 md:w-3.5 left-2 md:left-2.5 top-[6px] md:top-[7px] h-[14px] md:h-[17px] absolute"
-              alt="Vector"
-              src="/img/vector-7-3.svg"
-            />
-          </div>
-        </div>
+        </a>
       </div>
     </div>
   );

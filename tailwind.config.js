@@ -5,7 +5,7 @@ export default {
     extend: {
       screens: {
         'md': '768px',   // タブレット版
-        'xl': '1440px',  // PC版
+        'xl': '1024px',  // PC版
       },
       colors: {
         "d-mk-rg5": "var(--d-mk-rg5)",

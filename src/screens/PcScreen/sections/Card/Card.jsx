@@ -36,23 +36,23 @@ export const Card = () => {
       </div>
       
       {/* PC版画像 */}
-      <div className="hidden md:block absolute top-[110px] md:top-[140px] xl:top-[152px] left-0 w-full max-w-[1440px] mx-auto right-0 h-[600px] md:h-[720px] xl:h-[861px] overflow-hidden">
+      <div className="hidden md:block absolute top-[100px] md:top-[130px] xl:top-[150px] left-0 w-full max-w-[1440px] mx-auto right-0 h-[600px] md:h-[720px] xl:h-[861px] overflow-hidden">
         <img
-          className="w-full h-full object-cover object-center"
+          className="w-full h-[calc(100%+100px)] object-cover object-top"
           alt="Switch"
           src="/img/switch.png"
         />
       </div>
       
-      {/* Second BG Layer */}
-      <img
+      {/* Second BG Layer (removed wave for cleaner look, similar to SP) */}
+      {/* <img
         className="top-px h-full min-h-full absolute left-0 md:left-2.5 xl:left-2.5 w-full md:w-[780px] xl:w-[1440px] object-cover -z-20 hidden md:block"
         alt="Bg color"
         src="/img/bg-color-1.svg"
-      />
+      /> */}
       
       {/* PC版タイトル */}
-      <div className="hidden md:block relative mt-[200px] xl:mt-[249px] w-full max-w-[1440px] mx-auto px-4 md:px-[calc(50%-350px)] xl:px-[calc(50%-402px)] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#333333] text-[48px] lg:text-[56px] xl:text-[64px] tracking-[1.5px] xl:tracking-[1.92px] leading-[normal] text-left xl:text-left z-20">
+      <div className="hidden md:block relative mt-[200px] xl:mt-[249px] w-full max-w-[1440px] mx-auto px-4 md:px-[calc(50%-350px)] xl:px-[calc(50%-402px)] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-white text-[48px] lg:text-[56px] xl:text-[64px] tracking-[1.5px] xl:tracking-[1.92px] leading-[normal] text-left xl:text-left z-20 whitespace-nowrap">
         こんなお悩みありませんか？
       </div>
 
@@ -66,7 +66,7 @@ export const Card = () => {
         
         {/* タイトル - 画像の上部中央に配置 */}
         <div className="absolute top-6 left-0 w-full px-4 z-30">
-          <div className="[font-family:'Noto_Serif_JP',Helvetica] font-semibold text-white text-[24px] tracking-[1.2px] leading-[1.4] text-left drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] pl-28 whitespace-nowrap">
+          <div className="[font-family:'Noto_Serif_JP',Helvetica] font-semibold text-white text-[20px] md:text-[24px] tracking-[1.2px] leading-[1.4] text-left drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] pl-28 whitespace-nowrap">
             こんなお悩みありませんか？
           </div>
         </div>

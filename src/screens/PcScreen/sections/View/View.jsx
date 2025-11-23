@@ -12,11 +12,11 @@ export const View = () => {
           preserveAspectRatio="none"
         >
           <path
-            d="M0,160 C320,60 640,220 960,160 C1280,100 1440,120 1440,120 V320 H0 Z"
+            d="M0,220 C360,200 1080,200 1440,220 V320 H0 Z"
             fill="#EDD0D6"
           />
         </svg>
-        <div className="absolute top-[319px] left-0 w-full h-[calc(100%-319px-150px)] bg-[#EDD0D6]" />
+        <div className="absolute top-[319px] left-0 w-full h-[calc(100%-319px)] bg-[#EDD0D6]" />
       </div>
 
       <img
@@ -32,25 +32,25 @@ export const View = () => {
       />
 
       {/* Container 1: Intro + Mind&Body + 3 Columns */}
-      <div className="flex flex-col w-full md:w-[998px] items-center gap-10 relative mx-auto px-4 md:px-0 py-12 md:py-0 z-10">
-        <div className="relative w-full md:w-[1005px] h-auto md:h-[115px] md:ml-[-2.49px] md:mr-[-4.49px] text-center md:text-left mb-8 md:mb-0">
+      <div className="flex flex-col w-full md:w-[739px] lg:w-[900px] xl:w-[998px] items-center gap-10 relative mx-auto px-4 md:px-0 py-12 md:py-0 z-10">
+        <div className="relative w-full md:w-[739px] lg:w-[900px] xl:w-[1005px] h-auto md:h-[115px] md:ml-[-2.49px] md:mr-[-4.49px] text-center md:text-left mb-8 md:mb-0">
           <img
-            className="hidden md:block absolute top-[88px] left-52 w-[315px] h-5"
+            className="hidden md:block absolute top-[88px] left-[10px] lg:left-[100px] xl:left-52 w-[315px] h-5"
             alt="Line"
             src="/img/line-26.svg"
           />
 
-          <p className="relative md:absolute top-0 left-0 w-full [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-[32px] md:text-5xl text-center leading-[normal] whitespace-normal md:whitespace-nowrap">
+          <p className="relative md:absolute top-0 left-0 w-full [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[var(--)] text-[32px] md:text-[40px] lg:text-[48px] xl:text-5xl text-center leading-[normal] whitespace-normal md:whitespace-nowrap">
             <span className="tracking-[0]">あなた</span>
             <span className="tracking-[-11.75px]">の</span>
-            <span className="text-[48px] md:text-[80px] tracking-[0]">「困った</span>
-            <span className="text-[48px] md:text-[80px] tracking-[-32.64px]">」</span>
+            <span className="text-[48px] md:text-[64px] lg:text-[72px] xl:text-[80px] tracking-[0]">「困った</span>
+            <span className="text-[48px] md:text-[64px] lg:text-[72px] xl:text-[80px] tracking-[-32.64px]">」</span>
             <span className="tracking-[0]">にデータで答えます。</span>
           </p>
         </div>
 
-        <div className="flex flex-col w-full md:w-[739px] items-center gap-12 relative flex-[0_0_auto]">
-          <div className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[var(--)] text-lg md:text-2xl tracking-[0.72px] leading-[1.8] md:leading-[62px] text-center">
+        <div className="flex flex-col w-full md:w-[600px] lg:w-[739px] items-center gap-12 relative flex-[0_0_auto]">
+          <div className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[var(--)] text-lg md:text-xl lg:text-2xl tracking-[0.72px] leading-[1.8] md:leading-[1.8] lg:leading-[62px] text-center">
             多くの人が漠然と抱えている、カラダやココロの悩み。
             <br />
             「これって私だけ？」 そう思っていませんか？
@@ -64,9 +64,9 @@ export const View = () => {
             日本の女性たちが直面するリアルな課題を紐解いていきましょう。
           </div>
 
-          <div className="flex flex-col w-full md:w-[681px] items-end md:items-center gap-2 relative flex-[0_0_auto]">
+          <div className="flex flex-col w-full md:w-[500px] lg:w-[681px] items-end md:items-center gap-2 relative flex-[0_0_auto]">
             <div className="flex flex-col items-end md:items-center gap-2.5 relative self-stretch w-full flex-[0_0_auto]">
-              <p className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif',Helvetica] font-bold text-[var(--)] text-[40px] md:text-[64px] text-right md:text-center tracking-[0] leading-[1.2] md:leading-[57.6px] whitespace-nowrap">
+              <p className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif',Helvetica] font-bold text-[var(--)] text-[40px] md:text-[48px] lg:text-[64px] text-right md:text-center tracking-[0] leading-[1.2] md:leading-[1.2] lg:leading-[57.6px] whitespace-nowrap">
                 <span className="text-[#c76f7e]">M</span>
                 <span className="text-[#6b6b6b]">ind &amp; </span>
                 <span className="text-[#c76f7e]">B</span>
@@ -76,7 +76,7 @@ export const View = () => {
                 <span className="text-[#6b6b6b]">nsights</span>
               </p>
 
-              <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[var(--)] text-lg md:text-4xl text-right md:text-center tracking-[1.80px] leading-[1.5] md:leading-[57.6px]">
+              <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[var(--)] text-lg md:text-2xl lg:text-4xl text-right md:text-center tracking-[1.80px] leading-[1.5] md:leading-[1.5] lg:leading-[57.6px]">
                 知っておきたいカラダとココロの豆知識
               </div>
             </div>
@@ -243,7 +243,7 @@ export const View = () => {
 
         {/* Background "Pill" text for mobile */}
         <div className="relative w-full text-center md:hidden pt-8 z-10 top-[-40px]">
-          <div className="[font-family:'Noto_Serif',Helvetica] font-light text-white text-[150px] leading-[1] opacity-50">
+          <div className="[font-family:'Noto_Serif',Helvetica] font-light text-white text-[150px] leading-[1] opacity-50" style={{ textShadow: '0 0 10px rgba(255,255,255,0.5)' }}>
             Pill
           </div>
         </div>

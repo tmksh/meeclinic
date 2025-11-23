@@ -2,7 +2,7 @@ import React from "react";
 
 export const Fv = () => {
   return (
-    <div className="relative w-full h-[650px] md:h-[400px] xl:h-[559px] max-w-[1440px] mx-auto mt-[60px] md:mt-[66px] xl:mt-[92px] px-4 md:px-0 z-10 overflow-hidden">
+    <div className="relative w-full h-[650px] md:h-[500px] xl:h-[559px] max-w-[1440px] mx-auto mt-[60px] md:mt-[66px] xl:mt-[92px] px-4 md:px-0 z-10 overflow-hidden">
       <img
         className="absolute top-0 left-0 w-full h-full object-cover object-[70%_center] md:object-center"
         alt="Png"
@@ -29,7 +29,7 @@ export const Fv = () => {
         </p>
       </div>
 
-      <div className="flex flex-col w-[94%] md:w-[500px] xl:w-[646px] max-w-[646px] items-start gap-3 absolute bottom-4 md:bottom-auto md:top-[200px] xl:top-[300px] left-2 md:left-8 xl:left-[102px] z-20">
+      <div className="flex flex-col w-[94%] md:w-[500px] xl:w-[646px] max-w-[646px] items-start gap-3 absolute bottom-4 md:bottom-auto md:top-[240px] xl:top-[300px] left-2 md:left-8 xl:left-[102px] z-20">
         <div className="flex h-[56px] md:h-[56px] lg:h-[64px] xl:h-[72px] items-center gap-3 md:gap-4 xl:gap-[22px] px-4 md:px-2 lg:px-4 xl:px-8 py-1 md:py-2 relative self-stretch w-full bg-[#fcf3e7] rounded-[14px] md:rounded-2xl xl:rounded-[20px]">
           <img
             className="relative w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14"

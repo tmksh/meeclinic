@@ -69,46 +69,50 @@ export const Header = ({
         </div>
 
         <div className="inline-flex items-center gap-2 md:gap-2 xl:gap-2.5 relative flex-[0_0_auto]">
-          <div className="hidden md:inline-flex xl:inline-flex items-center gap-2.5 px-3 md:px-3 xl:px-4 py-2 md:py-2 xl:py-[13px] relative flex-[0_0_auto] bg-white rounded-[45.5px] border border-solid border-[#efa3af]">
-            <div className="relative flex items-center justify-center w-fit mt-[-0.50px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-[#efa3af] text-xs md:text-xs xl:text-[13px] text-center tracking-[0] leading-[normal]">
-              薬品はこちら
-            </div>
+          <a href="https://meeclinic0903.netlify.app/app/medicines" className="no-underline contents">
+            <div className="hidden md:inline-flex xl:inline-flex items-center gap-2.5 px-3 md:px-3 xl:px-4 py-2 md:py-2 xl:py-[13px] relative flex-[0_0_auto] bg-white rounded-[45.5px] border border-solid border-[#efa3af] cursor-pointer hover:bg-gray-50 transition-colors">
+              <div className="relative flex items-center justify-center w-fit mt-[-0.50px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-[#efa3af] text-xs md:text-xs xl:text-[13px] text-center tracking-[0] leading-[normal]">
+                薬品はこちら
+              </div>
 
-            <div className="relative w-4 h-4 md:w-4 md:h-4 xl:w-5 xl:h-5 aspect-[1]">
-              <img
-                className="absolute w-[89.58%] h-[91.67%] top-[4.17%] left-[5.21%]"
-                alt="Vector"
-                src="/img/vector.svg"
-              />
+              <div className="relative w-4 h-4 md:w-4 md:h-4 xl:w-5 xl:h-5 aspect-[1]">
+                <img
+                  className="absolute w-[89.58%] h-[91.67%] top-[4.17%] left-[5.21%]"
+                  alt="Vector"
+                  src="/img/vector.svg"
+                />
 
-              <img
-                className="absolute w-[16.67%] h-[16.67%] top-[64.58%] left-[13.54%]"
-                alt="Vector"
-                src="/img/vector-2.svg"
-              />
+                <img
+                  className="absolute w-[16.67%] h-[16.67%] top-[64.58%] left-[13.54%]"
+                  alt="Vector"
+                  src="/img/vector-2.svg"
+                />
 
-              <img
-                className="absolute w-[16.67%] h-[16.67%] top-[43.75%] left-[13.54%]"
-                alt="Vector"
-                src="/img/vector-2.svg"
-              />
-            </div>
-          </div>
-
-          <div className="relative w-[160px] md:w-[160px] xl:w-[205px] h-[36px] md:h-[36px] xl:h-[45px] bg-[#efa3af] rounded-[45.5px]">
-            <div className="inline-flex items-center absolute top-2 md:top-2.5 xl:top-[13px] left-4 md:left-4 xl:left-[22px]">
-              <div className="relative flex items-center justify-center w-fit mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-white text-xs md:text-xs xl:text-[13px] text-center tracking-[0] leading-[normal]">
-                オンライン診療はこちら
+                <img
+                  className="absolute w-[16.67%] h-[16.67%] top-[43.75%] left-[13.54%]"
+                  alt="Vector"
+                  src="/img/vector-2.svg"
+                />
               </div>
             </div>
+          </a>
 
-            <div className="absolute top-2.5 md:top-2.5 xl:top-3.5 left-[136px] md:left-[136px] xl:left-[174px] w-[14px] md:w-[14px] xl:w-[17px] h-[14px] md:h-[14px] xl:h-[17px] flex bg-white rounded-[11px]">
-              <img
-                className="mt-1 md:mt-1 xl:mt-1.5 w-1 h-1 md:h-1 xl:h-[5px] ml-[5px] md:ml-[5px] xl:ml-[7px]"
-                alt="Vector"
-                src="/img/vector-7-4.svg"
-              />
-            </div>
+          <div className="relative w-[160px] md:w-[160px] xl:w-[205px] h-[36px] md:h-[36px] xl:h-[45px] bg-[#efa3af] rounded-[45.5px]">
+            <a href="https://meeclinic0903.netlify.app/app" className="no-underline contents">
+              <div className="inline-flex items-center absolute top-2 md:top-2.5 xl:top-[13px] left-4 md:left-4 xl:left-[22px] cursor-pointer hover:opacity-80 transition-opacity">
+                <div className="relative flex items-center justify-center w-fit mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-white text-xs md:text-xs xl:text-[13px] text-center tracking-[0] leading-[normal]">
+                  オンライン診療はこちら
+                </div>
+              </div>
+
+              <div className="absolute top-2.5 md:top-2.5 xl:top-3.5 left-[136px] md:left-[136px] xl:left-[174px] w-[14px] md:w-[14px] xl:w-[17px] h-[14px] md:h-[14px] xl:h-[17px] flex bg-white rounded-[11px] pointer-events-none">
+                <img
+                  className="mt-1 md:mt-1 xl:mt-1.5 w-1 h-1 md:h-1 xl:h-[5px] ml-[5px] md:ml-[5px] xl:ml-[7px]"
+                  alt="Vector"
+                  src="/img/vector-7-4.svg"
+                />
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -142,16 +146,20 @@ export const Header = ({
         
         <div className="flex flex-col gap-4 mt-4">
           <div className="flex items-center gap-2.5 px-4 py-3 bg-white rounded-[45.5px] border border-solid border-[#efa3af] cursor-pointer" onClick={toggleMenu}>
-            <div className="[font-family:'Noto_Serif_JP',Helvetica] font-bold text-[#efa3af] text-sm text-center">
-              薬品はこちら
-            </div>
+            <a href="https://meeclinic0903.netlify.app/app/medicines" className="no-underline contents">
+              <div className="[font-family:'Noto_Serif_JP',Helvetica] font-bold text-[#efa3af] text-sm text-center">
+                薬品はこちら
+              </div>
+            </a>
           </div>
           
-          <div className="flex items-center justify-center w-[205px] h-[45px] bg-[#efa3af] rounded-[45.5px] cursor-pointer" onClick={toggleMenu}>
-            <div className="[font-family:'Noto_Serif_JP',Helvetica] font-bold text-white text-sm text-center">
-              オンライン診療はこちら
+          <a href="https://meeclinic0903.netlify.app/app" className="no-underline contents">
+            <div className="flex items-center justify-center w-[205px] h-[45px] bg-[#efa3af] rounded-[45.5px] cursor-pointer" onClick={toggleMenu}>
+              <div className="[font-family:'Noto_Serif_JP',Helvetica] font-bold text-white text-sm text-center">
+                オンライン診療はこちら
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
