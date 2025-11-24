@@ -110,7 +110,7 @@ export const FooterPcWrapper = ({
             </a>
 
             <a href="https://meeclinic0903.netlify.app/app/legal" className="hidden xl:block relative row-[2_/_3] col-[3_/_4] w-[135px] h-[18px] font-normal text-[#333333] text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] hover:opacity-70">
-              個人情報保護方針
+              プライバシーポリシー
             </a>
 
             <a 
@@ -182,7 +182,7 @@ export const FooterPcWrapper = ({
             </a>
 
             <a href="https://meeclinic0903.netlify.app/app/legal" className="block xl:hidden relative row-[5_/_6] col-[2_/_3] w-full md:w-full h-[18px] font-normal text-[#333333] text-sm md:text-sm [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] hover:opacity-70">
-              個人情報保護方針
+              プライバシーポリシー
             </a>
 
             <a href="https://meeclinic0903.netlify.app/app/legal" className="block xl:hidden relative row-[6_/_7] col-[1_/_3] w-full md:w-full h-[18px] font-normal text-[#333333] text-sm md:text-sm [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] hover:opacity-70">

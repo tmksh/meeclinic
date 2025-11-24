@@ -62,29 +62,6 @@ export const Fv = () => {
             </div>
           </div>
         </div>
-
-        <div className="w-full bg-[#dcb4bc] py-8 px-4 flex flex-col items-center gap-6">
-          <div className="flex justify-center gap-3 w-full max-w-[360px]">
-            <div className="flex-1 bg-white rounded-[10px] py-3 px-1 flex flex-col items-center justify-center gap-1 shadow-sm h-[80px]">
-              <span className="text-[#efa3af] text-[13px] font-bold leading-tight text-center">診察料</span>
-              <span className="text-[#efa3af] text-[18px] font-bold leading-tight text-center">0円</span>
-            </div>
-            <div className="flex-1 bg-white rounded-[10px] py-3 px-1 flex flex-col items-center justify-center gap-1 shadow-sm h-[80px]">
-              <span className="text-[#efa3af] text-[13px] font-bold leading-tight text-center">いつでも</span>
-              <span className="text-[#efa3af] text-[18px] font-bold leading-tight text-center">診察可能</span>
-            </div>
-            <div className="flex-1 bg-white rounded-[10px] py-3 px-1 flex flex-col items-center justify-center gap-1 shadow-sm h-[80px]">
-              <span className="text-[#efa3af] text-[13px] font-bold leading-tight text-center">最短翌日</span>
-              <span className="text-[#efa3af] text-[18px] font-bold leading-tight text-center">お届け</span>
-            </div>
-          </div>
-          
-          <div className="text-center">
-            <p className="[font-family:'Noto_Serif_JP',Helvetica] font-bold text-white text-[20px] leading-tight tracking-wider">
-              まずは、お気軽に<br/>お問い合わせください！
-            </p>
-          </div>
-        </div>
       </div>
 
       {/* Desktop View */}

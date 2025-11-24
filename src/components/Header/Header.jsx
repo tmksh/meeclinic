@@ -47,7 +47,7 @@ export const Header = ({
                   section.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
               }}
-              className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333333] text-base text-center tracking-[2.40px] leading-[normal] whitespace-nowrap cursor-pointer hover:opacity-70 transition-opacity no-underline ${divClassName}`}
+              className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium !text-[#333333] text-base text-center tracking-[2.40px] leading-[normal] whitespace-nowrap cursor-pointer hover:opacity-70 transition-opacity no-underline ${divClassName}`}
             >
               クリニックについて
             </a>
@@ -63,7 +63,7 @@ export const Header = ({
                   section.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
               }}
-              className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333333] text-base text-center tracking-[2.40px] leading-[normal] whitespace-nowrap cursor-pointer hover:opacity-70 transition-opacity no-underline ${divClassNameOverride}`}
+              className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium !text-[#333333] text-base text-center tracking-[2.40px] leading-[normal] whitespace-nowrap cursor-pointer hover:opacity-70 transition-opacity no-underline ${divClassNameOverride}`}
             >
               選ばれる理由
             </a>
@@ -79,7 +79,7 @@ export const Header = ({
                   section.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
               }}
-              className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#333333] text-base text-center tracking-[2.40px] leading-[normal] whitespace-nowrap cursor-pointer hover:opacity-70 transition-opacity no-underline ${divClassName1}`}
+              className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium !text-[#333333] text-base text-center tracking-[2.40px] leading-[normal] whitespace-nowrap cursor-pointer hover:opacity-70 transition-opacity no-underline ${divClassName1}`}
             >
               料金
             </a>

@@ -24,11 +24,11 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xs md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
                       低用量
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[11px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       2,980円〜
                     </div>
                   </div>
@@ -42,11 +42,11 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xs md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
                       中用量
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[11px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       3,500円〜
                     </div>
                   </div>
@@ -60,11 +60,11 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xs md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
                       アフターピル
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[11px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       11,480円〜
                     </div>
                   </div>
@@ -128,12 +128,11 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-sm md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
-                      <span className="md:hidden">ニキビ<br />治療</span>
-                      <span className="hidden md:inline">ニキビ治療</span>
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xs md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
+                      ニキビ治療
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[11px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       1,870円〜
                     </div>
                   </div>
@@ -147,12 +146,11 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-sm md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
-                      <span className="md:hidden">シミ<br />治療</span>
-                      <span className="hidden md:inline">シミ治療</span>
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xs md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
+                      シミ治療
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[11px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       2,500円〜
                     </div>
                   </div>
@@ -166,12 +164,11 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-sm md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9">
-                      <span className="md:hidden">毛穴<br />治療</span>
-                      <span className="hidden md:inline">毛穴治療</span>
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xs md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
+                      毛穴治療
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[11px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       4,200円〜
                     </div>
                   </div>
@@ -289,11 +286,11 @@ export const PricePlan = () => {
                   </div>
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xs md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
                       ゼオスキン
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[11px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       1,870円〜
                     </div>
                   </div>
@@ -313,11 +310,11 @@ export const PricePlan = () => {
                   </div>
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xs md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
                       MDEAR
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[11px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       1,870円〜
                     </div>
                   </div>
@@ -333,11 +330,11 @@ export const PricePlan = () => {
                   </div>
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-xs md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
                       GAUDI SKIN
                     </div>
 
-                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
+                    <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[11px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
                       1,870円〜
                     </div>
                   </div>
