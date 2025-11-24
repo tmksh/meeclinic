@@ -17,23 +17,25 @@ export const QAPc = ({
 
   return (
     <div
-      className={`flex flex-col w-[600px] items-start justify-start px-6 py-8 relative top-[unset] left-[unset] border-b [border-bottom-style:solid] border-[#6b6b6b80] cursor-pointer ${className}`}
+      className={`flex flex-col w-full max-w-[600px] items-start justify-start px-6 py-8 relative top-[unset] left-[unset] border-b [border-bottom-style:solid] border-[#6b6b6b80] cursor-pointer ${className}`}
       onClick={() => setIsOpen(!isOpen)}
     >
-      <div className="flex items-center justify-between w-full">
-        <div
-          className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#333333] text-xl tracking-[0] leading-[normal] whitespace-nowrap ${divClassName}`}
-        >
-          Q.
+      <div className="flex items-start justify-between w-full gap-4">
+        <div className="flex items-start gap-4 flex-1">
+          <div
+            className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#333333] text-xl tracking-[0] leading-[normal] shrink-0 ${divClassName}`}
+          >
+            Q.
+          </div>
+
+          <div
+            className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#333333] text-xl tracking-[0] leading-[normal] text-left ${divClassNameOverride}`}
+          >
+            {prop}
+          </div>
         </div>
 
-        <div
-          className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#333333] text-xl tracking-[0] leading-[normal] whitespace-nowrap ${divClassNameOverride}`}
-        >
-          {prop}
-        </div>
-
-        <div className="relative w-[19px] h-[19px]">
+        <div className="relative w-[19px] h-[19px] shrink-0 mt-1">
           <img
             className="absolute top-2 left-0 w-[19px] h-px object-cover"
             alt="Line"
