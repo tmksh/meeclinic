@@ -1,0 +1,2 @@
+export { Doctor } from "./Doctor";
+

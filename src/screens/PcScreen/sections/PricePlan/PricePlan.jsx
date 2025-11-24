@@ -4,7 +4,7 @@ import { SectionTitle } from "../../../../components/SectionTitle";
 
 export const PricePlan = () => {
   return (
-    <div className="flex flex-col w-full max-w-[1441px] items-center gap-12 md:gap-16 lg:gap-24 xl:gap-[123px] relative mt-12 md:mt-20 px-4 md:px-8 xl:px-0 z-15 mx-auto">
+    <div id="price" className="flex flex-col w-full max-w-[1441px] items-center gap-12 md:gap-16 lg:gap-24 xl:gap-[123px] relative mt-12 md:mt-20 px-4 md:px-8 xl:px-0 z-15 mx-auto scroll-mt-20">
       <SectionTitle
         className="!self-stretch !flex-[0_0_auto] !w-full !top-[unset]"
         text="Price &amp; Plan"
@@ -128,8 +128,9 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
-                      ニキビ治療
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-sm md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
+                      <span className="md:hidden">ニキビ<br />治療</span>
+                      <span className="hidden md:inline">ニキビ治療</span>
                     </div>
 
                     <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
@@ -146,8 +147,9 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
-                      シミ治療
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-sm md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9 whitespace-nowrap">
+                      <span className="md:hidden">シミ<br />治療</span>
+                      <span className="hidden md:inline">シミ治療</span>
                     </div>
 
                     <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">
@@ -164,8 +166,9 @@ export const PricePlan = () => {
                   />
 
                   <div className="flex flex-col items-center relative flex-[0_0_auto]">
-                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[10px] md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9">
-                      毛穴治療
+                    <div className="relative mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-sm md:text-xl xl:text-2xl text-center tracking-[0] leading-normal md:leading-9">
+                      <span className="md:hidden">毛穴<br />治療</span>
+                      <span className="hidden md:inline">毛穴治療</span>
                     </div>
 
                     <div className="relative [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-[9px] md:text-sm xl:text-base text-center tracking-[0] leading-normal md:leading-9">

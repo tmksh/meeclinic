@@ -106,7 +106,7 @@ export const PricePlan = () => {
 >
 <div
   
-    className= "flex flex-col w-[363px] items-start justify-center gap-10 px-12 py-[50px] absolute top-[38px] left-0 bg-[var(--)]" 
+    className= "flex flex-col w-[363px] items-start justify-center gap-10 px-12 py-[50px] absolute top-[38px] left-0" 
 
   
 
@@ -354,7 +354,7 @@ src="/img/s-10559496-2.png"
 </div>
 <div
   
-    className= "flex flex-col w-[265px] items-center justify-center gap-2.5 px-10 py-5 relative flex-[0_0_auto] bg-[var(--)] rounded-xl border-[5px] border-solid border-[var(--)] shadow-[0px_4px_20px_#0000001a]" 
+    className= "flex flex-col w-[265px] items-center justify-center gap-2.5 px-10 py-5 relative flex-[0_0_auto] rounded-xl border-[5px] border-solid border-[var(--)] shadow-[0px_4px_20px_#0000001a]" 
 
   
 
@@ -493,7 +493,7 @@ src="/img/s-10559496-2.png"
 </div>
 <div
   
-    className= "inline-flex flex-col items-start gap-2.5 px-10 py-[5px] absolute top-0 left-24 bg-[var(--)] border border-solid border-[var(--)]" 
+    className= "inline-flex flex-col items-start gap-2.5 px-10 py-[5px] absolute top-0 left-24 border border-solid border-[var(--)]" 
 
   
 
@@ -586,7 +586,7 @@ src="/img/line-30-2.svg"
 >
 <div
   
-    className= "flex flex-col w-[363px] items-start gap-10 p-[50px] absolute top-[38px] left-0 bg-[var(--)]" 
+    className= "flex flex-col w-[363px] items-start gap-10 p-[50px] absolute top-[38px] left-0" 
 
   
 
@@ -834,7 +834,7 @@ src="/img/s-10559502-1.png"
 </div>
 <div
   
-    className= "flex flex-col items-center justify-center gap-2.5 p-5 relative self-stretch w-full flex-[0_0_auto] bg-[var(--)] rounded-xl border-[5px] border-solid border-[var(--)] shadow-[0px_4px_20px_#0000001a]" 
+    className= "flex flex-col items-center justify-center gap-2.5 p-5 relative self-stretch w-full flex-[0_0_auto] rounded-xl border-[5px] border-solid border-[var(--)] shadow-[0px_4px_20px_#0000001a]" 
 
   
 
@@ -1021,7 +1021,7 @@ OFF<br/>
 </div>
 <div
   
-    className= "inline-flex flex-col items-start gap-2.5 px-10 py-[5px] absolute top-0 left-[90px] bg-[var(--)] border border-solid border-[var(--)]" 
+    className= "inline-flex flex-col items-start gap-2.5 px-10 py-[5px] absolute top-0 left-[90px] border border-solid border-[var(--)]" 
 
   
 
@@ -1100,236 +1100,6 @@ src="/img/line-30-2.svg"
 </div>
 <div
   
-    className= "relative w-[363px] h-[571px]" 
-
-  
-
-  
-
-  
-
-  
-
-
->
-<div
-  
-    className= "flex flex-col w-[363px] items-center gap-2.5 p-[50px] absolute top-[38px] left-0 bg-[var(--)]" 
-
-  
-
-  
-
-  
-
-  
-
-
->
-<div
-  
-    className= "flex flex-col w-[265px] items-center gap-10 relative flex-[0_0_auto] ml-[-1.00px] mr-[-1.00px]" 
-
-  
-
-  
-
-  
-
-  
-
-
->
-<div
-  
-    className= "flex flex-col w-[267px] items-start justify-center gap-10 relative flex-[0_0_auto] ml-[-1.00px] mr-[-1.00px]" 
-
-  
-
-  
-
-  
-
-  
-
-
->
-<div
-  
-    className= "flex flex-col w-[265px] items-center gap-5 relative flex-[0_0_auto]" 
-
-  
-
-  
-
-  
-
-  
-
-
->
-<img
-  
-    className= "relative w-[211px] h-[281px] aspect-[0.75]" 
-
-  
-
-  
-
-  alt="S"
-src="/img/s-10559490-3.png"
-
-
-  
-
-
-/>
-<div
-  
-    className= "inline-flex items-start flex-col relative flex-[0_0_auto]" 
-
-  
-
-  
-
-  
-
-  
-
-
->
-<div
-  
-    className= "relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-2xl text-center tracking-[0] leading-9 whitespace-nowrap" 
-
-  
-
-  
-
-  
-
-  
-
-
->
-不眠症
-</div>
-<div
-  
-    className= "relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base text-center tracking-[0] leading-9 whitespace-nowrap" 
-
-  
-
-  
-
-  
-
-  
-
-
->
-1,870円〜
-</div>
-</div>
-</div>
-</div>
-</div>
-<BtnSp
-  
-    
-        texttext3="お申し込みはこちら"  
-      
-    
-        className="!mr-[-1.00px] !ml-[-1.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"  
-      
-    
-        one="one"  
-      
-    
-  
-/>
-</div>
-<div
-  
-    className= "inline-flex flex-col items-start gap-2.5 px-10 py-[5px] absolute top-0 left-[calc(50.00%_-_86px)] bg-[var(--)] border border-solid border-[var(--)]" 
-
-  
-
-  
-
-  
-
-  
-
-
->
-<div
-  
-    className= "flex flex-col w-[90px] items-center gap-[5px] relative flex-[0_0_auto]" 
-
-  
-
-  
-
-  
-
-  
-
-
->
-<div
-  
-    className= "relative self-stretch mt-[-1.00px] [font-family:'Noto_Serif',Helvetica] font-bold text-[var(--)] text-2xl text-center tracking-[0] leading-9" 
-
-  
-
-  
-
-  
-
-  
-
-
->
-Sleep
-</div>
-<img
-  
-    className= "relative self-stretch w-full h-px object-cover" 
-
-  
-
-  
-
-  alt="Line"
-src="/img/line-30-2.svg"
-
-
-  
-
-
-/>
-<div
-  
-    className= "relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-sm text-center tracking-[0] leading-[19.2px]" 
-
-  
-
-  
-
-  
-
-  
-
-
->
-睡眠治療
-</div>
-</div>
-</div>
-</div>
-<div
-  
     className= "relative w-[363px] h-[1397px]" 
 
   
@@ -1344,7 +1114,7 @@ src="/img/line-30-2.svg"
 >
 <div
   
-    className= "flex flex-col w-[363px] items-center gap-2.5 p-[50px] absolute top-[38px] left-0 bg-[var(--)]" 
+    className= "flex flex-col w-[363px] items-center gap-2.5 p-[50px] absolute top-[38px] left-0" 
 
   
 
@@ -1414,7 +1184,7 @@ src="/img/line-30-2.svg"
 >
 <div
   
-    className= "relative w-[211px] h-[281px] bg-[var(--)]" 
+    className= "relative w-[211px] h-[281px]" 
 
   
 
@@ -1565,7 +1335,7 @@ src="/img/s-9977868-3x-1.png"
 >
 <div
   
-    className= "absolute top-0 left-0.5 w-[211px] h-[281px] bg-[var(--)]" 
+    className= "absolute top-0 left-0.5 w-[211px] h-[281px]" 
 
   
 
@@ -1702,7 +1472,7 @@ MDEAR
 >
 <div
   
-    className= "relative w-[211px] h-[281px] bg-[var(--)]" 
+    className= "relative w-[211px] h-[281px]" 
 
   
 
@@ -1799,7 +1569,7 @@ GAUDI SKIN
 </div>
 <div
   
-    className= "flex flex-col w-[307px] items-center gap-2.5 px-10 py-[5px] absolute top-0 left-[calc(50.00%_-_154px)] bg-[var(--)] border border-solid border-[var(--)]" 
+    className= "flex flex-col w-[307px] items-center gap-2.5 px-10 py-[5px] absolute top-0 left-[calc(50.00%_-_154px)] border border-solid border-[var(--)]" 
 
   
 

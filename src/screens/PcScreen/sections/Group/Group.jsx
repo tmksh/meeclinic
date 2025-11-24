@@ -3,7 +3,15 @@ import { TagPc } from "../../../../components/TagPc";
 
 export const Group = () => {
   return (
-    <div className="relative w-full max-w-[1446px] mx-auto h-auto md:h-[980px] mt-[-1px] md:mt-0 z-10 pb-16 md:pb-[200px]">
+    <div id="knowledge" className="relative w-full max-w-[1446px] mx-auto h-auto md:h-[980px] mt-[-180px] md:mt-0 z-10 pb-16 md:pb-[200px] bg-[#f5ebe6] scroll-mt-20">
+      {/* PC版・タブレット版: SVG画像 */}
+      <div className="hidden md:block absolute top-0 left-0 w-full h-full -z-20">
+        <img
+          className="w-full h-full object-cover"
+          alt="Group 9340"
+          src="/img/Group-9340.svg"
+        />
+      </div>
       <div className="absolute top-0 left-0 w-full h-full md:top-0 md:left-0 md:w-full md:h-full bg-[#f5ebe6] -z-10" />
 
       <div className="flex flex-col w-full items-center md:block relative">
@@ -26,14 +34,14 @@ export const Group = () => {
         {/* Description */}
         <div className="hidden md:block md:absolute md:top-[420px] md:left-[299px] w-full md:w-[417px] px-4 md:px-0 mt-8 [font-family:'Noto_Serif_JP',Helvetica] font-medium text-[var(--)] text-base md:text-xl text-justify tracking-[0] leading-[1.6] md:leading-[normal]">
           肌トラブルは、ホルモンバランスの変動に大きく影響されます 。<br />
-          特に生理前は、  皮脂の分泌を促すホルモンが増え、
+          特に生理前は、  皮脂の分泌を促すホルモンが増え、
           <br />
           ニキビができやすくなることも 。<br />
           スキンケアで解決しない場合は、根本原因にアプローチすることが大切です。
         </div>
 
         {/* SP Only Image (Group 9335 (2).svg) */}
-        <div className="md:hidden w-full mt-8 px-0">
+        <div className="md:hidden w-full mt-[-40px] px-0">
           <img
             className="w-full h-auto"
             alt="Skin Trouble Stats"

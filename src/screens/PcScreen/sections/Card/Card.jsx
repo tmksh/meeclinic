@@ -6,35 +6,6 @@ import { SectionTitle } from "../../../../components/SectionTitle";
 export const Card = () => {
   return (
     <div className="relative w-full h-auto pb-20 md:w-full xl:w-full bg-[#F9F2F4] z-10 mt-8 md:mt-12">
-      {/* Background */}
-      <div className="absolute top-0 left-0 w-full h-full -z-10">
-        <img
-          className="top-0 h-full min-h-full absolute left-0 w-full object-cover"
-          alt="Bg color"
-          src="/img/bg-color.svg"
-        />
-        <img
-          className="hidden md:block xl:block absolute top-[1800px] md:top-[2100px] xl:top-[2289px] left-[400px] md:left-[500px] xl:left-[1051px] w-[280px] md:w-[320px] xl:w-[399px] h-[400px] md:h-[450px] xl:h-[531px]"
-          alt="Vector"
-          src="/img/vector-3.svg"
-        />
-        <img
-          className="hidden md:block xl:block absolute bottom-0 left-0 md:left-2.5 xl:left-2.5 w-[400px] md:w-[480px] xl:w-[589px] h-[350px] md:h-[400px] xl:h-[470px]"
-          alt="Vector"
-          src="/img/vector-10.svg"
-        />
-        <img
-          className="hidden md:block xl:block absolute top-[600px] md:top-[750px] xl:top-[837px] left-[400px] md:left-[500px] xl:left-[1051px] w-[280px] md:w-[320px] xl:w-[399px] h-[450px] md:h-[500px] xl:h-[593px]"
-          alt="Vector"
-          src="/img/vector-4.svg"
-        />
-        <img
-          className="hidden md:block xl:block absolute top-[1300px] md:top-[1600px] xl:top-[1780px] left-0 md:left-2.5 xl:left-2.5 w-[450px] md:w-[540px] xl:w-[666px] h-[350px] md:h-[400px] xl:h-[468px]"
-          alt="Vector"
-          src="/img/vector-5.svg"
-        />
-      </div>
-      
       {/* PC版画像 */}
       <div className="hidden md:block absolute top-[100px] md:top-[130px] xl:top-[150px] left-0 w-full max-w-[1440px] mx-auto right-0 h-[600px] md:h-[720px] xl:h-[861px] overflow-hidden">
         <img
@@ -56,15 +27,6 @@ export const Card = () => {
         こんなお悩みありませんか？
       </div>
 
-      {/* スマホ版: SVGのみ表示 */}
-      <div className="w-full md:hidden mt-4 mb-8">
-        <img
-          className="w-full h-auto object-cover"
-          alt="Mee Clinic concern illustration"
-          src="/img/Group 9336 (1).svg"
-        />
-      </div>
-      
       {/* PC用悩みサークル (スマホでは非表示) */}
       <div className="hidden md:flex relative mt-[100px] w-full max-w-[1440px] mx-auto h-auto md:min-h-[380px] lg:h-[400px] xl:h-[415px] flex-col md:flex-row xl:flex-row md:flex-wrap xl:flex-nowrap gap-6 md:gap-0 xl:gap-0 justify-center">
         {/* 悩み1 */}
@@ -126,8 +88,8 @@ export const Card = () => {
         />
       </div>
 
-      {/* メッセージボックス (Swapped order for mobile flow) */}
-      <div className="flex flex-col w-[calc(100%-32px)] md:w-[720px] lg:w-[900px] xl:w-[1236px] min-h-[150px] md:min-h-[180px] lg:h-[190px] xl:h-[200px] items-start gap-2.5 p-2 relative mx-auto mb-12 bg-white rounded-[16px] md:rounded-[18px] lg:rounded-[19px] xl:rounded-[20px]">
+      {/* メッセージボックス (PC版のみ表示) */}
+      <div className="hidden md:flex flex-col w-[calc(100%-32px)] md:w-[720px] lg:w-[900px] xl:w-[1236px] min-h-[150px] md:min-h-[180px] lg:h-[190px] xl:h-[200px] items-start gap-2.5 p-2 relative mx-auto mb-12 bg-white rounded-[16px] md:rounded-[18px] lg:rounded-[19px] xl:rounded-[20px]">
         <div className="relative w-full md:w-[704px] lg:w-[884px] xl:w-[1220px] min-h-[134px] md:min-h-[164px] lg:h-[174px] xl:h-[184px] rounded-[16px] md:rounded-[18px] lg:rounded-[19px] xl:rounded-[20px] border-[3px] border-dashed border-[#efa3af] flex items-center justify-center">
           <p className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#efa3af] text-[20px] md:text-[48px] lg:text-[56px] xl:text-[64px] text-center tracking-[0] leading-[32px] md:leading-[44px] lg:leading-[50px] xl:leading-[56px] px-2">
             <span className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#efa3af] text-[20px] md:text-[48px] lg:text-[56px] xl:text-[64px] tracking-[0] leading-[32px] md:leading-[44px] lg:leading-[50px] xl:leading-[56px]">
@@ -143,8 +105,8 @@ export const Card = () => {
         </div>
       </div>
 
-      {/* 選ばれる理由セクション */}
-      <div className="flex flex-col w-full md:w-[800px] xl:w-[1441px] items-center gap-12 md:gap-16 xl:gap-20 relative mt-12 md:mt-16 px-4 md:px-0 xl:px-0 mx-auto">
+      {/* 選ばれる理由セクション (PC版のみ表示) */}
+      <div className="hidden md:flex flex-col w-full md:w-[800px] xl:w-[1441px] items-center gap-12 md:gap-16 xl:gap-20 relative mt-12 md:mt-16 px-4 md:px-0 xl:px-0 mx-auto">
         <SectionTitle
           className="!self-stretch !flex-[0_0_auto] !bg-[unset] !w-full !top-[unset]"
           text="Reason"

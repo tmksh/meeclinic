@@ -49,49 +49,129 @@ export const FooterPcWrapper = ({
 
         <div className="flex items-end justify-center md:justify-center xl:justify-around gap-0 md:gap-0 xl:gap-[661px] relative flex-1 self-stretch grow">
           <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-3 grid-rows-6 md:grid-rows-6 xl:grid-rows-4 w-full max-w-[350px] md:max-w-[400px] xl:max-w-[555px] gap-[10px_16px] md:gap-[10px_20px] xl:gap-[13px_53px] relative min-h-[133px]">
-            <div className="relative row-[1_/_2] col-[1_/_2] w-full md:w-full xl:w-[135px] h-[18px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] tracking-[0] leading-[normal]">
+            <a 
+              href="#fv" 
+              onClick={(e) => {
+                e.preventDefault();
+                const section = document.querySelector('#fv');
+                if (section) {
+                  section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
+              className="relative row-[1_/_2] col-[1_/_2] w-full md:w-full xl:w-[135px] h-[18px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] tracking-[0] leading-[normal] cursor-pointer hover:opacity-70 transition-opacity"
+            >
               TOP
-            </div>
+            </a>
 
-            <div className="relative row-[1_/_2] col-[2_/_3] md:row-[1_/_2] md:col-[2_/_3] xl:row-[1_/_2] xl:col-[2_/_3] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
+            <a 
+              href="#view" 
+              onClick={(e) => {
+                e.preventDefault();
+                const section = document.querySelector('#view');
+                if (section) {
+                  section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
+              className="relative row-[1_/_2] col-[2_/_3] md:row-[1_/_2] md:col-[2_/_3] xl:row-[1_/_2] xl:col-[2_/_3] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] cursor-pointer hover:opacity-70 transition-opacity"
+            >
               豆知識
-            </div>
+            </a>
 
             <a href="https://meeclinic0903.netlify.app/app/legal" className="hidden xl:block relative row-[1_/_2] col-[3_/_4] w-[135px] h-[18px] font-normal text-[#333333] text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] hover:opacity-70">
               利用規約
             </a>
 
-            <div className="relative row-[2_/_3] col-[1_/_2] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
+            <a 
+              href="#about" 
+              onClick={(e) => {
+                e.preventDefault();
+                const aboutSection = document.querySelector('#about');
+                if (aboutSection) {
+                  aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
+              className="relative row-[2_/_3] col-[1_/_2] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] cursor-pointer hover:opacity-70 transition-opacity"
+            >
               クリニックについて
-            </div>
+            </a>
 
-            <div className="relative row-[2_/_3] col-[2_/_3] md:row-[2_/_3] md:col-[2_/_3] xl:row-[2_/_3] xl:col-[2_/_3] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
+            <a 
+              href="#flow" 
+              onClick={(e) => {
+                e.preventDefault();
+                const section = document.querySelector('#flow');
+                if (section) {
+                  section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
+              className="relative row-[2_/_3] col-[2_/_3] md:row-[2_/_3] md:col-[2_/_3] xl:row-[2_/_3] xl:col-[2_/_3] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] cursor-pointer hover:opacity-70 transition-opacity"
+            >
               ご利用の流れ
-            </div>
+            </a>
 
             <a href="https://meeclinic0903.netlify.app/app/legal" className="hidden xl:block relative row-[2_/_3] col-[3_/_4] w-[135px] h-[18px] font-normal text-[#333333] text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] hover:opacity-70">
               個人情報保護方針
             </a>
 
-            <div className="relative row-[3_/_4] col-[1_/_2] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
+            <a 
+              href="#reason" 
+              onClick={(e) => {
+                e.preventDefault();
+                const section = document.querySelector('#reason');
+                if (section) {
+                  section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
+              className="relative row-[3_/_4] col-[1_/_2] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] cursor-pointer hover:opacity-70 transition-opacity"
+            >
               選ばれる理由
-            </div>
+            </a>
 
-            <div className="relative row-[3_/_4] col-[2_/_3] md:row-[3_/_4] md:col-[2_/_3] xl:row-[3_/_4] xl:col-[2_/_3] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
+            <a 
+              href="#voice" 
+              onClick={(e) => {
+                e.preventDefault();
+                const section = document.querySelector('#voice');
+                if (section) {
+                  section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
+              className="relative row-[3_/_4] col-[2_/_3] md:row-[3_/_4] md:col-[2_/_3] xl:row-[3_/_4] xl:col-[2_/_3] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] cursor-pointer hover:opacity-70 transition-opacity"
+            >
               口コミ
-            </div>
+            </a>
 
             <a href="https://meeclinic0903.netlify.app/app/legal" className="hidden xl:block relative row-[3_/_4] col-[3_/_4] w-[180px] h-[18px] font-normal text-[#333333] text-[15px] whitespace-nowrap [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] hover:opacity-70">
               特定商取引法に基づく表記
             </a>
 
-            <div className="relative row-[4_/_5] col-[1_/_2] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
+            <a 
+              href="#price" 
+              onClick={(e) => {
+                e.preventDefault();
+                const section = document.querySelector('#price');
+                if (section) {
+                  section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
+              className="relative row-[4_/_5] col-[1_/_2] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] cursor-pointer hover:opacity-70 transition-opacity"
+            >
               料金プラン
-            </div>
+            </a>
 
-            <div className="relative row-[4_/_5] col-[2_/_3] md:row-[4_/_5] md:col-[2_/_3] xl:row-[4_/_5] xl:col-[2_/_3] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal]">
+            <a 
+              href="#qa" 
+              onClick={(e) => {
+                e.preventDefault();
+                const section = document.querySelector('#qa');
+                if (section) {
+                  section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
+              className="relative row-[4_/_5] col-[2_/_3] md:row-[4_/_5] md:col-[2_/_3] xl:row-[4_/_5] xl:col-[2_/_3] w-full md:w-full xl:w-[135px] h-[18px] font-normal text-[#333333] text-sm md:text-sm xl:text-[15px] [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] cursor-pointer hover:opacity-70 transition-opacity"
+            >
               よくある質問
-            </div>
+            </a>
 
             <a href="https://meeclinic0903.netlify.app/app/legal" className="hidden xl:block relative row-[4_/_5] col-[3_/_4] w-[150px] h-[18px] font-normal text-[#333333] text-[15px] whitespace-nowrap [font-family:'Noto_Sans_JP',Helvetica] tracking-[0] leading-[normal] hover:opacity-70">
               プライバシーポリシー

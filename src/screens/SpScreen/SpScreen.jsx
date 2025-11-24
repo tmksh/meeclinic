@@ -22,7 +22,7 @@ import { Voice } from "./sections/Voice";
 export const SpScreen = () => {
   return (
     <div
-      className="bg-white overflow-x-hidden w-full min-h-[21870px] relative"
+      className="bg-white overflow-x-hidden w-full relative"
       data-model-id="933:22695"
     >
       <header className="flex flex-col w-full h-[66px] items-start gap-2.5 px-[15px] py-4 absolute top-0 left-0 bg-white z-50">
@@ -64,10 +64,13 @@ export const SpScreen = () => {
       <PricePlan />
       <Flow />
       <View />
+      <img 
+        className="md:hidden relative z-50 block w-[calc(100%+3rem)] -mx-6 h-auto mt-[-60px]" 
+        alt="" 
+        aria-hidden="true" 
+        src="/img/Pill.svg"
+      />
       <Pill />
-      <div className="absolute top-[16282px] left-0 w-full h-[829px] bg-[var(--)]" />
-
-      <div className="absolute top-[18225px] left-0 w-full h-[1691px] bg-[var(--)]" />
 
       <Voice />
       <QA />
@@ -86,9 +89,6 @@ export const SpScreen = () => {
       <CtaSp />
       <Group />
       <GroupWrapper />
-      <div className="absolute top-[18218px] left-0 w-[203px] h-[166px] flex bg-[url(/img/s-10706965-2025-11-19-2.png)] bg-[100%_100%]">
-        <div className="mt-[143.4px] w-[170.84px] h-[22.78px] ml-[14.1px] bg-[linear-gradient(180deg,rgba(229,188,197,0)_0%,rgba(229,188,197,1)_100%)]" />
-      </div>
 
       <div className="w-[170px] top-[18229px] left-52 flex flex-wrap items-center gap-[8px_8px] absolute">
         <TagSp

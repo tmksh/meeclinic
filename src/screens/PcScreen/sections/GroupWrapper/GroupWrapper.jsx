@@ -9,7 +9,7 @@ export const GroupWrapper = () => {
   ];
 
   return (
-    <div className="relative w-full h-auto pb-48 md:pb-[200px] mt-0 md:mt-[-100px] z-30 px-4 md:px-0 overflow-visible">
+    <div className="relative w-full h-auto pb-48 md:pb-[200px] mt-[-80px] md:mt-[-100px] z-30 px-4 md:px-0 overflow-visible">
       {/* Background */}
       <div className="absolute inset-0 -z-10 bg-[#EDD0D6]" />
 
@@ -28,15 +28,15 @@ export const GroupWrapper = () => {
       </div>
       
       {/* Large "Sleep" text */}
-      <div className="relative md:ml-[104px] md:mt-[-80px] font-medium text-[#ffffffa6] text-[80px] md:text-[200px] xl:text-[300px] leading-[normal] [font-family:'Noto_Serif',Helvetica] tracking-[0] text-center md:text-left mb-8 md:mb-0 z-10">
+      <div className="relative -ml-2 md:ml-[104px] mt-[-40px] md:mt-[-80px] font-medium text-[#ffffffa6] text-[140px] md:text-[200px] xl:text-[300px] leading-[normal] [font-family:'Noto_Serif',Helvetica] tracking-[0] text-left mb-8 md:mb-0 z-10">
         Sleep
       </div>
 
       {/* Main content section */}
-      <div className="flex flex-col md:inline-flex md:flex-row md:items-center gap-8 md:gap-[113px] relative md:ml-[104px] md:mt-[-100px]">
+      <div className="flex flex-col md:inline-flex md:flex-row md:items-center gap-8 md:gap-[113px] relative -ml-2 md:ml-[104px] mt-[-80px] md:mt-[-100px]">
         {/* Left text content */}
         <div className="flex flex-col w-full md:w-[630px] items-start gap-4 md:gap-6 relative">
-          <p className="relative w-full md:w-fit mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-normal text-[var(--)] text-2xl md:text-[28px] xl:text-[32px] tracking-[0] leading-[normal]">
+          <p className="relative w-full md:w-fit mt-[-1.00px] [font-family:'Noto_Serif_JP',Helvetica] font-normal text-[var(--)] text-xl md:text-[28px] xl:text-[32px] tracking-[0] leading-tight md:leading-[normal] z-20">
             <span className="font-semibold text-[#555555]">
               眠れないのは、あなたのせいじゃない。
               <br />
@@ -48,7 +48,7 @@ export const GroupWrapper = () => {
             <span className="font-semibold text-[#555555]">に悩む時代</span>
           </p>
 
-          <div className="relative self-stretch [font-family:'Noto_Serif_JP',Helvetica] font-medium text-[var(--)] text-base md:text-lg xl:text-xl tracking-[0] leading-[1.8] md:leading-[40px]">
+          <div className="relative self-stretch [font-family:'Noto_Serif_JP',Helvetica] font-medium text-[#6B6B6B] text-base md:text-lg xl:text-xl tracking-[0] leading-[1.8] md:leading-[40px] mt-4 md:mt-0">
             <p>日本は先進国の中で最も平均睡眠時間が短い「眠りなき社会」です。</p>
             <p className="mt-0">2023年の調査では、成人の約4人に1人（25.1%）が慢性的な不眠を抱えていることが明らかになっています。</p>
           </div>
@@ -63,8 +63,8 @@ export const GroupWrapper = () => {
       </div>
 
       {/* Bottom text section */}
-      <div className="relative md:ml-[102px] [font-family:'Noto_Serif_JP',Helvetica] font-medium text-[var(--)] text-base md:text-lg xl:text-xl tracking-[0] leading-[1.6] md:leading-[32px] mt-8 mb-8 z-10">
-        <span className="md:hidden text-[#6B6B6B]">
+      <div className="relative md:ml-[102px] [font-family:'Noto_Serif_JP',Helvetica] font-medium text-[#6B6B6B] text-base md:text-lg xl:text-xl tracking-[0] leading-[1.6] md:leading-[32px] mt-8 mb-8 z-10">
+        <span className="md:hidden">
           働き盛り世代は「仕事」や「育児」 、若い世代では
           <br />
           就寝前のスマホ使用が睡眠不足を招いています 。
@@ -112,18 +112,18 @@ export const GroupWrapper = () => {
         </div>
 
         {/* Photo & Tags */}
-        <div className="flex w-full items-start gap-4 mt-8">
+        <div className="flex w-full items-start gap-4 mt-0 -ml-4">
           {/* Doctor Image */}
-          <div className="flex-1 max-w-[200px] h-[240px] bg-[url(/img/s-10706965-2025-11-19-2.png)] bg-contain bg-no-repeat bg-center relative">
-            <div className="absolute bottom-0 left-0 w-full h-[30px] bg-[linear-gradient(180deg,rgba(229,188,197,0)_0%,rgba(229,188,197,1)_100%)]" />
+          <div className="flex-shrink-0 w-[200px] h-[240px] bg-[url(/img/s-10706965-2025-11-19-2.png)] bg-contain bg-no-repeat bg-center relative">
+            <div className="absolute bottom-[30px] left-0 w-full h-[30px] bg-[linear-gradient(180deg,rgba(229,188,197,0)_0%,rgba(229,188,197,1)_100%)]" />
           </div>
 
           {/* Tags */}
-          <div className="flex-1 flex flex-wrap gap-2 content-start">
+          <div className="flex-1 flex flex-wrap gap-2 content-start mt-16">
             {["ニキビ", "ニキビ痕", "肝斑", "開き毛穴", "つまり(黒ずみ)毛穴", "エイジングケア"].map((tag) => (
               <div
                 key={tag}
-                className="w-fit px-3 py-1.5 border border-[#efa3af] rounded-[999px] text-center text-xs text-[#c76f7e] bg-white/80 [font-family:'Noto_Sans_JP',Helvetica] font-medium"
+                className="w-fit px-3 py-1.5 border border-[#efa3af] rounded-lg text-center text-xs text-[#c76f7e] bg-white [font-family:'Noto_Sans_JP',Helvetica] font-medium"
               >
                 {tag}
               </div>

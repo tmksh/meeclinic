@@ -13,7 +13,7 @@ export const FooterPc = () => {
       </div>
       <FooterPcWrapper
         className="!relative !w-full md:!h-[461px]"
-        logoGroup="/img/group-97-4.png"
+        logoGroup="/img/meeclinic-logo.png"
       />
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 
 export const Fv = () => {
   return (
-    <div className="relative w-full md:h-[500px] xl:h-[559px] max-w-[1440px] mx-auto mt-[60px] md:mt-[66px] xl:mt-[92px] px-0 md:px-0 z-10 overflow-hidden">
+    <div id="fv" className="relative w-full md:h-[500px] xl:h-[559px] max-w-[1440px] mx-auto mt-[60px] md:mt-[66px] xl:mt-[92px] px-0 md:px-0 z-10 overflow-hidden scroll-mt-16">
       {/* Mobile View */}
       <div className="md:hidden relative w-full">
         <div className="relative w-full h-[557px] overflow-hidden">
@@ -14,12 +14,12 @@ export const Fv = () => {
 
           <div className="absolute top-[200px] left-0 w-full h-[357px] bg-[linear-gradient(180deg,rgba(255,255,255,0)_0%,rgba(255,255,255,0.6)_100%)]" />
 
-          <div className="absolute top-[200px] w-full text-center z-10">
+          <div className="absolute top-[200px] w-full text-center z-10 px-4">
             <p className="[text-shadow:0_0_15px_#fff,0_0_20px_#fff,0_0_30px_#fff] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#D97787] leading-none mb-3 whitespace-nowrap">
-              <span className="text-[80px] align-baseline">私</span>
-              <span className="text-[36px] ml-1 align-baseline">のための</span>
+              <span className="text-[min(80px,18vw)] align-baseline">私</span>
+              <span className="text-[min(36px,8vw)] ml-1 align-baseline">のための</span>
             </p>
-            <p className="[text-shadow:0_0_15px_#fff,0_0_20px_#fff,0_0_30px_#fff] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#D97787] text-[56px] leading-none tracking-widest whitespace-nowrap">
+            <p className="[text-shadow:0_0_15px_#fff,0_0_20px_#fff,0_0_30px_#fff] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#D97787] text-[min(56px,12vw)] leading-none tracking-widest whitespace-nowrap">
               オンライン診療
             </p>
           </div>

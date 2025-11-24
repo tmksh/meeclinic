@@ -38,34 +38,58 @@ export const Header = ({
       <div className="hidden lg:inline-flex items-center gap-4 md:gap-6 lg:gap-8 xl:gap-14 relative flex-[0_0_auto]">
         <div className="inline-flex items-center gap-[30px] relative flex-[0_0_auto]">
           <div className="inline-flex items-end gap-2.5 relative flex-[0_0_auto]">
-            <div
-              className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base text-center tracking-[2.40px] leading-[normal] whitespace-nowrap ${divClassName}`}
+            <a
+              href="#about"
+              onClick={(e) => {
+                e.preventDefault();
+                const section = document.querySelector('#about');
+                if (section) {
+                  section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
+              className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base text-center tracking-[2.40px] leading-[normal] whitespace-nowrap cursor-pointer hover:opacity-70 transition-opacity no-underline ${divClassName}`}
             >
               クリニックについて
-            </div>
+            </a>
           </div>
 
           <div className="inline-flex items-end gap-2.5 relative flex-[0_0_auto]">
-            <div
-              className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base text-center tracking-[2.40px] leading-[normal] whitespace-nowrap ${divClassNameOverride}`}
+            <a
+              href="#reason"
+              onClick={(e) => {
+                e.preventDefault();
+                const section = document.querySelector('#reason');
+                if (section) {
+                  section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
+              className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base text-center tracking-[2.40px] leading-[normal] whitespace-nowrap cursor-pointer hover:opacity-70 transition-opacity no-underline ${divClassNameOverride}`}
             >
               選ばれる理由
-            </div>
+            </a>
           </div>
 
           <div className="inline-flex items-end gap-2.5 relative flex-[0_0_auto]">
-            <div
-              className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base text-center tracking-[2.40px] leading-[normal] whitespace-nowrap ${divClassName1}`}
+            <a
+              href="#price"
+              onClick={(e) => {
+                e.preventDefault();
+                const section = document.querySelector('#price');
+                if (section) {
+                  section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
+              className={`relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[var(--)] text-base text-center tracking-[2.40px] leading-[normal] whitespace-nowrap cursor-pointer hover:opacity-70 transition-opacity no-underline ${divClassName1}`}
             >
               料金
-            </div>
+            </a>
           </div>
         </div>
 
         <div className="inline-flex items-center gap-2 md:gap-2 xl:gap-2.5 relative flex-[0_0_auto]">
           <a href="https://meeclinic0903.netlify.app/app/medicines" className="no-underline contents">
-            <div className="hidden md:inline-flex xl:inline-flex items-center gap-2.5 px-3 md:px-3 xl:px-4 py-2 md:py-2 xl:py-[13px] relative flex-[0_0_auto] bg-white rounded-[45.5px] border border-solid border-[#efa3af] cursor-pointer hover:bg-gray-50 transition-colors">
-              <div className="relative flex items-center justify-center w-fit mt-[-0.50px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-[#efa3af] text-xs md:text-xs xl:text-[13px] text-center tracking-[0] leading-[normal]">
+            <div className="hidden md:inline-flex xl:inline-flex items-center justify-center gap-2.5 px-3 md:px-3 xl:px-4 py-2 md:py-2 xl:py-[13px] relative flex-[0_0_auto] bg-white rounded-[45.5px] border border-solid border-[#efa3af] cursor-pointer hover:bg-gray-50 transition-colors">
+              <div className="relative flex items-center justify-center mt-[-0.50px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-[#efa3af] text-xs md:text-xs xl:text-[13px] text-center tracking-[0] leading-[normal]">
                 薬品はこちら
               </div>
 
@@ -125,20 +149,53 @@ export const Header = ({
         }`}
         style={{ transform: isMenuOpen ? 'translateX(0)' : 'translateX(100%)' }}
       >
-        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-lg tracking-[2.40px] cursor-pointer" onClick={toggleMenu}>
+        <a
+          href="#about"
+          onClick={(e) => {
+            e.preventDefault();
+            toggleMenu();
+            const section = document.querySelector('#about');
+            if (section) {
+              section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }}
+          className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-lg tracking-[2.40px] cursor-pointer no-underline hover:opacity-70 transition-opacity"
+        >
           クリニックについて
-        </div>
-        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-lg tracking-[2.40px] cursor-pointer" onClick={toggleMenu}>
+        </a>
+        <a
+          href="#reason"
+          onClick={(e) => {
+            e.preventDefault();
+            toggleMenu();
+            const section = document.querySelector('#reason');
+            if (section) {
+              section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }}
+          className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-lg tracking-[2.40px] cursor-pointer no-underline hover:opacity-70 transition-opacity"
+        >
           選ばれる理由
-        </div>
-        <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-lg tracking-[2.40px] cursor-pointer" onClick={toggleMenu}>
+        </a>
+        <a
+          href="#price"
+          onClick={(e) => {
+            e.preventDefault();
+            toggleMenu();
+            const section = document.querySelector('#price');
+            if (section) {
+              section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }}
+          className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#555555] text-lg tracking-[2.40px] cursor-pointer no-underline hover:opacity-70 transition-opacity"
+        >
           料金
-        </div>
+        </a>
         
         <div className="flex flex-col gap-4 mt-4">
-          <div className="flex items-center gap-2.5 px-4 py-3 bg-white rounded-[45.5px] border border-solid border-[#efa3af] cursor-pointer" onClick={toggleMenu}>
+          <div className="flex items-center justify-center gap-2.5 px-4 py-3 bg-white rounded-[45.5px] border border-solid border-[#efa3af] cursor-pointer" onClick={toggleMenu}>
             <a href="https://meeclinic0903.netlify.app/app/medicines" className="no-underline contents">
-              <div className="[font-family:'Noto_Serif_JP',Helvetica] font-bold text-[#efa3af] text-sm text-center">
+              <div className="[font-family:'Noto_Serif_JP',Helvetica] font-bold text-[#efa3af] text-sm text-center w-full">
                 薬品はこちら
               </div>
             </a>

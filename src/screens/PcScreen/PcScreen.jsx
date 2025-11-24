@@ -1,7 +1,6 @@
 import React from "react";
 import { Header } from "../../components/Header";
 import { TagPc } from "../../components/TagPc";
-import { Card } from "./sections/Card";
 import { Cta } from "./sections/Cta";
 import { CtaWrapper } from "./sections/CtaWrapper";
 import { Feature } from "./sections/Feature";
@@ -28,14 +27,13 @@ export const PcScreen = () => {
         divClassName1="![white-space:unset]"
         divClassName2="![white-space:unset]"
         divClassNameOverride="![white-space:unset]"
-        logoGroup="/img/group-97-4.png"
+        logoGroup="/img/meeclinic-logo.png"
       />
 
       <Fv />
       <CtaWrapper />
       <Slider />
       <VerticalContainer />
-      <Card />
       <Feature />
       <PricePlan />
       <Flow />
