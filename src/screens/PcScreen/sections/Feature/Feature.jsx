@@ -10,7 +10,7 @@ export const Feature = () => {
         text1="特徴"
       />
       <div className="relative self-stretch w-full h-auto flex flex-col md:flex-col xl:flex-row gap-0 md:gap-4 xl:gap-0">
-        <div className="flex flex-col w-full md:w-full xl:flex-1 h-[500px] md:h-[350px] xl:h-[572px] items-start gap-2.5 px-8 md:px-8 xl:px-12 py-10 md:py-10 xl:py-[63px] relative top-0 left-0 bg-[url(/img/frame-1537.png)] bg-cover bg-[50%_50%] bg-black/20 bg-blend-overlay rounded-none md:rounded-xl xl:rounded-none">
+        <div className="flex flex-col w-full md:w-full xl:flex-1 h-[280px] md:h-[350px] xl:h-[572px] items-start gap-2.5 px-8 md:px-8 xl:px-12 py-10 md:py-10 xl:py-[63px] relative top-0 left-0 bg-[url(/img/frame-1537.png)] bg-cover bg-[50%_50%] bg-black/20 bg-blend-overlay rounded-none md:rounded-xl xl:rounded-none">
           <div className="flex flex-col w-full max-w-[272px] items-start gap-4 md:gap-4 xl:gap-5 relative flex-[0_0_auto]">
             <div className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-[24px] md:text-[28px] xl:text-[32px] tracking-[0] leading-[19.2px]">
               専門医が対応
@@ -24,7 +24,7 @@ export const Feature = () => {
           </div>
         </div>
 
-        <div className="flex flex-col w-full md:w-full xl:flex-1 h-[500px] md:h-[350px] xl:h-[572px] items-start gap-2.5 px-8 md:px-8 xl:px-[53px] py-10 md:py-10 xl:py-[63px] relative top-0 left-0 bg-[url(/img/frame-1538.png)] bg-cover bg-[50%_50%] bg-black/20 bg-blend-overlay rounded-none md:rounded-xl xl:rounded-none">
+        <div className="flex flex-col w-full md:w-full xl:flex-1 h-[280px] md:h-[350px] xl:h-[572px] items-start gap-2.5 px-8 md:px-8 xl:px-[53px] py-10 md:py-10 xl:py-[63px] relative top-0 left-0 bg-[url(/img/frame-1538.png)] bg-cover bg-[50%_50%] bg-black/20 bg-blend-overlay rounded-none md:rounded-xl xl:rounded-none">
           <div className="inline-flex flex-col items-start gap-4 md:gap-4 xl:gap-5 relative flex-[0_0_auto]">
             <div className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-[24px] md:text-[28px] xl:text-[32px] tracking-[0] leading-[19.2px]">
               女医多数在籍
@@ -38,7 +38,7 @@ export const Feature = () => {
           </div>
         </div>
 
-        <div className="flex flex-col w-full md:w-full xl:flex-1 h-[500px] md:h-[350px] xl:h-[572px] items-start gap-2.5 px-8 md:px-8 xl:px-[53px] py-10 md:py-10 xl:py-[63px] relative top-0 left-0 bg-[url(/img/frame-1539.png)] bg-cover bg-[50%_50%] bg-black/20 bg-blend-overlay rounded-none md:rounded-xl xl:rounded-none">
+        <div className="flex flex-col w-full md:w-full xl:flex-1 h-[280px] md:h-[350px] xl:h-[572px] items-start gap-2.5 px-8 md:px-8 xl:px-[53px] py-10 md:py-10 xl:py-[63px] relative top-0 left-0 bg-[url(/img/frame-1539.png)] bg-cover bg-[50%_50%] bg-black/20 bg-blend-overlay rounded-none md:rounded-xl xl:rounded-none">
           <div className="flex flex-col w-full max-w-[272px] items-start gap-4 md:gap-4 xl:gap-5 relative flex-[0_0_auto]">
             <div className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-[24px] md:text-[28px] xl:text-[32px] tracking-[0] leading-[19.2px]">
               ピル最安値水準

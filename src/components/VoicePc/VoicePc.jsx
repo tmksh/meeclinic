@@ -9,13 +9,14 @@ import { Pc } from "../../icons/Pc";
 
 export const VoicePc = ({
   prop = "A.Mさん（30代）",
+  title,
   prop1 = "テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。",
   className,
   icon = <Pc className="!relative !w-12 !h-12" />,
 }) => {
   return (
     <div
-      className={`flex flex-col w-full max-w-[280px] md:max-w-[344px] xl:max-w-[344px] min-h-[180px] md:min-h-[216px] xl:min-h-[216px] items-start gap-6 md:gap-6 xl:gap-10 p-4 md:p-6 xl:p-6 relative bg-white rounded-2xl shadow-[0px_4px_16px_#ff69b410] ${className}`}
+      className={`flex flex-col w-full max-w-[280px] md:max-w-[344px] xl:max-w-[344px] min-h-[180px] md:min-h-[216px] xl:min-h-[216px] items-start gap-4 md:gap-6 xl:gap-6 p-4 md:p-6 xl:p-6 relative bg-white rounded-2xl shadow-[0px_4px_16px_#ff69b410] ${className}`}
     >
       <div className="flex items-center gap-2 md:gap-3 xl:gap-3 relative self-stretch w-full flex-[0_0_auto]">
         {icon}
@@ -32,8 +33,15 @@ export const VoicePc = ({
         </div>
       </div>
 
-      <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#555555] text-xs md:text-sm xl:text-sm text-justify tracking-[0] leading-[16.8px] md:leading-[19.6px] xl:leading-[19.6px]">
-        {prop1}
+      <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] text-[#555555] text-xs md:text-sm xl:text-sm text-justify tracking-[0] leading-[16.8px] md:leading-[19.6px] xl:leading-[19.6px]">
+        {title && (
+          <div className="font-bold mb-2 text-[#c76f7e]">
+            {title}
+          </div>
+        )}
+        <div className="font-normal">
+          {prop1}
+        </div>
       </div>
     </div>
   );
@@ -41,5 +49,6 @@ export const VoicePc = ({
 
 VoicePc.propTypes = {
   prop: PropTypes.string,
+  title: PropTypes.string,
   prop1: PropTypes.string,
 };
