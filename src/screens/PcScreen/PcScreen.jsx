@@ -33,7 +33,7 @@ export const PcScreen = () => {
       <img
         className="w-full relative z-40 mt-[66px] md:mt-[66px] xl:mt-[92px] translate-y-[1px] md:hidden"
         alt=""
-        src="/img/Group 9341.svg"
+        src="/img/FV2.png"
       />
 
       {/* SP版: CtaWrapperを上に */}
