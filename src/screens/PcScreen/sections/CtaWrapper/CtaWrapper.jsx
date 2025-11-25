@@ -1,8 +1,8 @@
 import React from "react";
 
-export const CtaWrapper = () => {
+export const CtaWrapper = ({ className = "", hideButtons = false }) => {
   return (
-    <div className="flex flex-col w-full items-center gap-6 md:gap-10 px-4 md:px-[174px] py-6 md:py-10 relative z-20 bg-[#E5BCC5]">
+    <div className={`flex flex-col w-full items-center gap-6 md:gap-10 px-4 md:px-[174px] py-6 md:py-10 relative z-20 bg-[#E5BCC5] mb-0 ${className}`}>
       <div className="flex flex-col items-start gap-4 md:gap-6 relative self-stretch w-full flex-[0_0_auto]">
         {/* Tags */}
         <div className="flex flex-row items-center justify-center gap-2 md:gap-[39px] relative self-stretch w-full flex-[0_0_auto]">
@@ -32,7 +32,7 @@ export const CtaWrapper = () => {
       </div>
 
       {/* Buttons */}
-      <div className="flex flex-col md:inline-flex md:flex-row items-center md:items-start gap-4 md:gap-10 relative flex-[0_0_auto] w-full md:w-auto">
+      <div className={hideButtons ? "hidden md:flex md:flex-row items-center md:items-start gap-4 md:gap-10 relative flex-[0_0_auto] w-full md:w-auto" : "flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-10 relative flex-[0_0_auto] w-full md:w-auto"}>
         {/* Pink Button */}
         <a href="https://meeclinic0903.netlify.app/app" className="no-underline contents">
           <div className="border-2 border-solid border-white w-full md:w-[369px] max-w-[369px] flex items-center gap-4 md:gap-6 px-4 md:px-[18px] py-3 md:py-[15px] h-[56px] md:h-[66px] rounded-[100px] justify-center md:justify-end relative bg-[#E5BCC5] cursor-pointer hover:opacity-90 transition-opacity">

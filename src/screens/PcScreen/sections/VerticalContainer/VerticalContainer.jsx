@@ -51,7 +51,7 @@ export const VerticalContainer = () => {
         <img
           className="w-full h-auto block"
           alt="お悩み"
-          src="/img/お悩み.svg"
+          src="/img/Group 9342 (2).svg"
         />
       </div>
       {/* Card SVG - PC版 */}

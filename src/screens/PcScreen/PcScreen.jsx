@@ -30,8 +30,31 @@ export const PcScreen = () => {
         logoGroup="/img/meeclinic-logo.png"
       />
 
-      <Fv />
-      <CtaWrapper />
+      <img
+        className="w-full relative z-40 mt-[66px] md:mt-[66px] xl:mt-[92px] translate-y-[1px] md:hidden"
+        alt=""
+        src="/img/Group 9341.svg"
+      />
+
+      {/* SP版: CtaWrapperを上に */}
+      <div className="md:hidden w-full">
+        <CtaWrapper className="!mt-0" hideButtons={true} />
+      </div>
+      
+      {/* SP版: Fvを下に */}
+      <div className="md:hidden w-full">
+        <Fv className="!mt-0" />
+      </div>
+      
+      {/* PC版: Fvを上に */}
+      <div className="hidden md:block w-full">
+        <Fv className="!mt-0 md:!mt-[66px] xl:!mt-[92px]" />
+      </div>
+      
+      {/* PC版: CtaWrapperをFvの下に */}
+      <div className="hidden md:block w-full">
+        <CtaWrapper className="!mt-0" hideButtons={true} />
+      </div>
       <Slider />
       <VerticalContainer />
       <Feature />

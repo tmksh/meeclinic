@@ -1,68 +1,8 @@
 import React from "react";
 
-export const Fv = () => {
+export const Fv = ({ className = "" }) => {
   return (
-    <div id="fv" className="relative w-full md:h-[500px] xl:h-[559px] max-w-[1440px] mx-auto mt-[60px] md:mt-[66px] xl:mt-[92px] px-0 md:px-0 z-10 overflow-hidden scroll-mt-16">
-      {/* Mobile View */}
-      <div className="md:hidden relative w-full">
-        <div className="relative w-full h-[557px] overflow-hidden">
-          <img
-            className="absolute top-[40px] left-0 w-full h-full object-cover object-center scale-[0.38]"
-            alt="Kv x"
-            src="/img/kv2025-11-3x-2.png"
-          />
-
-          <div className="absolute top-[200px] left-0 w-full h-[357px] bg-[linear-gradient(180deg,rgba(255,255,255,0)_0%,rgba(255,255,255,0.6)_100%)]" />
-
-          <div className="absolute top-[200px] w-full text-center z-10 px-4">
-            <p className="[text-shadow:0_0_15px_#fff,0_0_20px_#fff,0_0_30px_#fff] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#D97787] leading-none mb-3 whitespace-nowrap">
-              <span className="text-[min(80px,18vw)] align-baseline">私</span>
-              <span className="text-[min(36px,8vw)] ml-1 align-baseline">のための</span>
-            </p>
-            <p className="[text-shadow:0_0_15px_#fff,0_0_20px_#fff,0_0_30px_#fff] [font-family:'Noto_Serif_JP',Helvetica] font-semibold text-[#D97787] text-[min(56px,12vw)] leading-none tracking-widest whitespace-nowrap">
-              オンライン診療
-            </p>
-          </div>
-
-          <div className="absolute top-[360px] w-full flex flex-col gap-3 z-10 px-4">
-            <div className="flex items-center justify-start gap-3 px-6 py-2 w-full bg-[#fcf3e7] rounded-[100px] shadow-sm min-h-[52px]">
-              <img
-                className="w-8 h-8 flex-shrink-0"
-                alt="Bomb"
-                src="/img/bomb-3947482.svg"
-              />
-              <div className="[font-family:'Noto_Serif_JP',Helvetica] text-[#5c5c5c] flex items-baseline gap-1 flex-wrap justify-start">
-                <span className="text-[22px] font-bold leading-none">美肌内服</span>
-                <span className="text-[15px] font-medium leading-none">（シミ・ニキビ・毛穴）</span>
-              </div>
-            </div>
-
-            <div className="flex items-center justify-start gap-3 px-6 py-2 w-full bg-[#fce4e7] rounded-[100px] shadow-sm min-h-[52px]">
-              <img
-                className="w-8 h-8 flex-shrink-0"
-                alt="Drug"
-                src="/img/drug-5431956.svg"
-              />
-              <div className="[font-family:'Noto_Serif_JP',Helvetica] text-[#5c5c5c] flex items-baseline gap-1 flex-wrap justify-start">
-                <span className="text-[22px] font-bold leading-none">ピル</span>
-                <span className="text-[15px] font-medium leading-none">（低用量・中用量・アフターピル）</span>
-              </div>
-            </div>
-
-            <div className="flex items-center justify-start gap-3 px-6 py-2 w-full bg-[#e4e7f7] rounded-[100px] shadow-sm min-h-[52px]">
-              <img
-                className="w-8 h-8 flex-shrink-0"
-                alt="Night mode"
-                src="/img/night-mode-8775553.svg"
-              />
-              <div className="[font-family:'Noto_Serif_JP',Helvetica] text-[#5c5c5c] flex items-baseline gap-1 flex-wrap justify-start">
-                <span className="text-[22px] font-bold leading-none">睡眠ケア</span>
-                <span className="text-[15px] font-medium leading-none">（不眠症）</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div id="fv" className={`relative w-full md:h-[500px] xl:h-[559px] max-w-[1440px] mx-auto mt-[60px] mb-0 px-0 md:px-0 z-10 overflow-hidden scroll-mt-16 ${className}`}>
 
       {/* Desktop View */}
       <div className="hidden md:block relative w-full h-full">
