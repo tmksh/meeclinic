@@ -11,7 +11,6 @@ import { Frame } from "./sections/Frame";
 import { FrameWrapper } from "./sections/FrameWrapper";
 import { Fv } from "./sections/Fv";
 import { Group } from "./sections/Group";
-import { GroupWrapper } from "./sections/GroupWrapper";
 import { Pill } from "./sections/Pill";
 import { PricePlan } from "./sections/PricePlan";
 import { QA } from "./sections/QA";
@@ -88,9 +87,8 @@ export const SpScreen = () => {
       <Frame />
       <CtaSp />
       <Group />
-      <GroupWrapper />
 
-      <div className="w-[170px] top-[18229px] left-52 flex flex-wrap items-center gap-[8px_8px] absolute">
+      <div className="w-full max-w-[393px] mx-auto top-[18229px] left-0 right-0 flex flex-col items-start gap-2 absolute px-4">
         <TagSp
           className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
           prop="ニキビ"

@@ -9,7 +9,7 @@ export const GroupWrapper = () => {
   ];
 
   return (
-    <div className="relative w-full h-auto pb-48 md:pb-[200px] mt-[-80px] md:mt-[-100px] z-30 px-4 md:px-0 overflow-visible">
+    <div className="hidden md:block relative w-full h-auto pb-48 md:pb-[200px] mt-[-80px] md:mt-[-100px] z-30 px-4 md:px-0 overflow-visible">
       {/* Background */}
       <div className="absolute inset-0 -z-10 bg-[#EDD0D6]" />
 
@@ -82,54 +82,6 @@ export const GroupWrapper = () => {
           <br />
           まずはオンラインで専門家へ相談してみませんか？
         </span>
-      </div>
-
-      {/* SP Layout */}
-      <div className="flex flex-col w-full md:hidden mt-8 px-4 items-center">
-        {/* Graph Card */}
-        <div className="w-full bg-[#fdf1f4] rounded-[32px] border border-[#f0bac5] shadow-[0_15px_40px_rgba(207,145,160,0.2)] px-6 py-6">
-          <div className="flex items-center justify-center h-12 border border-[#efa3af] rounded-full bg-white">
-            <div className="[font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#c76f7e] text-sm tracking-[0.1em]">
-              特に多い睡眠の悩み
-            </div>
-          </div>
-
-          <div className="flex flex-col w-full gap-4 mt-6">
-            {sleepConcerns.map((item) => (
-              <div key={item.label} className="flex items-center gap-4">
-                <div className="flex-1 h-[52px] rounded-[12px] bg-[#efa3af] flex items-center px-6 shadow-[0_10px_20px_rgba(207,145,160,0.25)]">
-                  <p className="text-white text-base font-semibold whitespace-nowrap">
-                    {item.label}
-                  </p>
-                </div>
-                <div className="text-[#5a5a5a] text-xl font-semibold leading-none">
-                  {item.value}
-                  <span className="text-sm font-medium ml-1">%</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Photo & Tags */}
-        <div className="flex w-full items-start gap-4 mt-0 -ml-4">
-          {/* Doctor Image */}
-          <div className="flex-shrink-0 w-[200px] h-[240px] bg-[url(/img/s-10706965-2025-11-19-2.png)] bg-contain bg-no-repeat bg-center relative">
-            <div className="absolute bottom-[30px] left-0 w-full h-[30px] bg-[linear-gradient(180deg,rgba(229,188,197,0)_0%,rgba(229,188,197,1)_100%)]" />
-          </div>
-
-          {/* Tags */}
-          <div className="flex-1 flex flex-wrap gap-2 content-start mt-16">
-            {["ニキビ", "ニキビ痕", "肝斑", "開き毛穴", "つまり(黒ずみ)毛穴", "エイジングケア"].map((tag) => (
-              <div
-                key={tag}
-                className="w-fit px-3 py-1.5 border border-[#efa3af] rounded-lg text-center text-xs text-[#c76f7e] bg-white [font-family:'Noto_Sans_JP',Helvetica] font-medium"
-              >
-                {tag}
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
 
       {/* PC Layout (Hidden on Mobile) */}

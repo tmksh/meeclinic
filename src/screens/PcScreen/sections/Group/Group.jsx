@@ -3,7 +3,7 @@ import { TagPc } from "../../../../components/TagPc";
 
 export const Group = () => {
   return (
-    <div id="knowledge" className="relative w-full max-w-[1446px] mx-auto h-auto md:h-[980px] mt-[-180px] md:mt-0 z-10 pb-16 md:pb-[200px] bg-[#f5ebe6] scroll-mt-20">
+    <div id="knowledge" className="relative w-full max-w-[1446px] mx-auto h-auto md:h-[980px] mt-[-180px] md:mt-0 z-10 pb-16 md:pb-[200px] md:bg-[#f5ebe6] scroll-mt-20">
       {/* PC版・タブレット版: SVG画像 */}
       <div className="hidden md:block absolute top-0 left-0 w-full h-full -z-20">
         <img
@@ -12,7 +12,7 @@ export const Group = () => {
           src="/img/Group-9340.svg"
         />
       </div>
-      <div className="absolute top-0 left-0 w-full h-full md:top-0 md:left-0 md:w-full md:h-full bg-[#f5ebe6] -z-10" />
+      <div className="hidden md:block absolute top-0 left-0 w-full h-full md:top-0 md:left-0 md:w-full md:h-full bg-[#f5ebe6] -z-10" />
 
       <div className="flex flex-col w-full items-center md:block relative">
         {/* Title */}
@@ -46,6 +46,15 @@ export const Group = () => {
             className="w-full h-auto"
             alt="Skin Trouble Stats"
             src="/img/Group 9335 (2).svg"
+          />
+        </div>
+
+        {/* SP Only Image (Group 9340 (1).svg) */}
+        <div className="md:hidden w-full mt-[-60px] px-0">
+          <img
+            className="w-full h-auto"
+            alt="Skin Knowledge"
+            src="/img/Group 9340 (1).svg"
           />
         </div>
 
